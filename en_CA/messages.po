@@ -1,0 +1,586 @@
+# Translations template for COVID-19 Bot.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the COVID-19 Bot
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: COVID-19 Bot v5.0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-12-17 11:46-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+#: ../cogs/autoupdater.py:53
+msgid ""
+"❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
+"Anyways, that isn't allowed. Try again with a more reasonable delay."
+msgstr ""
+"❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
+"Anyways, that isn't allowed. Try again with a more reasonable delay."
+
+#: ../cogs/autoupdater.py:62
+msgid ""
+"❌ You already have a autoupdater set in this channel! Remove it with `/"
+"disable_updates` and try again!"
+msgstr ""
+"❌ You already have a autoupdater set in this channel! Remove it with `/"
+"disable_updates` and try again!"
+
+#: ../cogs/autoupdater.py:70
+msgid ""
+"⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
+"this? To confirm, type `ok` within 15 seconds."
+msgstr ""
+"⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
+"this? To confirm, type `ok` within 15 seconds."
+
+#: ../cogs/autoupdater.py:75
+msgid "Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
+msgstr ""
+"Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
+
+#: ../cogs/autoupdater.py:78
+msgid "Continuing setup..."
+msgstr "Continuing setup..."
+
+#: ../cogs/autoupdater.py:83
+msgid ""
+"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
+"check because you are a premium guild/user. <3 from 0/0#0001"
+msgstr ""
+"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
+"check because you are a premium guild/user. <3 from 0/0#0001"
+
+#: ../cogs/autoupdater.py:86
+msgid ""
+"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
+"a premium guild.\n"
+"Hint: there's no point in setting it to less than 10 minutes due to the fact "
+"the stats updater only fires once every 10 minutes. If you really want to "
+"get a shorter delay (no point in doing so), check out the `/donate` command."
+msgstr ""
+"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
+"a premium guild.\n"
+"Hint: there's no point in setting it to less than 10 minutes due to the fact "
+"the stats updater only fires once every 10 minutes. If you really want to "
+"get a shorter delay (no point in doing so), check out the `/donate` command."
+
+#: ../cogs/autoupdater.py:95
+msgid ""
+"❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
+"countries and their IDs."
+msgstr ""
+"❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
+"countries and their IDs."
+
+#: ../cogs/autoupdater.py:117
+msgid "✅ Posting stats for {0} in this channel every {1}."
+msgstr "✅ Posting stats for {0} in this channel every {1}."
+
+#: ../cogs/autoupdater.py:128
+msgid "✅ Disabled autoupdates in this channel."
+msgstr "✅ Disabled autoupdates in this channel."
+
+#: ../cogs/autoupdater.py:130 ../cogs/autoupdater.py:139
+msgid "❌ You don't have a autoupdater set here!"
+msgstr "❌ You don't have a autoupdater set here!"
+
+#: ../cogs/autoupdater.py:144
+msgid "✅ Forcing a update sometime in the next minute."
+msgstr "✅ Forcing a update sometime in the next minute."
+
+#: ../cogs/autoupdater.py:158
+msgid "✅ Next update: {htd}"
+msgstr "✅ Next update: {htd}"
+
+#: ../cogs/autoupdater.py:229
+msgid ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {trying}"
+msgstr ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {trying}"
+
+#: ../cogs/background_updates.py:23
+msgid "Stopping task..."
+msgstr "Stopping task..."
+
+#: ../cogs/background_updates.py:25
+msgid "Task has been sent a stop signal. Waiting 10 seconds..."
+msgstr "Task has been sent a stop signal. Waiting 10 seconds..."
+
+#: ../cogs/background_updates.py:27
+msgid "Sending terminate signal..."
+msgstr "Sending terminate signal..."
+
+#: ../cogs/background_updates.py:29
+msgid "Task has been killed. Starting now..."
+msgstr "Task has been killed. Starting now..."
+
+#: ../cogs/background_updates.py:31
+msgid "Task has been sent a start signal."
+msgstr "Task has been sent a start signal."
+
+#: ../cogs/background_updates.py:33
+msgid "Task restarted!"
+msgstr "Task restarted!"
+
+#: ../cogs/covid.py:63
+msgid ""
+"A fatal error has happened! The world data seems to have gone missing. "
+"Please let a mod in the bot's support server know."
+msgstr ""
+"A fatal error has happened! The world data seems to have gone missing. "
+"Please let a mod in the bot's support server know."
+
+#: ../cogs/covid.py:76
+msgid "Didn't find any continents with that name!"
+msgstr "Didn't find any continents with that name!"
+
+#: ../cogs/covid.py:91
+msgid "Use the `{prefix}covid world` command instead."
+msgstr "Use the `{prefix}covid world` command instead."
+
+#: ../cogs/covid.py:95
+msgid ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`.\n"
+"Hint: if you're looking for North or South Korea, try `{prefix}covid KP` or "
+"`{prefix}covid KR` for North and South Korea, respectively!"
+msgstr ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`.\n"
+"Hint: if you're looking for North or South Korea, try `{prefix}covid KP` or "
+"`{prefix}covid KR` for North and South Korea, respectively!"
+
+#: ../cogs/covid.py:101
+msgid ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`."
+msgstr ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`."
+
+#: ../cogs/covid.py:105
+msgid ""
+"You've used a incorrect command: try `{ctx.prefix}covid {country_test[0]}`"
+msgstr ""
+"You've used a incorrect command: try `{ctx.prefix}covid {country_test[0]}`"
+
+#: ../cogs/database_commands.py:40
+msgid "The server prefix is set to `{prefix}`."
+msgstr "The server prefix is set to `{prefix}`."
+
+#: ../cogs/database_commands.py:43
+msgid "There is no specific prefix set for this guild."
+msgstr "There is no specific prefix set for this guild."
+
+#: ../cogs/database_commands.py:61
+msgid "The server language is now set to `{language}`."
+msgstr "The server language is now set to `{language}`."
+
+#: ../cogs/database_commands.py:68
+msgid "There is no specific language set for this guild."
+msgstr "There is no specific language set for this guild."
+
+#: ../cogs/database_commands.py:76
+msgid "Tips are currently enabled for this guild."
+msgstr "Tips are currently enabled for this guild."
+
+#: ../cogs/database_commands.py:78
+msgid "Tips are currently disabled for this guild."
+msgstr "Tips are currently disabled for this guild."
+
+#: ../cogs/database_commands.py:83
+msgid "Enabled tips for this guild."
+msgstr "Enabled tips for this guild."
+
+#: ../cogs/database_commands.py:85
+msgid "Disabled tips for this guild."
+msgstr "Disabled tips for this guild."
+
+#: ../cogs/database_commands.py:99
+msgid ""
+"The API has been disabled for this channel. To restore your permissions, "
+"contact 0/0#0001 on the official support server."
+msgstr ""
+"The API has been disabled for this channel. To restore your permissions, "
+"contact 0/0#0001 on the official support server."
+
+#: ../cogs/database_commands.py:104
+msgid "DMed your API key to you."
+msgstr "DMed your API key to you."
+
+#: ../cogs/database_commands.py:107
+msgid "Revoked/deleted API key."
+msgstr "Revoked/deleted API key."
+
+#: ../cogs/database_commands.py:115
+msgid "DMed your new API key to you."
+msgstr "DMed your new API key to you."
+
+#: ../cogs/database_commands.py:125
+msgid "Disabled the API for {name}."
+msgstr "Disabled the API for {name}."
+
+#: ../cogs/error_handling.py:68
+msgid ""
+"There was an error converting one of your arguments with {exception."
+"converter}. The correct syntax would be `{command_invoke_help}`. The "
+"converter returned the following error: {original}"
+msgstr ""
+"There was an error converting one of your arguments with {exception."
+"converter}. The correct syntax would be `{command_invoke_help}`. The "
+"converter returned the following error: {original}"
+
+#: ../cogs/error_handling.py:71
+msgid ""
+"This command is missing an argument. The correct syntax would be "
+"`{command_invoke_help}`."
+msgstr ""
+"This command is missing an argument. The correct syntax would be "
+"`{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:75
+msgid ""
+"Too many quotes were provided in your message: don't forget to escape your "
+"quotes like this `\\{exception.quote}`. The correct syntax for the command "
+"is `{command_invoke_help}`."
+msgstr ""
+"Too many quotes were provided in your message: don't forget to escape your "
+"quotes like this `\\{exception.quote}`. The correct syntax for the command "
+"is `{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:81
+msgid ""
+"A space was expected after a closing quote, but I found {exception.char}. "
+"Please check that you are using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+"A space was expected after a closing quote, but I found {exception.char}. "
+"Please check that you are using the correct syntax: `{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:86
+msgid ""
+"A closing quote was expected, but wasn't found. Don't forget to close your "
+"quotes with `{exception.close_quote}` at the end of your argument. Please "
+"check that you are using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+"A closing quote was expected, but wasn't found. Don't forget to close your "
+"quotes with `{exception.close_quote}` at the end of your argument. Please "
+"check that you are using the correct syntax: `{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:92
+msgid ""
+"Too many arguments were passed in this command. Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+"Too many arguments were passed in this command. Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:96
+msgid ""
+"The way you are invoking this command is confusing me. The correct syntax "
+"would be `{command_invoke_help}`."
+msgstr ""
+"The way you are invoking this command is confusing me. The correct syntax "
+"would be `{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:101
+msgid ""
+"An argument passed was incorrect. `{exception}`.Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+"An argument passed was incorrect. `{exception}`.Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:108
+msgid ""
+"{exception} Please check that you are using the correct syntax: "
+"`{command_invoke_help}`."
+msgstr ""
+"{exception} Please check that you are using the correct syntax: "
+"`{command_invoke_help}`."
+
+#: ../cogs/error_handling.py:116
+msgid "This command can only be used in a private message."
+msgstr "This command can only be used in a private message."
+
+#: ../cogs/error_handling.py:118
+msgid "This command cannot be used in a private message."
+msgstr "This command cannot be used in a private message."
+
+#: ../cogs/error_handling.py:120
+msgid ""
+"Multiple errors were encountered when running your command: {exception."
+"errors}"
+msgstr ""
+"Multiple errors were encountered when running your command: {exception."
+"errors}"
+
+#: ../cogs/error_handling.py:123
+msgid "You need to be the owner of the bot to run that."
+msgstr "You need to be the owner of the bot to run that."
+
+#: ../cogs/error_handling.py:139
+msgid "You need to be in a NSFW channel to run that."
+msgstr "You need to be in a NSFW channel to run that."
+
+#: ../cogs/error_handling.py:145
+msgid ""
+"You need to be in the {correct_guild.name} server (`{exception."
+"must_be_in_guild_id}`)."
+msgstr ""
+"You need to be in the {correct_guild.name} server (`{exception."
+"must_be_in_guild_id}`)."
+
+#: ../cogs/error_handling.py:150
+msgid "You need to be in a server with ID {exception.must_be_in_guild_id}."
+msgstr "You need to be in a server with ID {exception.must_be_in_guild_id}."
+
+#: ../cogs/error_handling.py:153
+msgid "You have the `{exception.permission}` permission."
+msgstr "You have the `{exception.permission}` permission."
+
+#: ../cogs/error_handling.py:156
+msgid "You need the `{exception.permission}` permission."
+msgstr "You need the `{exception.permission}` permission."
+
+#: ../cogs/error_handling.py:159
+msgid ""
+"You have {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+msgstr ""
+"You have {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+
+#: ../cogs/error_handling.py:163
+msgid ""
+"You need {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+msgstr ""
+"You need {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+
+#: ../cogs/error_handling.py:174
+msgid "The provided command was not found."
+msgstr "The provided command was not found."
+
+#: ../cogs/error_handling.py:176
+msgid "That command has been disabled."
+msgstr "That command has been disabled."
+
+#: ../cogs/error_handling.py:179
+msgid ""
+"I don't have permissions to send messages there! Try again somewhere I do "
+"have permissions to send messages!"
+msgstr ""
+"I don't have permissions to send messages there! Try again somewhere I do "
+"have permissions to send messages!"
+
+#: ../cogs/error_handling.py:182
+msgid ""
+"There was an error running the specified command. This error has been logged."
+""
+msgstr ""
+"There was an error running the specified command. This error has been logged."
+""
+
+#: ../cogs/error_handling.py:197
+msgid "You are being ratelimited. Please try again {some_time}."
+msgstr "You are being ratelimited. Please try again {some_time}."
+
+#: ../cogs/error_handling.py:201
+msgid ""
+"Simulations have been disabled in this guild due to a missing permission. "
+"Ask a admin to give me the Manage Messages permission."
+msgstr ""
+"Simulations have been disabled in this guild due to a missing permission. "
+"Ask a admin to give me the Manage Messages permission."
+
+#: ../cogs/error_handling.py:208
+msgid ""
+"This should not have happened. A command raised an error that does not comes "
+"from CommandError. Please inform the owner."
+msgstr ""
+"This should not have happened. A command raised an error that does not comes "
+"from CommandError. Please inform the owner."
+
+#: ../cogs/error_handling.py:213
+msgid "\n"
+"For help, join the bot's support server at {invite}"
+msgstr "\n"
+"For help, join the bot's support server at {invite}"
+
+#: ../cogs/future_simulations.py:102
+msgid "Didn't get a response. To try again, do `{prefix}{qn}`."
+msgstr "Didn't get a response. To try again, do `{prefix}{qn}`."
+
+#: ../cogs/graphs.py:19
+msgid "Couldn't find that name. Try again, or use `{prefix}list` for help."
+msgstr "Couldn't find that name. Try again, or use `{prefix}list` for help."
+
+#: ../cogs/graphs.py:30
+msgid ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 30 seconds."
+msgstr ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 30 seconds."
+
+#: ../cogs/graphs.py:44
+msgid "Timed out. Request a new message with `{prefix}graphs`"
+msgstr "Timed out. Request a new message with `{prefix}graphs`"
+
+#: ../cogs/graphs.py:47
+msgid "Please wait, this could take a few seconds..."
+msgstr "Please wait, this could take a few seconds..."
+
+#: ../cogs/graphs.py:50
+msgid "Graph for {location}"
+msgstr "Graph for {location}"
+
+#: ../cogs/maps.py:41
+msgid ""
+"I don't know what map you're looking for! Run `{ctx.prefix}maps types` to "
+"see all the maps I can show you!"
+msgstr ""
+"I don't know what map you're looking for! Run `{ctx.prefix}maps types` to "
+"see all the maps I can show you!"
+
+#: ../cogs/permissions_commands.py:51
+msgid "😃 You have that permission."
+msgstr "😃 You have that permission."
+
+#: ../cogs/permissions_commands.py:53
+msgid "☹️ You don't have that permission."
+msgstr "☹️ You don't have that permission."
+
+#: ../cogs/permissions_commands.py:56
+msgid "Details of permissions hierarchy"
+msgstr "Details of permissions hierarchy"
+
+#: ../cogs/permissions_commands.py:62
+msgid "{sign} Default (from {sign}{by})"
+msgstr "{sign} Default (from {sign}{by})"
+
+#: ../cogs/permissions_commands.py:77
+msgid "{sign} Guild role {role} (from {sign}{by})"
+msgstr "{sign} Guild role {role} (from {sign}{by})"
+
+#: ../cogs/permissions_commands.py:88
+msgid "{sign} Channel role {role} (from {sign}{by})"
+msgstr "{sign} Channel role {role} (from {sign}{by})"
+
+#: ../cogs/permissions_commands.py:95
+msgid "{sign} Member (from {sign}{by})"
+msgstr "{sign} Member (from {sign}{by})"
+
+#: ../cogs/permissions_commands.py:102
+msgid "{sign} Fixed (from {sign}{by})"
+msgstr "{sign} Fixed (from {sign}{by})"
+
+#: ../cogs/permissions_commands.py:109
+msgid "{sign} User (from {sign}{by})"
+msgstr "{sign} User (from {sign}{by})"
+
+#: ../cogs/permissions_commands.py:132 ../cogs/permissions_commands.py:163
+msgid "**{role} permissions**"
+msgstr "**{role} permissions**"
+
+#: ../cogs/permissions_commands.py:142
+msgid "There are no specific permissions set in this guild."
+msgstr "There are no specific permissions set in this guild."
+
+#: ../cogs/permissions_commands.py:173
+msgid "There are no specific permissions set in this channel."
+msgstr "There are no specific permissions set in this channel."
+
+#: ../cogs/permissions_commands.py:190
+msgid "**{member.name}#{member.discriminator} permissions**"
+msgstr "**{member.name}#{member.discriminator} permissions**"
+
+#: ../cogs/permissions_commands.py:198
+msgid "There are no specific permissions for this member."
+msgstr "There are no specific permissions for this member."
+
+#: ../cogs/permissions_commands.py:222
+msgid ""
+"👌 Permission {permission} for user {user.name}#{user.discriminator} has "
+"been set to {value} globally."
+msgstr ""
+"👌 Permission {permission} for user {user.name}#{user.discriminator} has "
+"been set to {value} globally."
+
+#: ../cogs/permissions_commands.py:239
+msgid ""
+"👌 Permission {permission} for member {member.name}#{member.discriminator} "
+"has been set to {value} globally."
+msgstr ""
+"👌 Permission {permission} for member {member.name}#{member.discriminator} "
+"has been set to {value} globally."
+
+#: ../cogs/permissions_commands.py:253
+msgid "❌ Can't set permissions in a channel that is not in this guild."
+msgstr "❌ Can't set permissions in a channel that is not in this guild."
+
+#: ../cogs/permissions_commands.py:257 ../cogs/permissions_commands.py:283
+msgid "❌ Can't set permissions for a role that does not exist in this guild."
+msgstr "❌ Can't set permissions for a role that does not exist in this guild."
+
+#: ../cogs/permissions_commands.py:270
+msgid ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this channel."
+msgstr ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this channel."
+
+#: ../cogs/permissions_commands.py:296
+msgid ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this guild."
+msgstr ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this guild."
+
+#: ../cogs/utils.py:82
+msgid "Pong. — Time taken: {milliseconds}ms"
+msgstr "Pong. — Time taken: {milliseconds}ms"
+
+#: ../utils/embeds.py:104
+msgid "COVID-19 Stats for {name}"
+msgstr "COVID-19 Stats for {name}"
+
+#: ../utils/embeds.py:107
+msgid "Stats last updated at (UTC)"
+msgstr "Stats last updated at (UTC)"
+
+#: ../utils/embeds.py:120 ../utils/embeds.py:124
+msgid "no data"
+msgstr "no data"
+
+#: ../utils/embeds.py:126
+msgid "Affected Countries"
+msgstr "Affected Countries"
+
+#: ../utils/embeds.py:135
+msgid "Country List"
+msgstr "Country List"
+
+#: ../utils/embeds.py:136
+msgid ""
+"Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
+"covid <name>`!"
+msgstr ""
+"Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
+"covid <name>`!"
