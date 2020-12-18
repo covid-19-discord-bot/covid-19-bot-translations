@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: COVID-19 Bot v5.0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-12-17 11:46-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+msgid ""
+"❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
+"Anyways, that isn't allowed. Try again with a more reasonable delay."
+msgstr ""
+
+msgid ""
+"❌ You already have a autoupdater set in this channel! Remove it with `/"
+"disable_updates` and try again!"
+msgstr ""
+
+msgid ""
+"⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
+"this? To confirm, type `ok` within 15 seconds."
+msgstr ""
+
+msgid "Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
+msgstr ""
+
+msgid "Continuing setup..."
+msgstr ""
+
+msgid ""
+"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
+"check because you are a premium guild/user. <3 from 0/0#0001"
+msgstr ""
+
+msgid ""
+"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
+"a premium guild.\n"
+"Hint: there's no point in setting it to less than 10 minutes due to the fact "
+"the stats updater only fires once every 10 minutes. If you really want to "
+"get a shorter delay (no point in doing so), check out the `/donate` command."
+msgstr ""
+
+msgid ""
+"❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
+"countries and their IDs."
+msgstr ""
+
+msgid "✅ Posting stats for {0} in this channel every {1}."
+msgstr ""
+
+msgid "✅ Disabled autoupdates in this channel."
+msgstr ""
+
+msgid "❌ You don't have a autoupdater set here!"
+msgstr ""
+
+msgid "✅ Forcing a update sometime in the next minute."
+msgstr ""
+
+msgid "✅ Next update: {htd}"
+msgstr ""
+
+msgid ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {trying}"
+msgstr ""
+
+msgid "Stopping task..."
+msgstr ""
+
+msgid "Task has been sent a stop signal. Waiting 10 seconds..."
+msgstr ""
+
+msgid "Sending terminate signal..."
+msgstr ""
+
+msgid "Task has been killed. Starting now..."
+msgstr ""
+
+msgid "Task has been sent a start signal."
+msgstr ""
+
+msgid "Task restarted!"
+msgstr ""
+
+msgid ""
+"A fatal error has happened! The world data seems to have gone missing. "
+"Please let a mod in the bot's support server know."
+msgstr ""
+
+msgid "Didn't find any continents with that name!"
+msgstr ""
+
+msgid "Use the `{prefix}covid world` command instead."
+msgstr ""
+
+msgid ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`.\n"
+"Hint: if you're looking for North or South Korea, try `{prefix}covid KP` or "
+"`{prefix}covid KR` for North and South Korea, respectively!"
+msgstr ""
+
+msgid ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`."
+msgstr ""
+
+msgid ""
+"You've used a incorrect command: try `{ctx.prefix}covid {country_test[0]}`"
+msgstr ""
+
+msgid "The server prefix is set to `{prefix}`."
+msgstr ""
+
+msgid "There is no specific prefix set for this guild."
+msgstr ""
+
+msgid "The server language is now set to `{language}`."
+msgstr ""
+
+msgid "There is no specific language set for this guild."
+msgstr ""
+
+msgid "Tips are currently enabled for this guild."
+msgstr ""
+
+msgid "Tips are currently disabled for this guild."
+msgstr ""
+
+msgid "Enabled tips for this guild."
+msgstr ""
+
+msgid "Disabled tips for this guild."
+msgstr ""
+
+msgid ""
+"The API has been disabled for this channel. To restore your permissions, "
+"contact 0/0#0001 on the official support server."
+msgstr ""
+
+msgid "DMed your API key to you."
+msgstr ""
+
+msgid "Revoked/deleted API key."
+msgstr ""
+
+msgid "DMed your new API key to you."
+msgstr ""
+
+msgid "Disabled the API for {name}."
+msgstr ""
+
+msgid ""
+"There was an error converting one of your arguments with {exception."
+"converter}. The correct syntax would be `{command_invoke_help}`. The "
+"converter returned the following error: {original}"
+msgstr ""
+
+msgid ""
+"This command is missing an argument. The correct syntax would be "
+"`{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"Too many quotes were provided in your message: don't forget to escape your "
+"quotes like this `\\{exception.quote}`. The correct syntax for the command "
+"is `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"A space was expected after a closing quote, but I found {exception.char}. "
+"Please check that you are using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"A closing quote was expected, but wasn't found. Don't forget to close your "
+"quotes with `{exception.close_quote}` at the end of your argument. Please "
+"check that you are using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"Too many arguments were passed in this command. Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"The way you are invoking this command is confusing me. The correct syntax "
+"would be `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"An argument passed was incorrect. `{exception}`.Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"{exception} Please check that you are using the correct syntax: "
+"`{command_invoke_help}`."
+msgstr ""
+
+msgid "This command can only be used in a private message."
+msgstr ""
+
+msgid "This command cannot be used in a private message."
+msgstr ""
+
+msgid ""
+"Multiple errors were encountered when running your command: {exception."
+"errors}"
+msgstr ""
+
+msgid "You need to be the owner of the bot to run that."
+msgstr ""
+
+msgid "You need to be in a NSFW channel to run that."
+msgstr ""
+
+msgid ""
+"You need to be in the {correct_guild.name} server (`{exception."
+"must_be_in_guild_id}`)."
+msgstr ""
+
+msgid "You need to be in a server with ID {exception.must_be_in_guild_id}."
+msgstr ""
+
+msgid "You have the `{exception.permission}` permission."
+msgstr ""
+
+msgid "You need the `{exception.permission}` permission."
+msgstr ""
+
+msgid ""
+"You have {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+msgstr ""
+
+msgid ""
+"You need {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+msgstr ""
+
+msgid "The provided command was not found."
+msgstr ""
+
+msgid "That command has been disabled."
+msgstr ""
+
+msgid ""
+"I don't have permissions to send messages there! Try again somewhere I do "
+"have permissions to send messages!"
+msgstr ""
+
+msgid ""
+"There was an error running the specified command. This error has been logged."
+""
+msgstr ""
+
+msgid "You are being ratelimited. Please try again {some_time}."
+msgstr ""
+
+msgid ""
+"Simulations have been disabled in this guild due to a missing permission. "
+"Ask a admin to give me the Manage Messages permission."
+msgstr ""
+
+msgid ""
+"This should not have happened. A command raised an error that does not comes "
+"from CommandError. Please inform the owner."
+msgstr ""
+
+msgid "\n"
+"For help, join the bot's support server at {invite}"
+msgstr ""
+
+msgid "Didn't get a response. To try again, do `{prefix}{qn}`."
+msgstr ""
+
+msgid "Couldn't find that name. Try again, or use `{prefix}list` for help."
+msgstr ""
+
+msgid ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 30 seconds."
+msgstr ""
+
+msgid "Timed out. Request a new message with `{prefix}graphs`"
+msgstr ""
+
+msgid "Please wait, this could take a few seconds..."
+msgstr ""
+
+msgid "Graph for {location}"
+msgstr ""
+
+msgid ""
+"I don't know what map you're looking for! Run `{ctx.prefix}maps types` to "
+"see all the maps I can show you!"
+msgstr ""
+
+msgid "😃 You have that permission."
+msgstr ""
+
+msgid "☹️ You don't have that permission."
+msgstr ""
+
+msgid "Details of permissions hierarchy"
+msgstr ""
+
+msgid "{sign} Default (from {sign}{by})"
+msgstr ""
+
+msgid "{sign} Guild role {role} (from {sign}{by})"
+msgstr ""
+
+msgid "{sign} Channel role {role} (from {sign}{by})"
+msgstr ""
+
+msgid "{sign} Member (from {sign}{by})"
+msgstr ""
+
+msgid "{sign} Fixed (from {sign}{by})"
+msgstr ""
+
+msgid "{sign} User (from {sign}{by})"
+msgstr ""
+
+msgid "**{role} permissions**"
+msgstr ""
+
+msgid "There are no specific permissions set in this guild."
+msgstr ""
+
+msgid "There are no specific permissions set in this channel."
+msgstr ""
+
+msgid "**{member.name}#{member.discriminator} permissions**"
+msgstr ""
+
+msgid "There are no specific permissions for this member."
+msgstr ""
+
+msgid ""
+"👌 Permission {permission} for user {user.name}#{user.discriminator} has "
+"been set to {value} globally."
+msgstr ""
+
+msgid ""
+"👌 Permission {permission} for member {member.name}#{member.discriminator} "
+"has been set to {value} globally."
+msgstr ""
+
+msgid "❌ Can't set permissions in a channel that is not in this guild."
+msgstr ""
+
+msgid "❌ Can't set permissions for a role that does not exist in this guild."
+msgstr ""
+
+msgid ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this channel."
+msgstr ""
+
+msgid ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this guild."
+msgstr ""
+
+msgid "Pong. — Time taken: {milliseconds}ms"
+msgstr ""
+
+msgid "COVID-19 Stats for {name}"
+msgstr ""
+
+msgid "Stats last updated at (UTC)"
+msgstr ""
+
+msgid "no data"
+msgstr ""
+
+msgid "Affected Countries"
+msgstr ""
+
+msgid "Country List"
+msgstr ""
+
+msgid ""
+"Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
+"covid <name>`!"
+msgstr ""
