@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: COVID-19 Bot v5.0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-12-17 11:46-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Content-Type: text/plain; charset=UTF-8"
+
+msgid ""
+"❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
+"Anyways, that isn't allowed. Try again with a more reasonable delay."
+msgstr ""
+"❌ ¿Realmente trató de establecer el retraso del autoactualizador en más de "
+"un año? Oi. De todas formas, eso no está permitido. Inténtalo de nuevo con "
+"un retraso más razonable."
+
+msgid ""
+"❌ You already have a autoupdater set in this channel! Remove it with `/"
+"disable_updates` and try again!"
+msgstr ""
+"❌ ¡Ya tienes un autoactualizador en este canal! ¡Quítalo con \"/"
+"deshabilitar_actualizaciones\" e inténtalo de nuevo!"
+
+msgid ""
+"⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
+"this? To confirm, type `ok` within 15 seconds."
+msgstr ""
+"⚠ ¡Estás estableciendo un retraso de más de 1 día! ¿Estás seguro de que "
+"quieres hacer esto? Para confirmar, escribe \"ok\" dentro de 15 segundos."
+
+msgid "Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
+msgstr ""
+
+msgid "Continuing setup..."
+msgstr "Continuando la configuración..."
+
+msgid ""
+"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
+"check because you are a premium guild/user. <3 from 0/0#0001"
+msgstr ""
+
+msgid ""
+"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
+"a premium guild.\n"
+"Hint: there's no point in setting it to less than 10 minutes due to the fact "
+"the stats updater only fires once every 10 minutes. If you really want to "
+"get a shorter delay (no point in doing so), check out the `/donate` command."
+msgstr ""
+"❌ No puedes configurar el retraso del autoactualizador a menos de 10 minutos "
+"a menos que seas un gremio de primera.\n"
+"Sugerencia: no tiene sentido configurarlo a menos de 10 minutos debido a que "
+"el actualizador de estadísticas sólo se dispara una vez cada 10 minutos. Si "
+"realmente quieres conseguir un retraso más corto (no tiene sentido hacerlo), "
+"mira el comando \"donar\"."
+
+msgid ""
+"❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
+"countries and their IDs."
+msgstr ""
+"❌ ¡No consiguió un código ISO2 para el país! La lista te mostrará una lista "
+"de países y sus identificaciones."
+
+msgid "✅ Posting stats for {0} in this channel every {1}."
+msgstr "✅ Publicando estadísticas para {0} en este canal cada {1}."
+
+msgid "✅ Disabled autoupdates in this channel."
+msgstr "✅ Desactivada auto-actualización en este canal."
+
+msgid "❌ You don't have a autoupdater set here!"
+msgstr "❌ ¡No tienes un set de auto-actualización aquí!"
+
+msgid "✅ Forcing a update sometime in the next minute."
+msgstr "✅ Forzando una actualización en algún momento del próximo minuto."
+
+msgid "✅ Next update: {htd}"
+msgstr "✅ Próxima actualización: {htd}"
+
+msgid ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {trying}"
+msgstr ""
+
+msgid "Stopping task..."
+msgstr "Parar la tarea..."
+
+msgid "Task has been sent a stop signal. Waiting 10 seconds..."
+msgstr "La tarea se ha enviado una señal de parada. Esperando 10 segundos..."
+
+msgid "Sending terminate signal..."
+msgstr "Enviando señal de terminación..."
+
+msgid "Task has been killed. Starting now..."
+msgstr "La tarea ha sido asesinada. A partir de ahora..."
+
+msgid "Task has been sent a start signal."
+msgstr ""
+
+msgid "Task restarted!"
+msgstr "¡Reinicio de la tarea!"
+
+msgid ""
+"A fatal error has happened! The world data seems to have gone missing. "
+"Please let a mod in the bot's support server know."
+msgstr ""
+"¡Un error fatal ha ocurrido! Los datos del mundo parecen haber desaparecido. "
+"Por favor, hágaselo saber a un mod en el servidor de soporte del bot."
+
+msgid "Didn't find any continents with that name!"
+msgstr "¡No encontré ningún continente con ese nombre!"
+
+msgid "Use the `{prefix}covid world` command instead."
+msgstr "Usa el comando `{prefijo} del mundo cubierto` en su lugar."
+
+msgid ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`.\n"
+"Hint: if you're looking for North or South Korea, try `{prefix}covid KP` or "
+"`{prefix}covid KR` for North and South Korea, respectively!"
+msgstr ""
+"¡No encontré un país con ese nombre, o el país no tiene casos! Intenta "
+"buscar el nombre con la lista de \"prefijo\" del país.\n"
+"Sugerencia: si busca Corea del Norte o del Sur, intente con \"Prefijo KP\" o "
+"\"Prefijo KR\" para Corea del Norte y del Sur, respectivamente"
+
+msgid ""
+"Didn't find a country with that name, or the country has no cases! Try "
+"searching for the name with `{prefix}list country`."
+msgstr ""
+"¡No encontré un país con ese nombre, o el país no tiene casos! Intenta "
+"buscar el nombre con la lista de \"prefijo\" del país."
+
+msgid ""
+"You've used a incorrect command: try `{ctx.prefix}covid {country_test[0]}`"
+msgstr ""
+"Has usado un comando incorrecto: intenta `{ctx.prefix}covid "
+"{country_test[0]}`"
+
+msgid "The server prefix is set to `{prefix}`."
+msgstr "El prefijo del servidor está puesto en `{prefijo}`."
+
+msgid "There is no specific prefix set for this guild."
+msgstr "No hay un prefijo específico establecido para este gremio."
+
+msgid "The server language is now set to `{language}`."
+msgstr "El lenguaje del servidor está ahora configurado como \"lenguaje\"."
+
+msgid "There is no specific language set for this guild."
+msgstr ""
+
+msgid "Tips are currently enabled for this guild."
+msgstr "Los consejos están actualmente habilitados para este gremio."
+
+msgid "Tips are currently disabled for this guild."
+msgstr ""
+
+msgid "Enabled tips for this guild."
+msgstr "Habilitó consejos para este gremio."
+
+msgid "Disabled tips for this guild."
+msgstr ""
+
+msgid ""
+"The API has been disabled for this channel. To restore your permissions, "
+"contact 0/0#0001 on the official support server."
+msgstr ""
+"La API ha sido desactivada para este canal. Para restaurar tus permisos, "
+"contacta con el 0/0#0001 en el servidor de soporte oficial."
+
+msgid "DMed your API key to you."
+msgstr "Te he enviado la clave de la API."
+
+msgid "Revoked/deleted API key."
+msgstr ""
+
+msgid "DMed your new API key to you."
+msgstr ""
+
+msgid "Disabled the API for {name}."
+msgstr "Desactivó el API para {nombre}."
+
+msgid ""
+"There was an error converting one of your arguments with {exception."
+"converter}. The correct syntax would be `{command_invoke_help}`. The "
+"converter returned the following error: {original}"
+msgstr ""
+"Hubo un error al convertir uno de sus argumentos con {excepción.convertidor}."
+" La sintaxis correcta sería `{command_invoke_help}`. El convertidor devolvió "
+"el siguiente error: {original}"
+
+msgid ""
+"This command is missing an argument. The correct syntax would be "
+"`{command_invoke_help}`."
+msgstr ""
+"A este comando le falta un argumento. La sintaxis correcta sería "
+"`{command_invoke_help}`."
+
+msgid ""
+"Too many quotes were provided in your message: don't forget to escape your "
+"quotes like this `\\{exception.quote}`. The correct syntax for the command "
+"is `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"A space was expected after a closing quote, but I found {exception.char}. "
+"Please check that you are using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"A closing quote was expected, but wasn't found. Don't forget to close your "
+"quotes with `{exception.close_quote}` at the end of your argument. Please "
+"check that you are using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"Too many arguments were passed in this command. Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+"Demasiados argumentos se pasaron en este comando. Por favor, compruebe que "
+"está usando la sintaxis correcta: `{comando_invoque_ayuda}`."
+
+msgid ""
+"The way you are invoking this command is confusing me. The correct syntax "
+"would be `{command_invoke_help}`."
+msgstr ""
+
+msgid ""
+"An argument passed was incorrect. `{exception}`.Please check that you are "
+"using the correct syntax: `{command_invoke_help}`."
+msgstr ""
+"Un argumento aprobado fue incorrecto. `{excepción}`. Por favor, compruebe "
+"que está usando la sintaxis correcta: `{command_invoke_help}`."
+
+msgid ""
+"{exception} Please check that you are using the correct syntax: "
+"`{command_invoke_help}`."
+msgstr ""
+
+msgid "This command can only be used in a private message."
+msgstr "Este comando sólo puede ser usado en un mensaje privado."
+
+msgid "This command cannot be used in a private message."
+msgstr "Este comando no puede ser usado en un mensaje privado."
+
+msgid ""
+"Multiple errors were encountered when running your command: {exception."
+"errors}"
+msgstr ""
+"Se encontraron múltiples errores al ejecutar su comando: {excepción.errores}"
+
+msgid "You need to be the owner of the bot to run that."
+msgstr "Tienes que ser el dueño del robot para dirigirlo."
+
+msgid "You need to be in a NSFW channel to run that."
+msgstr "Necesitas estar en un canal de la NSFW para transmitir eso."
+
+msgid ""
+"You need to be in the {correct_guild.name} server (`{exception."
+"must_be_in_guild_id}`)."
+msgstr ""
+
+msgid "You need to be in a server with ID {exception.must_be_in_guild_id}."
+msgstr ""
+"Necesitas estar en un servidor con ID {excepción.must_be_in_guild_id}."
+
+msgid "You have the `{exception.permission}` permission."
+msgstr "Tienes el permiso de \"excepción\"."
+
+msgid "You need the `{exception.permission}` permission."
+msgstr "Necesitas el permiso de ``excepción.permiso``."
+
+msgid ""
+"You have {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+msgstr ""
+
+msgid ""
+"You need {exception.required} or more of the following permissions: "
+"`{exception.permissions}`."
+msgstr ""
+
+msgid "The provided command was not found."
+msgstr "El comando provisto no fue encontrado."
+
+msgid "That command has been disabled."
+msgstr ""
+
+msgid ""
+"I don't have permissions to send messages there! Try again somewhere I do "
+"have permissions to send messages!"
+msgstr ""
+
+msgid ""
+"There was an error running the specified command. This error has been logged."
+""
+msgstr ""
+
+msgid "You are being ratelimited. Please try again {some_time}."
+msgstr "Te están limitando. Por favor, inténtalo de nuevo."
+
+msgid ""
+"Simulations have been disabled in this guild due to a missing permission. "
+"Ask a admin to give me the Manage Messages permission."
+msgstr ""
+"Las simulaciones han sido desactivadas en este gremio debido a la falta de "
+"permiso. Pídele a un administrador que me dé el permiso de Administrar "
+"Mensajes."
+
+msgid ""
+"This should not have happened. A command raised an error that does not comes "
+"from CommandError. Please inform the owner."
+msgstr ""
+"Esto no debería haber pasado. Un comando planteó un error que no proviene "
+"del ComandoError. Por favor, informe al propietario."
+
+msgid "\n"
+"For help, join the bot's support server at {invite}"
+msgstr ""
+
+msgid "Didn't get a response. To try again, do `{prefix}{qn}`."
+msgstr "No obtuve respuesta. Para intentarlo de nuevo, haz `{prefijo}{qn}`."
+
+msgid "Couldn't find that name. Try again, or use `{prefix}list` for help."
+msgstr ""
+"No pude encontrar ese nombre. Inténtalo de nuevo, o usa \"lista de "
+"prefijos\" para ayudar."
+
+msgid ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 30 seconds."
+msgstr ""
+"Reaccione con 📈 para obtener un gráfico logarítmico.\n"
+"Reacciona con 📉 para un gráfico lineal.\n"
+"Este mensaje expira después de 30 segundos."
+
+msgid "Timed out. Request a new message with `{prefix}graphs`"
+msgstr ""
+"Se ha agotado el tiempo. Solicitar un nuevo mensaje con `{prefijo} gráficos`"
+
+msgid "Please wait, this could take a few seconds..."
+msgstr "Por favor, espere, esto podría tomar unos segundos..."
+
+msgid "Graph for {location}"
+msgstr ""
+
+msgid ""
+"I don't know what map you're looking for! Run `{ctx.prefix}maps types` to "
+"see all the maps I can show you!"
+msgstr ""
+"¡No sé qué mapa estás buscando! ¡Corre `{ctx.prefix} tipos de mapas` para "
+"ver todos los mapas que puedo mostrarte!"
+
+msgid "😃 You have that permission."
+msgstr ""
+
+msgid "☹️ You don't have that permission."
+msgstr ""
+
+msgid "Details of permissions hierarchy"
+msgstr ""
+
+msgid "{sign} Default (from {sign}{by})"
+msgstr "{signo} Por defecto (de {signo}{por})"
+
+msgid "{sign} Guild role {role} (from {sign}{by})"
+msgstr "{signo} Papel del gremio {papel} (de {firma}{por})"
+
+msgid "{sign} Channel role {role} (from {sign}{by})"
+msgstr "{signo} Papel del canal {papel} (de {firma}{por})"
+
+msgid "{sign} Member (from {sign}{by})"
+msgstr "{signo} Miembro (de {firma}{por})"
+
+msgid "{sign} Fixed (from {sign}{by})"
+msgstr "{signo} Fijo (de {signo}{por})"
+
+msgid "{sign} User (from {sign}{by})"
+msgstr "{signo} Usuario (de {firma}{por})"
+
+msgid "**{role} permissions**"
+msgstr "**{papel} permisos**"
+
+msgid "There are no specific permissions set in this guild."
+msgstr ""
+
+msgid "There are no specific permissions set in this channel."
+msgstr "No hay permisos específicos establecidos en este canal."
+
+msgid "**{member.name}#{member.discriminator} permissions**"
+msgstr "**{nombre.de.miembro}#{nombre.de.miembro.discriminador} permisos**"
+
+msgid "There are no specific permissions for this member."
+msgstr "No hay permisos específicos para este miembro."
+
+msgid ""
+"👌 Permission {permission} for user {user.name}#{user.discriminator} has "
+"been set to {value} globally."
+msgstr ""
+"👌 El permiso {permiso} para el usuario {nombre.de usuario}#{discriminador."
+"de usuario} se ha fijado en {valor} globalmente."
+
+msgid ""
+"👌 Permission {permission} for member {member.name}#{member.discriminator} "
+"has been set to {value} globally."
+msgstr ""
+
+msgid "❌ Can't set permissions in a channel that is not in this guild."
+msgstr ""
+
+msgid "❌ Can't set permissions for a role that does not exist in this guild."
+msgstr ""
+
+msgid ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this channel."
+msgstr ""
+
+msgid ""
+"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
+"to {value} in this guild."
+msgstr ""
+"👌 El permiso {permiso} para el papel {nombre_del_role} [`{role_id}`] ha "
+"sido fijado en {valor} en este gremio."
+
+msgid "Pong. — Time taken: {milliseconds}ms"
+msgstr "Pong. - Tiempo tomado: {milisegundos}ms"
+
+msgid "COVID-19 Stats for {name}"
+msgstr "COVID-19 Estadísticas de {nombre}"
+
+msgid "Stats last updated at (UTC)"
+msgstr "Estadísticas actualizadas por última vez en (UTC)"
+
+msgid "no data"
+msgstr ""
+
+msgid "Affected Countries"
+msgstr "Países afectados"
+
+msgid "Country List"
+msgstr "Lista de países"
+
+msgid ""
+"Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
+"covid <name>`!"
+msgstr ""
+"Usa el nombre del país, o el código ISO2/ISO3 cuando obtengas las "
+"estadísticas con \"covid\" <name></name>"
