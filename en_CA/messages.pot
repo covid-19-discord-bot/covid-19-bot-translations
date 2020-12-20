@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COVID-19 Bot v5.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-20 15:08-0700\n"
+"POT-Creation-Date: 2020-12-20 15:59-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,17 +235,18 @@ msgstr ""
 msgid "Use the `{0}covid states <name>` command when getting stats for `<name>`!"
 msgstr ""
 
-#: ../cogs/covid.py:240
+#: ../cogs/covid.py:240 ../cogs/vaccine.py:44
 msgid ""
 "The page number you have selected is not between 1 and {0}. Please try "
 "again."
 msgstr ""
 
-#: ../cogs/covid.py:247 ../cogs/covid.py:251
+#: ../cogs/covid.py:247 ../cogs/covid.py:251 ../cogs/vaccine.py:51
+#: ../cogs/vaccine.py:56
 msgid "Page {0} of {1}"
 msgstr ""
 
-#: ../cogs/covid.py:248
+#: ../cogs/covid.py:248 ../cogs/vaccine.py:52
 msgid "To go to the next page, run `{0}{1} {2} {3}`"
 msgstr ""
 
@@ -523,12 +524,172 @@ msgstr ""
 msgid "No message was defined. This error has been logged."
 msgstr ""
 
-#: ../cogs/future_simulations.py:102
-msgid "Didn't get a response. To try again, do `{prefix}{qn}`."
+#: ../cogs/future_simulations.py:66
+msgid "Data for Day {0}"
+msgstr ""
+
+#: ../cogs/future_simulations.py:100
+msgid ""
+"**WARNING**\n"
+"This is not a scientific modeling system by any means, this purely exists"
+" for entertainment purposes. For actual advice, refer to your medical "
+"specialist. By agreeing to these terms, you agree not to hold 0/0#0001 "
+"liable for anything stemming from the use of this modeling system. Type "
+"`ok` within 15 seconds to agree to these terms."
+msgstr ""
+
+#: ../cogs/future_simulations.py:109
+msgid "Didn't get a response. To try again, do `{0}{1}`."
+msgstr ""
+
+#: ../cogs/future_simulations.py:114
+msgid "I'll ping you when this is done, you can go do other stuff."
+msgstr ""
+
+#: ../cogs/future_simulations.py:115
+msgid "Please wait, initializing..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:124
+msgid ""
+"You haven't set up your simulation! Run `{0}simulate setup` to set your "
+"sim up!"
+msgstr ""
+
+#: ../cogs/future_simulations.py:150
+msgid "Submitting your item to be processed..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:158
+msgid "Waiting for next run of simulation processor, which will happen {0}."
+msgstr ""
+
+#: ../cogs/future_simulations.py:162
+msgid "Simulation failed: ran out of memory: retry with smaller values."
+msgstr ""
+
+#: ../cogs/future_simulations.py:164
+msgid ""
+"Simulation failed: had incorrect values passed to it: try with more "
+"reasonable values."
+msgstr ""
+
+#: ../cogs/future_simulations.py:166
+msgid ""
+"Simulation failed: process running the simulation has failed: ask a mod "
+"in the bot's support server (find it via {0}) to run {1}."
+msgstr ""
+
+#: ../cogs/future_simulations.py:170
+msgid ""
+"Simulation failed: had a unknown error: report ID ({0}) to 0/0#0001 to be"
+" fixed."
+msgstr ""
+
+#: ../cogs/future_simulations.py:180
+msgid "Processed simulation!"
+msgstr ""
+
+#: ../cogs/future_simulations.py:181
+msgid "Simulation Results"
+msgstr ""
+
+#: ../cogs/future_simulations.py:182
+msgid ""
+"Navigate using `next` to view the next day's stats, `prev` to view the "
+"previous day's stats, `first` to jump to the first day (tomorrow), and "
+"`last` to jump to the last day in your simulation. Type a number to jump "
+"straight to that day. Type `exit` to exit the paginator (for example, if "
+"you want to modify sim data)."
+msgstr ""
+
+#: ../cogs/future_simulations.py:188
+msgid "Total infections by end of simulation"
+msgstr ""
+
+#: ../cogs/future_simulations.py:189
+msgid "Total recoveries by end of simulation"
+msgstr ""
+
+#: ../cogs/future_simulations.py:190
+msgid "Total deaths by end of simulation"
+msgstr ""
+
+#: ../cogs/future_simulations.py:191
+msgid "Your simulation is ready: it will be available for 15 minutes."
+msgstr ""
+
+#: ../cogs/future_simulations.py:207
+msgid "Your simulation has timed out. Request a new one with `{0}{1}`."
+msgstr ""
+
+#: ../cogs/future_simulations.py:215
+msgid ""
+"I now require the MANAGE MESSAGES permission. I've disabled this command "
+"until you give me this permission. If you'd prefer not to give me such a "
+"permission, the bot will still function, just with the simulation module "
+"disabled. Thanks in advance!"
+msgstr ""
+
+#: ../cogs/future_simulations.py:236
+msgid "Internal bot error. Try again."
+msgstr ""
+
+#: ../cogs/future_simulations.py:239
+msgid "Out of bounds."
+msgstr ""
+
+#: ../cogs/future_simulations.py:252
+msgid ""
+"You aren't a mod in the bot's support server! You can't run this command."
+" If simulations are actually broken, ask a mod in the bot's support "
+"server (find it via {0}) to run this command."
+msgstr ""
+
+#: ../cogs/future_simulations.py:256
+msgid "This could take up to 60 seconds, please wait..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:257
+msgid "Stopping simulation runners..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:266
+msgid "Stopping broken process pools..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:269
+msgid "Waiting 20 seconds for the final tasks to stop..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:271
+msgid "Destroying pools..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:274
+msgid "Creating new pools..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:277
+msgid "Starting up simulation runners..."
+msgstr ""
+
+#: ../cogs/future_simulations.py:280
+msgid "Restarted pool sucessfully!"
+msgstr ""
+
+#: ../cogs/future_simulations.py:287
+msgid ""
+"Simulation results are very inaccurate after 157 days. I have set the "
+"simulation length to 157 days."
+msgstr ""
+
+#: ../cogs/future_simulations.py:292
+msgid "Set simulation length to {0} days."
 msgstr ""
 
 #: ../cogs/graphs.py:19
-msgid "Couldn't find that name. Try again, or use `{prefix}list` for help."
+msgid "Couldn't find that name. Try again, or use `{0}list` for help."
 msgstr ""
 
 #: ../cogs/graphs.py:30
@@ -539,7 +700,7 @@ msgid ""
 msgstr ""
 
 #: ../cogs/graphs.py:44
-msgid "Timed out. Request a new message with `{prefix}graphs`"
+msgid "Timed out. Request a new message with `{0}graphs`"
 msgstr ""
 
 #: ../cogs/graphs.py:47
@@ -550,10 +711,30 @@ msgstr ""
 msgid "Graph for {location}"
 msgstr ""
 
-#: ../cogs/maps.py:41
+#: ../cogs/maps.py:31
+msgid "Map Types"
+msgstr ""
+
+#: ../cogs/maps.py:32
+msgid "Use one of these map types when running `{0}maps show <name>`."
+msgstr ""
+
+#: ../cogs/maps.py:47
 msgid ""
-"I don't know what map you're looking for! Run `{ctx.prefix}maps types` to"
-" see all the maps I can show you!"
+"I don't know what map you're looking for! Run `{0}maps types` to see all "
+"the maps I can show you!"
+msgstr ""
+
+#: ../cogs/maps.py:50
+msgid "Map for {0}"
+msgstr ""
+
+#: ../cogs/maps.py:59
+msgid "Updating maps..."
+msgstr ""
+
+#: ../cogs/maps.py:61
+msgid "Done!"
 msgstr ""
 
 #: ../cogs/permissions_commands.py:51
@@ -569,83 +750,237 @@ msgid "Details of permissions hierarchy"
 msgstr ""
 
 #: ../cogs/permissions_commands.py:62
-msgid "{sign} Default (from {sign}{by})"
+msgid "{0} Default (from {0}{1})"
 msgstr ""
 
 #: ../cogs/permissions_commands.py:77
-msgid "{sign} Guild role {role} (from {sign}{by})"
+msgid "{0} Guild role {1} (from {0}{2})"
 msgstr ""
 
-#: ../cogs/permissions_commands.py:88
-msgid "{sign} Channel role {role} (from {sign}{by})"
+#: ../cogs/permissions_commands.py:87
+msgid "{0} Channel role {1} (from {0}{2})"
 msgstr ""
 
-#: ../cogs/permissions_commands.py:95
-msgid "{sign} Member (from {sign}{by})"
+#: ../cogs/permissions_commands.py:94
+msgid "{0} Member (from {0}{1})"
 msgstr ""
 
-#: ../cogs/permissions_commands.py:102
-msgid "{sign} Fixed (from {sign}{by})"
+#: ../cogs/permissions_commands.py:100
+msgid "{0} Fixed (from {0}{1})"
 msgstr ""
 
-#: ../cogs/permissions_commands.py:109
-msgid "{sign} User (from {sign}{by})"
+#: ../cogs/permissions_commands.py:107
+msgid "{0} User (from {0}{1})"
 msgstr ""
 
-#: ../cogs/permissions_commands.py:132 ../cogs/permissions_commands.py:163
-msgid "**{role} permissions**"
+#: ../cogs/permissions_commands.py:130 ../cogs/permissions_commands.py:161
+#: ../cogs/permissions_commands.py:188
+msgid "**{0} permissions**"
 msgstr ""
 
-#: ../cogs/permissions_commands.py:142
+#: ../cogs/permissions_commands.py:140
 msgid "There are no specific permissions set in this guild."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:173
+#: ../cogs/permissions_commands.py:171
 msgid "There are no specific permissions set in this channel."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:190
-msgid "**{member.name}#{member.discriminator} permissions**"
-msgstr ""
-
-#: ../cogs/permissions_commands.py:198
+#: ../cogs/permissions_commands.py:196
 msgid "There are no specific permissions for this member."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:222
-msgid ""
-"👌 Permission {permission} for user {user.name}#{user.discriminator} has "
-"been set to {value} globally."
+#: ../cogs/permissions_commands.py:221
+msgid "👌 Permission {0} for user {1} has been set to {2} globally."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:239
-msgid ""
-"👌 Permission {permission} for member {member.name}#{member.discriminator}"
-" has been set to {value} globally."
+#: ../cogs/permissions_commands.py:237
+msgid "👌 Permission {0} for member {1} has been set to {2} globally."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:253
+#: ../cogs/permissions_commands.py:251
 msgid "❌ Can't set permissions in a channel that is not in this guild."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:257 ../cogs/permissions_commands.py:283
+#: ../cogs/permissions_commands.py:255 ../cogs/permissions_commands.py:281
 msgid "❌ Can't set permissions for a role that does not exist in this guild."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:270
-msgid ""
-"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set"
-" to {value} in this channel."
+#: ../cogs/permissions_commands.py:268
+msgid "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this channel."
 msgstr ""
 
-#: ../cogs/permissions_commands.py:296
-msgid ""
-"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set"
-" to {value} in this guild."
+#: ../cogs/permissions_commands.py:294
+msgid "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this guild."
 msgstr ""
 
-#: ../cogs/utils.py:82
-msgid "Pong. — Time taken: {milliseconds}ms"
+#: ../cogs/suggestions.py:31
+msgid "Failed to send suggestion due to a Discord error. Try again."
+msgstr ""
+
+#: ../cogs/suggestions.py:33
+msgid "Sent suggestion successfully."
+msgstr ""
+
+#: ../cogs/support_server_commands.py:91
+msgid "The bot is not yet sharded."
+msgstr ""
+
+#: ../cogs/support_server_commands.py:100
+msgid "•\t Shard ID {0}: {1}ms"
+msgstr ""
+
+#: ../cogs/support_server_commands.py:102
+msgid " (ready)"
+msgstr ""
+
+#: ../cogs/support_server_commands.py:104
+msgid " This is the current shard"
+msgstr ""
+
+#: ../cogs/support_server_commands.py:107
+msgid ""
+"\n"
+"```\n"
+"\n"
+"Avg latency: {0}ms"
+msgstr ""
+
+#: ../cogs/support_server_commands.py:109
+msgid " (bot ready)"
+msgstr ""
+
+#: ../cogs/utils.py:19
+msgid "Credits"
+msgstr ""
+
+#: ../cogs/utils.py:28
+msgid "current bot version: v5.2.0"
+msgstr ""
+
+#: ../cogs/utils.py:29
+msgid "v3+ Creator"
+msgstr ""
+
+#: ../cogs/utils.py:30
+msgid "Original Creator"
+msgstr ""
+
+#: ../cogs/utils.py:31
+msgid "Bot Framework"
+msgstr ""
+
+#: ../cogs/utils.py:32
+msgid "Moral Support"
+msgstr ""
+
+#: ../cogs/utils.py:33
+msgid "API Providers"
+msgstr ""
+
+#: ../cogs/utils.py:34
+msgid "discord.py Devs"
+msgstr ""
+
+#: ../cogs/utils.py:40
+msgid "Invite Links"
+msgstr ""
+
+#: ../cogs/utils.py:42
+msgid "Bot Invite Link"
+msgstr ""
+
+#: ../cogs/utils.py:43
+msgid "Discord Server Invite Link"
+msgstr ""
+
+#: ../cogs/utils.py:61
+msgid ""
+"I seem to be having issues, apparently I can't find the channel you ran "
+"that command in! Please try again."
+msgstr ""
+
+#: ../cogs/utils.py:66
+msgid "Pong. — Time taken: {0}ms"
+msgstr ""
+
+#: ../cogs/utils.py:73
+msgid "Calling `self.bot.async_setup()`..."
+msgstr ""
+
+#: ../cogs/utils.py:75
+msgid "Bot has been setup!"
+msgstr ""
+
+#: ../cogs/utils.py:79
+msgid "Vote Sites"
+msgstr ""
+
+#: ../cogs/utils.py:80
+msgid ""
+"Voting for the bot gives it more visibility, which means it ends up in "
+"more servers, giving me (the dev) more incentive to add more features!\n"
+"If you want a specific feature, let me know with the `/suggest` command!"
+msgstr ""
+
+#: ../cogs/utils.py:91
+msgid "**DO NOT disable adblockers!**"
+msgstr ""
+
+#: ../cogs/vaccine.py:19
+msgid "{0}: {1} candidates\n"
+msgstr ""
+
+#: ../cogs/vaccine.py:20
+msgid "Vaccine Updates"
+msgstr ""
+
+#: ../cogs/vaccine.py:21
+msgid ""
+"(For more details, run `{0}help vaccine`)\n"
+"There are a total of **{1} vaccine candidates**.\n"
+"__**Phases**__\n"
+"{2}"
+msgstr ""
+
+#: ../cogs/vaccine.py:25 ../cogs/vaccine.py:57 ../cogs/vaccine.py:88
+#: ../utils/embeds.py:44
+msgid "Last updated at"
+msgstr ""
+
+#: ../cogs/vaccine.py:35
+msgid "Vaccine Candidates"
+msgstr ""
+
+#: ../cogs/vaccine.py:36
+msgid ""
+"To get more details on a vaccine candidate, run `{0}vaccine details <id>`"
+"\n"
+"The ID of any given candidate is under the name."
+msgstr ""
+
+#: ../cogs/vaccine.py:68
+msgid "That isn't a valid vaccine ID! View all the IDs in {0}!"
+msgstr ""
+
+#: ../cogs/vaccine.py:74
+msgid "Description is too long! Download the attachment to see it!"
+msgstr ""
+
+#: ../cogs/vaccine.py:78
+msgid "Mechanism"
+msgstr ""
+
+#: ../cogs/vaccine.py:82
+msgid "Sponsors"
+msgstr ""
+
+#: ../cogs/vaccine.py:83
+msgid "Phase"
+msgstr ""
+
+#: ../cogs/vaccine.py:87
+msgid "Institutions"
 msgstr ""
 
 #: ../utils/embeds.py:30 ../utils/embeds.py:53
@@ -674,10 +1009,6 @@ msgstr ""
 
 #: ../utils/embeds.py:41
 msgid "{0} (could also have no data)"
-msgstr ""
-
-#: ../utils/embeds.py:44
-msgid "Last updated at"
 msgstr ""
 
 #: ../utils/embeds.py:54
