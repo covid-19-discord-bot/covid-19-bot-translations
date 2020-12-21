@@ -82,8 +82,8 @@ msgstr "❌ Vous n'avez pas d'ensemble de mise à jour automatique ici !"
 msgid "✅ Forcing a update sometime in the next minute."
 msgstr "✅ Forcer une mise à jour dans la minute qui suit."
 
-msgid "✅ Next update: {htd}"
-msgstr "✅ Prochaine mise à jour : {htd}"
+msgid "✅ Next update: {0}"
+msgstr ""
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
@@ -120,42 +120,126 @@ msgstr ""
 msgid "Didn't find any continents with that name!"
 msgstr "Je n'ai trouvé aucun continent portant ce nom !"
 
-msgid "Use the `{prefix}covid world` command instead."
-msgstr "Utilisez plutôt la commande `{prefix}covid world`."
+msgid "Use the `{0}covid world` command instead."
+msgstr ""
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
-"searching for the name with `{prefix}list country`.\n"
-"Hint: if you're looking for North or South Korea, try `{prefix}covid KP` or "
-"`{prefix}covid KR` for North and South Korea, respectively!"
+"searching for the name with `{0}list country`.\n"
+"Hint: if you're looking for North or South Korea, try `{0}covid KP` or "
+"`{0}covid KR` for North and South Korea, respectively!"
 msgstr ""
-"Vous n'avez pas trouvé de pays portant ce nom, ou le pays n'a pas de cas ! "
-"Essayez de rechercher le nom avec le `{préfixe}liste des pays`.\n"
-"Conseil : si vous cherchez la Corée du Nord ou du Sud, essayez "
-"`{préfix}covid KP` ou `{préfix}covid KR` pour la Corée du Nord et du Sud, "
-"respectivement !"
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
-"searching for the name with `{prefix}list country`."
+"searching for the name with `{0}list country`."
 msgstr ""
-"Vous n'avez pas trouvé de pays portant ce nom, ou le pays n'a pas de cas ! "
-"Essayez de rechercher le nom avec le `{préfixe}liste des pays`."
+
+msgid "You've used a incorrect command: try `{0}covid {1}`"
+msgstr ""
+
+msgid "You haven't split the country name and province with a `; `!"
+msgstr ""
 
 msgid ""
-"You've used a incorrect command: try `{ctx.prefix}covid {country_test[0]}`"
+"You've placed too many `; ` in your message! You can use only one to split "
+"the country and province names! For help, run `{0}help covid province`!"
 msgstr ""
-"Vous avez utilisé une commande incorrecte : essayez `{ctx.prefix}covid "
-"{country_test[0]}``"
 
-msgid "The server prefix is set to `{prefix}`."
-msgstr "Le préfixe du serveur est fixé à `{prefix}`."
+msgid ""
+"Couldn't find a country with that ID (`/list` for a list of IDs) or the "
+"country has no cases!"
+msgstr ""
+
+msgid ""
+"Couldn't find a province with that name! If you're looking for US states, "
+"see the `{0}covid states` command."
+msgstr ""
+
+msgid ""
+"Something went wrong, I can't find today's stats! I'm currently trying to "
+"find stats for {0}!"
+msgstr ""
+
+msgid "You need to specify a US state! For a list, run `{0}list states`."
+msgstr ""
+
+msgid "Didn't find a state with that name! For a list, run `{0}list states`."
+msgstr ""
+
+msgid "That isn't a state! Try the `{0}covid {1}` command."
+msgstr ""
+
+msgid ""
+"I can't send the entire country list: it's over Discord's 6,000 character "
+"limit! Try `{0}{1} <letter>` to get only countries starting with `<letter>`."
+msgstr ""
+
+msgid ""
+"Whatever you have requested, it is over 6,000 characters. I can send a text "
+"file, however. React with 📔 any time in the next 15 seconds to be DMed a "
+"text file instead of a embed."
+msgstr ""
+
+msgid "Timed out."
+msgstr ""
+
+msgid "Sent you a DM!"
+msgstr ""
+
+msgid "DMed a list to you!"
+msgstr ""
+
+msgid "List of {0}"
+msgstr ""
+
+msgid "Use `{0}covid {1} <name>` when getting stats for a {1}!"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "List of American States"
+msgstr ""
+
+msgid ""
+"Use the `{0}covid states <name>` command when getting stats for `<name>`!"
+msgstr ""
+
+msgid ""
+"The page number you have selected is not between 1 and {0}. Please try again."
+""
+msgstr ""
+
+msgid "Page {0} of {1}"
+msgstr ""
+
+msgid "To go to the next page, run `{0}{1} {2} {3}`"
+msgstr ""
+
+msgid "Incorrect Top List Type"
+msgstr ""
+
+msgid "Try sorting with one of the following:"
+msgstr ""
+
+msgid "Top List"
+msgstr ""
+
+msgid "Run `{0}help top` for a list of all possible sorts!"
+msgstr ""
+
+msgid "{0}: {1}"
+msgstr ""
+
+msgid "The server prefix is set to `{0}`."
+msgstr ""
 
 msgid "There is no specific prefix set for this guild."
 msgstr "Il n'y a pas de préfixe spécifique pour cette guilde."
 
-msgid "The server language is now set to `{language}`."
-msgstr "La langue du serveur est maintenant réglée sur `{langue}`."
+msgid "The server language is now set to `{0}`."
+msgstr ""
 
 msgid "There is no specific language set for this guild."
 msgstr "Il n'existe pas de langue spécifique pour cette guilde."
@@ -188,79 +272,51 @@ msgstr "Clé API révoquée/supprimée."
 msgid "DMed your new API key to you."
 msgstr "Vous avez reçu votre nouvelle clé API."
 
-msgid "Disabled the API for {name}."
-msgstr "Désactivation de l'API pour {nom}."
+msgid "Disabled the API for {0}."
+msgstr ""
 
 msgid ""
-"There was an error converting one of your arguments with {exception."
-"converter}. The correct syntax would be `{command_invoke_help}`. The "
-"converter returned the following error: {original}"
+"There was an error converting one of your arguments with {0}. The correct "
+"syntax would be `{1}`. The converter returned the following error: {2}"
 msgstr ""
-"Il y a eu une erreur de conversion d'un de vos arguments avec {exception."
-"converter}. La syntaxe correcte serait `{command_invoke_help}`. Le "
-"convertisseur a renvoyé l'erreur suivante : {original}"
 
 msgid ""
-"This command is missing an argument. The correct syntax would be "
-"`{command_invoke_help}`."
+"This command is missing an argument. The correct syntax would be `{0}`."
 msgstr ""
-"Il manque un argument à cette commande. La syntaxe correcte serait "
-"`{command_invoke_help}`."
 
 msgid ""
 "Too many quotes were provided in your message: don't forget to escape your "
-"quotes like this `\\{exception.quote}`. The correct syntax for the command "
-"is `{command_invoke_help}`."
+"quotes like this `\\{0}`. The correct syntax for the command is `{1}`."
 msgstr ""
-"Trop de citations ont été fournies dans votre message : n'oubliez pas "
-"d'échapper à vos citations comme ceci `\\{exception.quote}`. La syntaxe "
-"correcte de la commande est `{command_invoke_help}`."
 
 msgid ""
-"A space was expected after a closing quote, but I found {exception.char}. "
-"Please check that you are using the correct syntax: `{command_invoke_help}`."
+"A space was expected after a closing quote, but I found {0}. Please check "
+"that you are using the correct syntax: `{1}`."
 msgstr ""
-"Un espace était attendu après une citation finale, mais j'ai trouvé "
-"{exception.char}. Veuillez vérifier que vous utilisez la syntaxe correcte : "
-"`{command_invoke_help}`."
 
 msgid ""
 "A closing quote was expected, but wasn't found. Don't forget to close your "
-"quotes with `{exception.close_quote}` at the end of your argument. Please "
-"check that you are using the correct syntax: `{command_invoke_help}`."
+"quotes with `{0}` at the end of your argument. Please check that you are "
+"using the correct syntax: `{1}`."
 msgstr ""
-"Une citation finale était attendue, mais elle n'a pas été trouvée. N'oubliez "
-"pas de terminer vos citations par `{exception.close_quote}` à la fin de "
-"votre argument. Vérifiez que vous utilisez la bonne syntaxe : "
-"`{command_invoke_help}`."
 
 msgid ""
 "Too many arguments were passed in this command. Please check that you are "
-"using the correct syntax: `{command_invoke_help}`."
+"using the correct syntax: `{0}`."
 msgstr ""
-"Trop d'arguments ont été passés dans cette commande. Veuillez vérifier que "
-"vous utilisez la syntaxe correcte : `{command_invoke_help}`."
 
 msgid ""
 "The way you are invoking this command is confusing me. The correct syntax "
-"would be `{command_invoke_help}`."
+"would be `{0}`."
 msgstr ""
-"La façon dont vous invoquez cet ordre me trouble. La syntaxe correcte serait "
-"`{command_invoke_help}`."
 
 msgid ""
-"An argument passed was incorrect. `{exception}`.Please check that you are "
-"using the correct syntax: `{command_invoke_help}`."
+"An argument passed was incorrect. `{0}`.Please check that you are using the "
+"correct syntax: `{command_invoke_help}`."
 msgstr ""
-"Un argument passé était incorrect. Veuillez vérifier que vous utilisez la "
-"bonne syntaxe : `{command_invoke_help}`."
 
-msgid ""
-"{exception} Please check that you are using the correct syntax: "
-"`{command_invoke_help}`."
+msgid "{0} Please check that you are using the correct syntax: `{1}`."
 msgstr ""
-"{exception} Veuillez vérifier que vous utilisez la bonne syntaxe : "
-"`{command_invoke_help}`."
 
 msgid "This command can only be used in a private message."
 msgstr "Cette commande ne peut être utilisée que dans un message privé."
@@ -268,49 +324,50 @@ msgstr "Cette commande ne peut être utilisée que dans un message privé."
 msgid "This command cannot be used in a private message."
 msgstr "Cette commande ne peut pas être utilisée dans un message privé."
 
-msgid ""
-"Multiple errors were encountered when running your command: {exception."
-"errors}"
+msgid "Multiple errors were encountered when running your command: {0}"
 msgstr ""
-"De multiples erreurs ont été rencontrées lors de l'exécution de votre "
-"commande : {exception.erreurs}"
 
 msgid "You need to be the owner of the bot to run that."
 msgstr "Vous devez être le propriétaire du bot pour le faire fonctionner."
 
+msgid "You are missing permissions to run this command. {0}"
+msgstr ""
+
+msgid "I am missing permissions to run this command. {0}"
+msgstr ""
+
+msgid "You are missing the following role: {0}"
+msgstr ""
+
+msgid "I am missing the following role: {0}"
+msgstr ""
+
+msgid "You are missing one of the following roles: {0}"
+msgstr ""
+
+msgid "I am missing one of the following roles: {0}"
+msgstr ""
+
 msgid "You need to be in a NSFW channel to run that."
 msgstr "Il faut être dans un canal de la NSFW pour le faire."
 
-msgid ""
-"You need to be in the {correct_guild.name} server (`{exception."
-"must_be_in_guild_id}`)."
+msgid "You need to be in the {0} server (`{1}`)."
 msgstr ""
-"Vous devez être dans le serveur {correct_guild.name} (`{exception."
-"must_be_in_guild_id}`)."
 
-msgid "You need to be in a server with ID {exception.must_be_in_guild_id}."
+msgid "You need to be in a server with ID {0}."
 msgstr ""
-"Vous devez être dans un serveur avec ID {exception.must_be_in_guild_id}."
 
-msgid "You have the `{exception.permission}` permission."
-msgstr "Vous avez la permission \"exception.permission\"."
-
-msgid "You need the `{exception.permission}` permission."
-msgstr "Vous avez besoin de la permission `{exception.permission}`."
-
-msgid ""
-"You have {exception.required} or more of the following permissions: "
-"`{exception.permissions}`."
+msgid "You have the `{0}` permission."
 msgstr ""
-"Vous avez {exception.required} ou plus des autorisations suivantes : "
-"{exception.permissions}`."
 
-msgid ""
-"You need {exception.required} or more of the following permissions: "
-"`{exception.permissions}`."
+msgid "You need the `{0}` permission."
 msgstr ""
-"Vous avez besoin d'au moins {exception.required} des autorisations suivantes "
-": {exception.permissions}`."
+
+msgid "You have {0} or more of the following permissions: `{1}`."
+msgstr ""
+
+msgid "You need {0} or more of the following permissions: `{1}`."
+msgstr ""
 
 msgid "The provided command was not found."
 msgstr "La commande fournie n'a pas été trouvée."
@@ -332,8 +389,34 @@ msgstr ""
 "Une erreur s'est produite lors de l'exécution de la commande spécifiée. "
 "Cette erreur a été enregistrée."
 
-msgid "You are being ratelimited. Please try again {some_time}."
-msgstr "On vous limite. Veuillez réessayer {quelques_fois}."
+msgid "You are being ratelimited. Please try again {0}."
+msgstr ""
+
+msgid "globally"
+msgstr ""
+
+msgid "per user"
+msgstr ""
+
+msgid "per guild"
+msgstr ""
+
+msgid "per channel"
+msgstr ""
+
+msgid "per member"
+msgstr ""
+
+msgid "per category"
+msgstr ""
+
+msgid "per role"
+msgstr ""
+
+msgid ""
+"Too many users are using this command. Only {0} users can use it at the same "
+"time {1}."
+msgstr ""
 
 msgid ""
 "Simulations have been disabled in this guild due to a missing permission. "
@@ -357,13 +440,141 @@ msgstr ""
 "Pour obtenir de l'aide, rejoignez le serveur d'assistance du bot à l'adresse "
 "{invite}"
 
-msgid "Didn't get a response. To try again, do `{prefix}{qn}`."
-msgstr "N'a pas reçu de réponse. Pour réessayer, faites le `{préfix}{qn}`."
-
-msgid "Couldn't find that name. Try again, or use `{prefix}list` for help."
+msgid "No message was defined. This error has been logged."
 msgstr ""
-"Je n'ai pas trouvé ce nom. Essayez à nouveau, ou utilisez `{prefix}list` "
-"pour obtenir de l'aide."
+
+msgid "Data for Day {0}"
+msgstr ""
+
+msgid ""
+"**WARNING**\n"
+"This is not a scientific modeling system by any means, this purely exists "
+"for entertainment purposes. For actual advice, refer to your medical "
+"specialist. By agreeing to these terms, you agree not to hold 0/0#0001 "
+"liable for anything stemming from the use of this modeling system. Type `ok` "
+"within 15 seconds to agree to these terms."
+msgstr ""
+
+msgid "Didn't get a response. To try again, do `{0}{1}`."
+msgstr ""
+
+msgid "I'll ping you when this is done, you can go do other stuff."
+msgstr ""
+
+msgid "Please wait, initializing..."
+msgstr ""
+
+msgid ""
+"You haven't set up your simulation! Run `{0}simulate setup` to set your sim "
+"up!"
+msgstr ""
+
+msgid "Submitting your item to be processed..."
+msgstr ""
+
+msgid "Waiting for next run of simulation processor, which will happen {0}."
+msgstr ""
+
+msgid "Simulation failed: ran out of memory: retry with smaller values."
+msgstr ""
+
+msgid ""
+"Simulation failed: had incorrect values passed to it: try with more "
+"reasonable values."
+msgstr ""
+
+msgid ""
+"Simulation failed: process running the simulation has failed: ask a mod in "
+"the bot's support server (find it via {0}) to run {1}."
+msgstr ""
+
+msgid ""
+"Simulation failed: had a unknown error: report ID ({0}) to 0/0#0001 to be "
+"fixed."
+msgstr ""
+
+msgid "Processed simulation!"
+msgstr ""
+
+msgid "Simulation Results"
+msgstr ""
+
+msgid ""
+"Navigate using `next` to view the next day's stats, `prev` to view the "
+"previous day's stats, `first` to jump to the first day (tomorrow), and "
+"`last` to jump to the last day in your simulation. Type a number to jump "
+"straight to that day. Type `exit` to exit the paginator (for example, if you "
+"want to modify sim data)."
+msgstr ""
+
+msgid "Total infections by end of simulation"
+msgstr ""
+
+msgid "Total recoveries by end of simulation"
+msgstr ""
+
+msgid "Total deaths by end of simulation"
+msgstr ""
+
+msgid "Your simulation is ready: it will be available for 15 minutes."
+msgstr ""
+
+msgid "Your simulation has timed out. Request a new one with `{0}{1}`."
+msgstr ""
+
+msgid ""
+"I now require the MANAGE MESSAGES permission. I've disabled this command "
+"until you give me this permission. If you'd prefer not to give me such a "
+"permission, the bot will still function, just with the simulation module "
+"disabled. Thanks in advance!"
+msgstr ""
+
+msgid "Internal bot error. Try again."
+msgstr ""
+
+msgid "Out of bounds."
+msgstr ""
+
+msgid ""
+"You aren't a mod in the bot's support server! You can't run this command. If "
+"simulations are actually broken, ask a mod in the bot's support server (find "
+"it via {0}) to run this command."
+msgstr ""
+
+msgid "This could take up to 60 seconds, please wait..."
+msgstr ""
+
+msgid "Stopping simulation runners..."
+msgstr ""
+
+msgid "Stopping broken process pools..."
+msgstr ""
+
+msgid "Waiting 20 seconds for the final tasks to stop..."
+msgstr ""
+
+msgid "Destroying pools..."
+msgstr ""
+
+msgid "Creating new pools..."
+msgstr ""
+
+msgid "Starting up simulation runners..."
+msgstr ""
+
+msgid "Restarted pool sucessfully!"
+msgstr ""
+
+msgid ""
+"Simulation results are very inaccurate after 157 days. I have set the "
+"simulation length to 157 days."
+msgstr ""
+
+msgid "Set simulation length to {0} days."
+msgstr ""
+
+msgid "Couldn't find that name. Try again, or use `{0}list` for help."
+msgstr ""
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
@@ -374,9 +585,8 @@ msgstr ""
 "Réagissez avec 📉 pour un graphique linéaire.\n"
 "Ce message expire au bout de 30 secondes."
 
-msgid "Timed out. Request a new message with `{prefix}graphs`"
+msgid "Timed out. Request a new message with `{0}graphs`"
 msgstr ""
-"Temporisé. Demande d'un nouveau message avec des graphes `{préférences}`"
 
 msgid "Please wait, this could take a few seconds..."
 msgstr "Veuillez patienter, cela pourrait prendre quelques secondes..."
@@ -384,12 +594,25 @@ msgstr "Veuillez patienter, cela pourrait prendre quelques secondes..."
 msgid "Graph for {location}"
 msgstr "Graphique pour {location}"
 
-msgid ""
-"I don't know what map you're looking for! Run `{ctx.prefix}maps types` to "
-"see all the maps I can show you!"
+msgid "Map Types"
 msgstr ""
-"Je ne sais pas quelle carte vous cherchez ! Lancez `{ctx.prefix}maps types` "
-"pour voir toutes les cartes que je peux vous montrer !"
+
+msgid "Use one of these map types when running `{0}maps show <name>`."
+msgstr ""
+
+msgid ""
+"I don't know what map you're looking for! Run `{0}maps types` to see all the "
+"maps I can show you!"
+msgstr ""
+
+msgid "Map for {0}"
+msgstr ""
+
+msgid "Updating maps..."
+msgstr ""
+
+msgid "Done!"
+msgstr ""
 
 msgid "😃 You have that permission."
 msgstr "😃 Vous avez cette autorisation."
@@ -400,26 +623,26 @@ msgstr "☹️ Vous n'avez pas cette autorisation."
 msgid "Details of permissions hierarchy"
 msgstr "Détails de la hiérarchie des autorisations"
 
-msgid "{sign} Default (from {sign}{by})"
-msgstr "{sign} Défaut (de {sign}{by})"
+msgid "{0} Default (from {0}{1})"
+msgstr ""
 
-msgid "{sign} Guild role {role} (from {sign}{by})"
-msgstr "{sign} Rôle de la guilde (de {sign}{by})"
+msgid "{0} Guild role {1} (from {0}{2})"
+msgstr ""
 
-msgid "{sign} Channel role {role} (from {sign}{by})"
-msgstr "{sign} Rôle de la chaîne {rôle} (de {sign}{by})"
+msgid "{0} Channel role {1} (from {0}{2})"
+msgstr ""
 
-msgid "{sign} Member (from {sign}{by})"
-msgstr "{sign} Membre (de {sign}{by})"
+msgid "{0} Member (from {0}{1})"
+msgstr ""
 
-msgid "{sign} Fixed (from {sign}{by})"
-msgstr "{sign} Corrigé (de {sign}{by})"
+msgid "{0} Fixed (from {0}{1})"
+msgstr ""
 
-msgid "{sign} User (from {sign}{by})"
-msgstr "{sign} Utilisateur (de {sign}{by})"
+msgid "{0} User (from {0}{1})"
+msgstr ""
 
-msgid "**{role} permissions**"
-msgstr "**{role} permissions**"
+msgid "**{0} permissions**"
+msgstr ""
 
 msgid "There are no specific permissions set in this guild."
 msgstr "Il n'y a pas d'autorisations spécifiques fixées dans cette guilde."
@@ -427,26 +650,14 @@ msgstr "Il n'y a pas d'autorisations spécifiques fixées dans cette guilde."
 msgid "There are no specific permissions set in this channel."
 msgstr "Il n'y a pas d'autorisations spécifiques fixées dans ce canal."
 
-msgid "**{member.name}#{member.discriminator} permissions**"
-msgstr "**{member.name}#{member.discriminator} permissions**"
-
 msgid "There are no specific permissions for this member."
 msgstr "Il n'y a pas d'autorisation spécifique pour ce membre."
 
-msgid ""
-"👌 Permission {permission} for user {user.name}#{user.discriminator} has "
-"been set to {value} globally."
+msgid "👌 Permission {0} for user {1} has been set to {2} globally."
 msgstr ""
-"👌 L'autorisation {permission} pour l'utilisateur {nom."
-"utilisateur}#{utilisateur.discriminateur} a été fixée à {valeur} globalement."
-""
 
-msgid ""
-"👌 Permission {permission} for member {member.name}#{member.discriminator} "
-"has been set to {value} globally."
+msgid "👌 Permission {0} for member {1} has been set to {2} globally."
 msgstr ""
-"👌 L'autorisation {permission} pour le membre {member.name}#{member."
-"discriminator} a été fixée à {valeur} globale."
 
 msgid "❌ Can't set permissions in a channel that is not in this guild."
 msgstr ""
@@ -459,21 +670,201 @@ msgstr ""
 "cette guilde."
 
 msgid ""
-"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
-"to {value} in this channel."
+"👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this channel."
 msgstr ""
-"👌 Permission {permission} pour le rôle {nom_du_rôle} [`{role_id}`] a été "
-"réglé sur {valeur} dans ce canal."
 
 msgid ""
-"👌 Permission {permission} for role {role_name} [`{role_id}`] has been set "
-"to {value} in this guild."
+"👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this guild."
 msgstr ""
-"👌 Permission {permission} pour le rôle {nom_du_rôle} [`{role_id}`] a été "
-"mis à {valeur} dans cette guilde."
 
-msgid "Pong. — Time taken: {milliseconds}ms"
-msgstr "Pong. - Temps nécessaire : ms"
+msgid "Failed to send suggestion due to a Discord error. Try again."
+msgstr ""
+
+msgid "Sent suggestion successfully."
+msgstr ""
+
+msgid "The bot is not yet sharded."
+msgstr ""
+
+msgid "•\t Shard ID {0}: {1}ms"
+msgstr ""
+
+msgid " (ready)"
+msgstr ""
+
+msgid " This is the current shard"
+msgstr ""
+
+msgid "\n"
+"```\n"
+"\n"
+"Avg latency: {0}ms"
+msgstr ""
+
+msgid " (bot ready)"
+msgstr ""
+
+msgid "Credits"
+msgstr ""
+
+msgid "current bot version: v5.2.0"
+msgstr ""
+
+msgid "v3+ Creator"
+msgstr ""
+
+msgid "Original Creator"
+msgstr ""
+
+msgid "Bot Framework"
+msgstr ""
+
+msgid "Moral Support"
+msgstr ""
+
+msgid "API Providers"
+msgstr ""
+
+msgid "discord.py Devs"
+msgstr ""
+
+msgid "Invite Links"
+msgstr ""
+
+msgid "Bot Invite Link"
+msgstr ""
+
+msgid "Discord Server Invite Link"
+msgstr ""
+
+msgid ""
+"I seem to be having issues, apparently I can't find the channel you ran that "
+"command in! Please try again."
+msgstr ""
+
+msgid "Pong. — Time taken: {0}ms"
+msgstr ""
+
+msgid "Calling `self.bot.async_setup()`..."
+msgstr ""
+
+msgid "Bot has been setup!"
+msgstr ""
+
+msgid "Vote Sites"
+msgstr ""
+
+msgid ""
+"Voting for the bot gives it more visibility, which means it ends up in more "
+"servers, giving me (the dev) more incentive to add more features!\n"
+"If you want a specific feature, let me know with the `/suggest` command!"
+msgstr ""
+
+msgid "**DO NOT disable adblockers!**"
+msgstr ""
+
+msgid "{0}: {1} candidates\n"
+msgstr ""
+
+msgid "Vaccine Updates"
+msgstr ""
+
+msgid ""
+"(For more details, run `{0}help vaccine`)\n"
+"There are a total of **{1} vaccine candidates**.\n"
+"__**Phases**__\n"
+"{2}"
+msgstr ""
+
+msgid "Last updated at"
+msgstr ""
+
+msgid "Vaccine Candidates"
+msgstr ""
+
+msgid ""
+"To get more details on a vaccine candidate, run `{0}vaccine details <id>`\n"
+"The ID of any given candidate is under the name."
+msgstr ""
+
+msgid "That isn't a valid vaccine ID! View all the IDs in {0}!"
+msgstr ""
+
+msgid "Description is too long! Download the attachment to see it!"
+msgstr ""
+
+msgid "Mechanism"
+msgstr ""
+
+msgid "Sponsors"
+msgstr ""
+
+msgid "Phase"
+msgstr ""
+
+msgid "Institutions"
+msgstr ""
+
+msgid "<:infected:775877435320565801> Total Cases"
+msgstr ""
+
+msgid "<:deaths:775877434687488030> Total Deaths"
+msgstr ""
+
+msgid "<:recovered:775877435089748008> Total Recoveries"
+msgstr ""
+
+msgid "Province Stats for {province} on {today}"
+msgstr ""
+
+msgid ""
+"Why such a small amount of data compared to country stats?\n"
+"Some provinces may report the same amount of data, but these provinces make "
+"up such a small amount of all provinces, meaning it's not worth it to try to "
+"show it for all of them."
+msgstr ""
+
+msgid "{0} (could also have no data)"
+msgstr ""
+
+msgid "New Cases"
+msgstr ""
+
+msgid "Cases per 1m People"
+msgstr ""
+
+msgid "<:active:775877437056614491> Active Cases"
+msgstr ""
+
+msgid "Active Case Change"
+msgstr ""
+
+msgid "Active Cases per 1m People"
+msgstr ""
+
+msgid "New Deaths"
+msgstr ""
+
+msgid "Deaths per 1m People"
+msgstr ""
+
+msgid "New Recoveries"
+msgstr ""
+
+msgid "Recovered per 1m People"
+msgstr ""
+
+msgid "<:tests:775877436075802676> Tests"
+msgstr ""
+
+msgid "Tests per 1m People"
+msgstr ""
+
+msgid "Critical Cases"
+msgstr ""
+
+msgid "Population"
+msgstr ""
 
 msgid "COVID-19 Stats for {name}"
 msgstr "Statistiques COVID-19 pour {nom}"
