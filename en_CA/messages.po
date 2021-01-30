@@ -1,81 +1,458 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: COVID-19 Bot v5.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-17 11:46-0700\n"
+"POT-Creation-Date: 2021-01-29 12:00-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Content-Type: text/plain; charset=UTF-8"
 
-#: ../cogs/autoupdater.py:62
+#: ../cogs/autoupdater.py:48
 msgid ""
-"❌ You already have a autoupdater set in this channel! Remove it with `/"
-"disable_updates` and try again!"
+"You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
-"❌ You already have a autoupdater set in this channel! Remove it with `/"
-"disable_updates` and try again!"
+"You need to vote for one of these special updaters! See `/vote` for details."
 
-#: ../cogs/autoupdater.py:75
-msgid "Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
-msgstr ""
-"Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
-
-#: ../cogs/autoupdater.py:83
+#: ../cogs/autoupdater.py:310
 msgid ""
-"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
-"check because you are a premium guild/user. <3 from 0/0#0001"
+"❌ Failed to find a state with that name! `/list` will show you a list of "
+"states and their names."
 msgstr ""
-"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
-"check because you are a premium guild/user. <3 from 0/0#0001"
+"❌ Failed to find a state with that name! `/list` will show you a list of "
+"states and their names."
 
-#: ../cogs/autoupdater.py:86
+#: ../cogs/autoupdater.py:316 ../cogs/autoupdater.py:491
+msgid "I found a {0} instead of a state! You can try `{1}` instead."
+msgstr "I found a {0} instead of a state! You can try `{1}` instead."
+
+#: ../cogs/autoupdater.py:368 ../cogs/autoupdater.py:415
+#: ../cogs/autoupdater.py:460 ../cogs/autoupdater.py:506
+msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
+msgstr "✅ Posting a {0} graph for {1} in this channel every {2}."
+
+#: ../cogs/autoupdater.py:369 ../cogs/autoupdater.py:416
+#: ../cogs/autoupdater.py:461 ../cogs/autoupdater.py:507
+msgid "logarithmic"
+msgstr "logarithmic"
+
+#: ../cogs/autoupdater.py:369 ../cogs/autoupdater.py:416
+#: ../cogs/autoupdater.py:461 ../cogs/autoupdater.py:507
+msgid "linear"
+msgstr "linear"
+
+#: ../cogs/autoupdater.py:439
+msgid "❌ Failed to find that province name!"
+msgstr "❌ Failed to find that province name!"
+
+#: ../cogs/autoupdater.py:445
+msgid "I found a {0} instead of a province! You can try `{1}` instead."
+msgstr "I found a {0} instead of a province! You can try `{1}` instead."
+
+#: ../cogs/autoupdater.py:485
+msgid "❌ Failed to find that state name! See {0} for help!"
+msgstr "❌ Failed to find that state name! See {0} for help!"
+
+#: ../cogs/covid.py:120
+msgid "Didn't find any provinces with that name!"
+msgstr "Didn't find any provinces with that name!"
+
+#: ../cogs/covid.py:124
+msgid "I found a {0} instead of a province! Use the {1} command instead."
+msgstr "I found a {0} instead of a province! Use the {1} command instead."
+
+#: ../cogs/database_commands.py:98
+msgid "Invalid action. It must be one of {0}."
+msgstr "Invalid action. It must be one of {0}."
+
+#: ../cogs/error_handling.py:213
 msgid ""
-"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
-"a premium guild.\n"
-"Hint: there's no point in setting it to less than 10 minutes due to the fact "
-"the stats updater only fires once every 10 minutes. If you really want to "
-"get a shorter delay (no point in doing so), check out the `/donate` command."
+"No data is available at the moment. Wait a few moments. **Spamming this "
+"command will result in a temporary ban!**"
 msgstr ""
-"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
-"a premium guild.\n"
-"Hint: there's no point in setting it to less than 10 minutes due to the fact "
-"the stats updater only fires once every 10 minutes. If you really want to "
-"get a shorter delay (no point in doing so), check out the `/donate` command."
+"No data is available at the moment. Wait a few moments. **Spamming this "
+"command will result in a temporary ban!**"
 
-#: ../cogs/autoupdater.py:128
-msgid "✅ Disabled autoupdates in this channel."
-msgstr "✅ Disabled autoupdates in this channel."
-
-#: ../cogs/autoupdater.py:130 ../cogs/autoupdater.py:139
-msgid "❌ You don't have a autoupdater set here!"
-msgstr "❌ You don't have a autoupdater set here!"
-
-#: ../cogs/error_handling.py:194
+#: ../cogs/error_handling.py:255
 msgid ""
-"There was an error running the specified command. This error has been logged."
-""
-msgstr ""
-"There was an error running the specified command. This error has been logged."
-""
-
-#: ../cogs/graphs.py:50
-msgid "Graph for {location}"
-msgstr "Graph for {location}"
-
-#: ../cogs/support_server_commands.py:104
-msgid " This is the current shard"
-msgstr " This is the current shard"
-
-#: ../cogs/support_server_commands.py:107
-msgid "\n"
-"```\n"
 "\n"
-"Avg latency: {0}ms"
-msgstr "\n"
-"```\n"
+"For help, join the bot's support server at {0}\n"
+"Check <https://discordstatus.com/> for more details on Discord issues."
+msgstr ""
 "\n"
-"Avg latency: {0}ms"
+"For help, join the bot's support server at {0}\n"
+"Check <https://discordstatus.com/> for more details on Discord issues."
+
+#: ../cogs/future_simulations.py:34
+msgid ""
+"Set up your simulation to default values. Edit them with the {0} commands."
+msgstr ""
+"Set up your simulation to default values. Edit them with the {0} commands."
+
+#: ../cogs/future_simulations.py:45
+msgid ""
+"ISO3 codes are always 3 characters long! If you're trying to get the world, "
+"try {0}."
+msgstr ""
+"ISO3 codes are always 3 characters long! If you're trying to get the world, "
+"try {0}."
+
+#: ../cogs/future_simulations.py:53
+msgid "Country name for simulation set to {0}."
+msgstr "Country name for simulation set to {0}."
+
+#: ../cogs/future_simulations.py:59
+msgid "3 years is the upper limit on simulation length."
+msgstr "3 years is the upper limit on simulation length."
+
+#: ../cogs/future_simulations.py:66
+msgid "Simulation time set to {0} days."
+msgstr "Simulation time set to {0} days."
+
+#: ../cogs/future_simulations.py:93
+msgid "Didn't get a response. To try again, do {0}."
+msgstr "Didn't get a response. To try again, do {0}."
+
+#: ../cogs/future_simulations.py:106
+msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
+msgstr ""
+"You haven't set up your simulation! Run {0} to set your simulation up!"
+
+#: ../cogs/future_simulations.py:109
+msgid "Running simulation..."
+msgstr "Running simulation..."
+
+#: ../cogs/future_simulations.py:117
+msgid ""
+"Invalid country name! Try again, making sure the ISO3 code you passed is "
+"correct! For the world, the code is {0}."
+msgstr ""
+"Invalid country name! Try again, making sure the ISO3 code you passed is "
+"correct! For the world, the code is {0}."
+
+#: ../cogs/future_simulations.py:124
+msgid "Results after {0} days"
+msgstr "Results after {0} days"
+
+#: ../cogs/future_simulations.py:125
+msgid ""
+"More features will be available later: join the support server for updates "
+"when new features are released!"
+msgstr ""
+"More features will be available later: join the support server for updates "
+"when new features are released!"
+
+#: ../cogs/future_simulations.py:127 ../utils/embeds.py:148
+msgid "Total Cases"
+msgstr "Total Cases"
+
+#: ../cogs/future_simulations.py:128 ../utils/embeds.py:151
+msgid "Total Deaths"
+msgstr "Total Deaths"
+
+#: ../cogs/future_simulations.py:130
+msgid "Took {0} seconds ({1}ns) to run."
+msgstr "Took {0} seconds ({1}ns) to run."
+
+#: ../cogs/graphs.py:37
+msgid ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 10 seconds."
+msgstr ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 10 seconds."
+
+#: ../cogs/graphs.py:73 ../utils/autoupdater.py:88
+msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
+msgstr "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
+
+#: ../cogs/graphs.py:103 ../cogs/graphs.py:123 ../cogs/graphs.py:144
+msgid ""
+"That isn't a valid name! Check out {0} for a list of all names I can get "
+"data for!"
+msgstr ""
+"That isn't a valid name! Check out {0} for a list of all names I can get "
+"data for!"
+
+#: ../cogs/graphs.py:106
+msgid "I found a {0} instead of a country!"
+msgstr "I found a {0} instead of a country!"
+
+#: ../cogs/graphs.py:127
+msgid "I found a {0} instead of a province! Try {1} instead."
+msgstr "I found a {0} instead of a province! Try {1} instead."
+
+#: ../cogs/graphs.py:148
+msgid "I found a {0} instead of a state! Try {1} instead."
+msgstr "I found a {0} instead of a state! Try {1} instead."
+
+#: ../cogs/help.py:29 ../cogs/help.py:77 ../cogs/help.py:79
+msgid "Help"
+msgstr "Help"
+
+#: ../cogs/help.py:63 ../cogs/help.py:68 ../cogs/help.py:79
+msgid "No help available."
+msgstr "No help available."
+
+#: ../cogs/help.py:83
+msgid "Aliases"
+msgstr "Aliases"
+
+#: ../cogs/help.py:90
+msgid "No command called {0} found."
+msgstr "No command called {0} found."
+
+#: ../cogs/help.py:95
+msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
+msgstr "Command \"{0.qualified_name}\" has no subcommand named {1}"
+
+#: ../cogs/help.py:96
+msgid "Command \"{0.qualified_name}\" has no subcommands."
+msgstr "Command \"{0.qualified_name}\" has no subcommands."
+
+#: ../cogs/help.py:100
+msgid "Error"
+msgstr "Error"
+
+#: ../cogs/maps.py:58
+msgid "The bot's still setting up, please wait up to 10 minutes."
+msgstr "The bot's still setting up, please wait up to 10 minutes."
+
+#: ../cogs/suggestions.py:23
+msgid "React to this message with 📥 within 10 seconds to send your reaction."
+msgstr ""
+"React to this message with 📥 within 10 seconds to send your reaction."
+
+#: ../utils/autoupdater.py:27
+msgid ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {0}"
+msgstr ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {0}"
+
+#: ../utils/bot_class.py:154
+msgid ""
+"Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
+"default prefix is `/`. This can be changed with `/settings prefix <new "
+"prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
+"commands, run `/help`."
+msgstr ""
+"Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
+"default prefix is `/`. This can be changed with `/settings prefix <new "
+"prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
+"commands, run `/help`."
+
+#: ../utils/embeds.py:150
+msgid "New Cases (7d avg)"
+msgstr "New Cases (7d avg)"
+
+#: ../utils/embeds.py:153
+msgid "New Deaths (7d avg)"
+msgstr "New Deaths (7d avg)"
+
+#: ../utils/embeds.py:154
+msgid "Total Cases per 1m"
+msgstr "Total Cases per 1m"
+
+#: ../utils/embeds.py:155
+msgid "New Cases per 1m"
+msgstr "New Cases per 1m"
+
+#: ../utils/embeds.py:156
+msgid "New Cases per 1m (7d avg)"
+msgstr "New Cases per 1m (7d avg)"
+
+#: ../utils/embeds.py:157
+msgid "Total Deaths per 1m"
+msgstr "Total Deaths per 1m"
+
+#: ../utils/embeds.py:158
+msgid "New Deaths per 1m"
+msgstr "New Deaths per 1m"
+
+#: ../utils/embeds.py:159
+msgid "New Deaths per 1m (7d avg)"
+msgstr "New Deaths per 1m (7d avg)"
+
+#: ../utils/embeds.py:160
+msgid "R-Value"
+msgstr "R-Value"
+
+#: ../utils/embeds.py:161
+msgid "Stringency Index"
+msgstr "Stringency Index"
+
+#: ../utils/embeds.py:165
+msgid "ICU Patients"
+msgstr "ICU Patients"
+
+#: ../utils/embeds.py:166
+msgid "ICU Patients per 1m"
+msgstr "ICU Patients per 1m"
+
+#: ../utils/embeds.py:167
+msgid "Hospitalized Patients"
+msgstr "Hospitalized Patients"
+
+#: ../utils/embeds.py:168
+msgid "Hospitalized Patients per 1m"
+msgstr "Hospitalized Patients per 1m"
+
+#: ../utils/embeds.py:169
+msgid "Weekly ICU Admissions"
+msgstr "Weekly ICU Admissions"
+
+#: ../utils/embeds.py:170
+msgid "Weekly ICU Admissions per 1m"
+msgstr "Weekly ICU Admissions per 1m"
+
+#: ../utils/embeds.py:171
+msgid "Weekly Hospital Admissions"
+msgstr "Weekly Hospital Admissions"
+
+#: ../utils/embeds.py:172
+msgid "Weekly Hospital Admissions per 1m"
+msgstr "Weekly Hospital Admissions per 1m"
+
+#: ../utils/embeds.py:176
+msgid "Total Tests"
+msgstr "Total Tests"
+
+#: ../utils/embeds.py:177
+msgid "New Tests"
+msgstr "New Tests"
+
+#: ../utils/embeds.py:178
+msgid "New Tests (7d avg)"
+msgstr "New Tests (7d avg)"
+
+#: ../utils/embeds.py:179
+msgid "Total Tests per 1k"
+msgstr "Total Tests per 1k"
+
+#: ../utils/embeds.py:180
+msgid "New Tests per 1k"
+msgstr "New Tests per 1k"
+
+#: ../utils/embeds.py:181
+msgid "New Tests per 1k (7d avg)"
+msgstr "New Tests per 1k (7d avg)"
+
+#: ../utils/embeds.py:182
+msgid "Tests Per Case"
+msgstr "Tests Per Case"
+
+#: ../utils/embeds.py:183
+msgid "Test Positivity Rate"
+msgstr "Test Positivity Rate"
+
+#: ../utils/embeds.py:187
+msgid "Total Vaccinations"
+msgstr "Total Vaccinations"
+
+#: ../utils/embeds.py:188
+msgid "Total Vaccinations per 100"
+msgstr "Total Vaccinations per 100"
+
+#: ../utils/embeds.py:189
+msgid "New Vaccinations"
+msgstr "New Vaccinations"
+
+#: ../utils/embeds.py:190
+msgid "New Vaccinations per 1m"
+msgstr "New Vaccinations per 1m"
+
+#: ../utils/embeds.py:195
+msgid "Population Density (km^2)"
+msgstr "Population Density (km^2)"
+
+#: ../utils/embeds.py:196
+msgid "Median Age"
+msgstr "Median Age"
+
+#: ../utils/embeds.py:197
+#, python-format
+msgid "% of population 65+"
+msgstr "% of population 65+"
+
+#: ../utils/embeds.py:198
+#, python-format
+msgid "% of population 70+"
+msgstr "% of population 70+"
+
+#: ../utils/embeds.py:199
+msgid "GDP per person (USD$)"
+msgstr "GDP per person (USD$)"
+
+#: ../utils/embeds.py:200
+#, python-format
+msgid "% in extreme poverty"
+msgstr "% in extreme poverty"
+
+#: ../utils/embeds.py:201
+msgid "Cardiovascular Event Death Rate"
+msgstr "Cardiovascular Event Death Rate"
+
+#: ../utils/embeds.py:202
+#, python-format
+msgid "% of population with diabetes"
+msgstr "% of population with diabetes"
+
+#: ../utils/embeds.py:203
+#, python-format
+msgid "% of women that smoke"
+msgstr "% of women that smoke"
+
+#: ../utils/embeds.py:204
+#, python-format
+msgid "% of men that smoke"
+msgstr "% of men that smoke"
+
+#: ../utils/embeds.py:205
+#, python-format
+msgid "% of the population with access to handwashing facilities"
+msgstr "% of the population with access to handwashing facilities"
+
+#: ../utils/embeds.py:206
+msgid "Hospital beds per 1,000 people"
+msgstr "Hospital beds per 1,000 people"
+
+#: ../utils/embeds.py:207
+msgid "Life expectancy"
+msgstr "Life expectancy"
+
+#: ../utils/embeds.py:208
+msgid "Human Development Index"
+msgstr "Human Development Index"
+
+#: ../utils/embeds.py:229
+msgid "COVID-19 Stats for {0}"
+msgstr "COVID-19 Stats for {0}"
+
+#: ../utils/embeds.py:240
+msgid "COVID-19 Hospital Stats for {0}"
+msgstr "COVID-19 Hospital Stats for {0}"
+
+#: ../utils/embeds.py:251
+msgid "COVID-19 Test Stats for {0}"
+msgstr "COVID-19 Test Stats for {0}"
+
+#: ../utils/embeds.py:262
+msgid "COVID-19 Vaccination Stats for {0}"
+msgstr "COVID-19 Vaccination Stats for {0}"
+
+#: ../utils/embeds.py:273
+msgid "General Stats for {0}"
+msgstr "General Stats for {0}"

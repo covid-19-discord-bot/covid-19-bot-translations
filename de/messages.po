@@ -1,71 +1,371 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: COVID-19 Bot v5.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-17 11:46-0700\n"
+"POT-Creation-Date: 2021-01-29 12:00-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Content-Type: text/plain; charset=UTF-8"
 
 msgid ""
-"❌ You already have a autoupdater set in this channel! Remove it with `/"
-"disable_updates` and try again!"
+"You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
-"❌ Sie haben bereits einen Autoupdater in diesem Kanal eingestellt! Entfernen "
-"Sie ihn mit `/disable_updates` und versuchen Sie es erneut!"
-
-msgid "Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
-msgstr ""
-"Aktion abgebrochen. Richten Sie einen neuen Autoupdater mit `/autoupdate "
-"<delay>` ein.</delay>"
+"Sie müssen für einen dieser speziellen Updater stimmen! Siehe `/vote` für "
+"Details."
 
 msgid ""
-"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
-"check because you are a premium guild/user. <3 from 0/0#0001"
+"❌ Failed to find a state with that name! `/list` will show you a list of "
+"states and their names."
 msgstr ""
-"Sie stellen den Autoupdater auf weniger als 10 Minuten Verzögerung ein. Ich "
-"überspringe die Prüfung, weil Sie eine Premium-Gilde/ein Premium-Benutzer "
-"sind. <3 from 0/0#0001"
+"❌ Es konnte kein Staat mit diesem Namen gefunden werden! `/list` zeigt Ihnen "
+"eine Liste von Staaten und deren Namen."
+
+msgid "I found a {0} instead of a state! You can try `{1}` instead."
+msgstr ""
+"Ich habe eine {0} anstelle eines Zustands gefunden! Sie können stattdessen "
+"`{1}` versuchen."
+
+msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
+msgstr "✅ Posten eines {0} Graphen für {1} in diesem Kanal alle {2}."
+
+msgid "logarithmic"
+msgstr "logarithmisch"
+
+msgid "linear"
+msgstr "linear"
+
+msgid "❌ Failed to find that province name!"
+msgstr "❌ Der Provinzname wurde nicht gefunden!"
+
+msgid "I found a {0} instead of a province! You can try `{1}` instead."
+msgstr ""
+"Ich habe eine {0} statt einer Provinz gefunden! Sie können stattdessen `{1}` "
+"versuchen."
+
+msgid "❌ Failed to find that state name! See {0} for help!"
+msgstr ""
+"❌ Dieser Zustandsname konnte nicht gefunden werden! Siehe {0} für Hilfe!"
+
+msgid "Didn't find any provinces with that name!"
+msgstr "Habe keine Provinzen mit diesem Namen gefunden!"
+
+msgid "I found a {0} instead of a province! Use the {1} command instead."
+msgstr ""
+"Ich habe eine {0} statt einer Provinz gefunden! Verwenden Sie stattdessen "
+"den Befehl {1}."
+
+msgid "Invalid action. It must be one of {0}."
+msgstr "Ungültige Aktion. Es muss eine von {0} sein."
 
 msgid ""
-"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
-"a premium guild.\n"
-"Hint: there's no point in setting it to less than 10 minutes due to the fact "
-"the stats updater only fires once every 10 minutes. If you really want to "
-"get a shorter delay (no point in doing so), check out the `/donate` command."
+"No data is available at the moment. Wait a few moments. **Spamming this "
+"command will result in a temporary ban!**"
 msgstr ""
-"❌ Sie können die Verzögerung des Autoupdaters nicht auf weniger als 10 "
-"Minuten einstellen, es sei denn, Sie sind eine Premium-Gilde.\n"
-"Hinweis: Es macht keinen Sinn, die Verzögerung auf weniger als 10 Minuten "
-"einzustellen, da der Statistik-Updater nur einmal alle 10 Minuten feuert. "
-"Wenn Sie wirklich eine kürzere Verzögerung haben wollen (was keinen Sinn "
-"macht), schauen Sie sich den Befehl `/donate` an."
-
-msgid "✅ Disabled autoupdates in this channel."
-msgstr "✅ Deaktivierte Autoupdates in diesem Kanal."
-
-msgid "❌ You don't have a autoupdater set here!"
-msgstr "❌ Sie haben hier keinen Autoupdater eingestellt!"
+"Im Moment sind keine Daten verfügbar. Warten Sie ein paar Augenblicke. "
+"**Spamming dieses Befehls führt zu einem temporären Bann!*"
 
 msgid ""
-"There was an error running the specified command. This error has been logged."
-""
-msgstr ""
-"Es ist ein Fehler bei der Ausführung des angegebenen Befehls aufgetreten. "
-"Dieser Fehler wurde protokolliert."
-
-msgid "Graph for {location}"
-msgstr "Graph für {Ort}"
-
-msgid " This is the current shard"
-msgstr ""
-
-msgid "\n"
-"```\n"
 "\n"
-"Avg latency: {0}ms"
+"For help, join the bot's support server at {0}\n"
+"Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"\n"
+"Wenn Sie Hilfe benötigen, treten Sie dem Support-Server des Bots unter {0} "
+"bei\n"
+"Unter <https://discordstatus.com/> finden Sie weitere Details zu Discord-"
+"Problemen."
+
+msgid ""
+"Set up your simulation to default values. Edit them with the {0} commands."
+msgstr ""
+"Richten Sie Ihre Simulation auf Standardwerte ein. Bearbeiten Sie sie mit "
+"den Befehlen {0}."
+
+msgid ""
+"ISO3 codes are always 3 characters long! If you're trying to get the world, "
+"try {0}."
+msgstr ""
+"ISO3-Codes sind immer 3 Zeichen lang! Wenn Sie versuchen, die Welt zu "
+"erhalten, versuchen Sie {0}."
+
+msgid "Country name for simulation set to {0}."
+msgstr "Ländername für Simulation auf {0} gesetzt."
+
+msgid "3 years is the upper limit on simulation length."
+msgstr "3 Jahre ist die Obergrenze für die Simulationsdauer."
+
+msgid "Simulation time set to {0} days."
+msgstr "Simulationszeit auf {0} Tage eingestellt."
+
+msgid "Didn't get a response. To try again, do {0}."
+msgstr ""
+"Sie haben keine Antwort erhalten. Um es erneut zu versuchen, tun Sie {0}."
+
+msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
+msgstr ""
+"Sie haben Ihre Simulation nicht eingerichtet! Führen Sie {0} aus, um Ihre "
+"Simulation einzurichten!"
+
+msgid "Running simulation..."
+msgstr "Laufende Simulation..."
+
+msgid ""
+"Invalid country name! Try again, making sure the ISO3 code you passed is "
+"correct! For the world, the code is {0}."
+msgstr ""
+"Ungültiger Ländername! Versuchen Sie es erneut und stellen Sie sicher, dass "
+"der übergebene ISO3-Code korrekt ist! Für die Welt lautet der Code {0}."
+
+msgid "Results after {0} days"
+msgstr "Ergebnisse nach {0} Tagen"
+
+msgid ""
+"More features will be available later: join the support server for updates "
+"when new features are released!"
+msgstr ""
+"Weitere Funktionen werden später verfügbar sein: Melden Sie sich auf dem "
+"Support-Server an, um Updates zu erhalten, wenn neue Funktionen "
+"veröffentlicht werden!"
+
+msgid "Total Cases"
+msgstr "Fälle insgesamt"
+
+msgid "Total Deaths"
+msgstr "Todesfälle insgesamt"
+
+msgid "Took {0} seconds ({1}ns) to run."
+msgstr "Die Ausführung dauerte {0} Sekunden ({1}ns)."
+
+msgid ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 10 seconds."
+msgstr ""
+"Reagieren Sie mit 📈 für einen logarithmischen Graphen.\n"
+"Reagieren Sie mit 📉 für einen linearen Graphen.\n"
+"Diese Meldung läuft nach 10 Sekunden ab."
+
+msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
+msgstr ""
+"Hat {0} Sekunden ({1} Nanosekunden) zum Erzeugen gebraucht - Cache-Status: "
+"{2}"
+
+msgid ""
+"That isn't a valid name! Check out {0} for a list of all names I can get "
+"data for!"
+msgstr ""
+"Das ist kein gültiger Name! Schauen Sie sich {0} für eine Liste aller Namen "
+"an, für die ich Daten bekommen kann!"
+
+msgid "I found a {0} instead of a country!"
+msgstr "Ich habe eine {0} anstelle eines Landes gefunden!"
+
+msgid "I found a {0} instead of a province! Try {1} instead."
+msgstr ""
+"Ich habe eine {0} statt einer Provinz gefunden! Versuchen Sie stattdessen "
+"{1}."
+
+msgid "I found a {0} instead of a state! Try {1} instead."
+msgstr ""
+"Ich habe eine {0} statt eines Zustands gefunden! Versuchen Sie stattdessen "
+"{1}."
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "No help available."
+msgstr "Keine Hilfe verfügbar."
+
+msgid "Aliases"
+msgstr "Aliasnamen"
+
+msgid "No command called {0} found."
+msgstr "Kein Befehl namens {0} gefunden."
+
+msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
+msgstr "Befehl \"{0.qualified_name}\" hat keinen Unterbefehl namens {1}"
+
+msgid "Command \"{0.qualified_name}\" has no subcommands."
+msgstr "Der Befehl \"{0.qualified_name}\" hat keine Unterbefehle."
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "The bot's still setting up, please wait up to 10 minutes."
+msgstr ""
+"Der Bot befindet sich noch im Aufbau, bitte warten Sie bis zu 10 Minuten."
+
+msgid "React to this message with 📥 within 10 seconds to send your reaction."
+msgstr ""
+"Reagieren Sie innerhalb von 10 Sekunden mit 📥 auf diese Nachricht, um Ihre "
+"Reaktion zu senden."
+
+msgid ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {0}"
+msgstr ""
+"Ich habe ein Problem mit der Suche nach dem Ländernamen hier! Hier ist, was "
+"ich zeige: {0}"
+
+msgid ""
+"Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
+"default prefix is `/`. This can be changed with `/settings prefix <new "
+"prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
+"commands, run `/help`."
+msgstr ""
+"Hallo zusammen! Ich bin ein Bot, der Live-Statistiken zur COVID-19-Pandemie "
+"liefert. Mein Standard-Präfix ist `/`. Dies kann mit `/settings <new "
+"prefix>prefix`</new> geändert werden <new prefix>, indem</new> man <new "
+"prefix>es <new prefix>durch das gewünschte Präfix</new> ersetzt <new prefix>."
+" Für eine Liste meiner Befehle, führen Sie `/help` aus.</new></new>"
+
+msgid "New Cases (7d avg)"
+msgstr "Neue Fälle (7d Durchschnitt)"
+
+msgid "New Deaths (7d avg)"
+msgstr "Neue Todesfälle (7d Durchschnitt)"
+
+msgid "Total Cases per 1m"
+msgstr "Gesamt Fälle pro 1m"
+
+msgid "New Cases per 1m"
+msgstr "Neue Fälle pro 1m"
+
+msgid "New Cases per 1m (7d avg)"
+msgstr "Neue Fälle pro 1 Mio. (7-Tage-Durchschnitt)"
+
+msgid "Total Deaths per 1m"
+msgstr "Total Todesfälle pro 1 Mio"
+
+msgid "New Deaths per 1m"
+msgstr "Neue Todesfälle pro 1 Mio"
+
+msgid "New Deaths per 1m (7d avg)"
+msgstr "Neue Todesfälle pro 1 Mio. (7d Durchschnitt)"
+
+msgid "R-Value"
+msgstr "R-Wert"
+
+msgid "Stringency Index"
+msgstr "Strengheitsindex"
+
+msgid "ICU Patients"
+msgstr "ICU-Patienten"
+
+msgid "ICU Patients per 1m"
+msgstr "ICU-Patienten pro 1m"
+
+msgid "Hospitalized Patients"
+msgstr "Krankenhauspatienten"
+
+msgid "Hospitalized Patients per 1m"
+msgstr "Hospitalisierte Patienten pro 1m"
+
+msgid "Weekly ICU Admissions"
+msgstr "Wöchentliche ICU-Aufnahmen"
+
+msgid "Weekly ICU Admissions per 1m"
+msgstr "Wöchentliche ICU-Aufnahmen pro 1m"
+
+msgid "Weekly Hospital Admissions"
+msgstr "Wöchentliche Krankenhauseinweisungen"
+
+msgid "Weekly Hospital Admissions per 1m"
+msgstr "Wöchentliche Krankenhauseinweisungen pro 1 Mio"
+
+msgid "Total Tests"
+msgstr "Tests insgesamt"
+
+msgid "New Tests"
+msgstr "Neue Tests"
+
+msgid "New Tests (7d avg)"
+msgstr "Neue Tests (7d Durchschnitt)"
+
+msgid "Total Tests per 1k"
+msgstr "Total Tests pro 1k"
+
+msgid "New Tests per 1k"
+msgstr "Neue Tests pro 1k"
+
+msgid "New Tests per 1k (7d avg)"
+msgstr "Neue Tests pro 1k (7d avg)"
+
+msgid "Tests Per Case"
+msgstr "Tests pro Fall"
+
+msgid "Test Positivity Rate"
+msgstr "Test Positivitätsrate"
+
+msgid "Total Vaccinations"
+msgstr "Impfungen insgesamt"
+
+msgid "Total Vaccinations per 100"
+msgstr "Impfungen insgesamt pro 100"
+
+msgid "New Vaccinations"
+msgstr "Neue Impfungen"
+
+msgid "New Vaccinations per 1m"
+msgstr "Neuimpfungen pro 1 Mio"
+
+msgid "Population Density (km^2)"
+msgstr "Bevölkerungsdichte (km^2)"
+
+msgid "Median Age"
+msgstr "Median Alter"
+
+msgid "% of population 65+"
+msgstr "% der Bevölkerung 65 "
+
+msgid "% of population 70+"
+msgstr "% der Bevölkerung 70 "
+
+msgid "GDP per person (USD$)"
+msgstr "BIP pro Person (USD$)"
+
+msgid "% in extreme poverty"
+msgstr "% in extremer Armut"
+
+msgid "Cardiovascular Event Death Rate"
+msgstr "Todesrate bei kardiovaskulären Ereignissen"
+
+msgid "% of population with diabetes"
+msgstr "% der Bevölkerung mit Diabetes"
+
+msgid "% of women that smoke"
+msgstr "% der Frauen, die rauchen"
+
+msgid "% of men that smoke"
+msgstr "% der Männer, die rauchen"
+
+msgid "% of the population with access to handwashing facilities"
+msgstr "% der Bevölkerung mit Zugang zu Handwaschgelegenheiten"
+
+msgid "Hospital beds per 1,000 people"
+msgstr "Krankenhausbetten pro 1.000 Einwohner"
+
+msgid "Life expectancy"
+msgstr "Lebenserwartung"
+
+msgid "Human Development Index"
+msgstr "Index der menschlichen Entwicklung"
+
+msgid "COVID-19 Stats for {0}"
+msgstr "COVID-19 Statistik für {0}"
+
+msgid "COVID-19 Hospital Stats for {0}"
+msgstr "COVID-19 Krankenhausstatistik für {0}"
+
+msgid "COVID-19 Test Stats for {0}"
+msgstr "COVID-19 Teststatistiken für {0}"
+
+msgid "COVID-19 Vaccination Stats for {0}"
+msgstr "COVID-19 Impfstatistik für {0}"
+
+msgid "General Stats for {0}"
+msgstr "Allgemeine Statistik für {0}"

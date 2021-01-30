@@ -1,56 +1,350 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: COVID-19 Bot v5.0.0\n"
+"Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-17 11:46-0700\n"
+"POT-Creation-Date: 2021-01-29 12:00-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 "Content-Type: text/plain; charset=UTF-8"
 
 msgid ""
-"❌ You already have a autoupdater set in this channel! Remove it with `/"
-"disable_updates` and try again!"
+"You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
-
-msgid "Action cancelled. Set up a new autoupdater with `/autoupdate <delay>`."
-msgstr ""
+"आप इन विशेष updaters में से एक के लिए वोट करने की जरूरत है! विवरण के लिए `/ "
+"वोट` देखें।"
 
 msgid ""
-"You're setting the autoupdater to less than 10 minutes delay. I'll skip the "
-"check because you are a premium guild/user. <3 from 0/0#0001"
+"❌ Failed to find a state with that name! `/list` will show you a list of "
+"states and their names."
 msgstr ""
+"❌ उस नाम के साथ एक राज्य खोजने में विफल! `/ सूची` आपको राज्यों और उनके नामों "
+"की सूची दिखाएगा।"
+
+msgid "I found a {0} instead of a state! You can try `{1}` instead."
+msgstr "मुझे एक राज्य के बजाय एक {0} मिला! आप इसके बजाय `{1}` आज़मा सकते हैं।"
+
+msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
+msgstr "{इस चैनल में {1} के लिए {0} ग्राफ हर {2} पोस्ट करना।"
+
+msgid "logarithmic"
+msgstr "लघुगणक"
+
+msgid "linear"
+msgstr "रेखीय"
+
+msgid "❌ Failed to find that province name!"
+msgstr "❌ उस प्रांत का नाम खोजने में विफल!"
+
+msgid "I found a {0} instead of a province! You can try `{1}` instead."
+msgstr "मुझे प्रांत के बजाय {0} मिला! आप इसके बजाय `{1}` आज़मा सकते हैं।"
+
+msgid "❌ Failed to find that state name! See {0} for help!"
+msgstr "❌ उस राज्य का नाम खोजने में विफल! मदद के लिए {0} देखें!"
+
+msgid "Didn't find any provinces with that name!"
+msgstr "उस नाम के साथ कोई प्रांत नहीं मिला!"
+
+msgid "I found a {0} instead of a province! Use the {1} command instead."
+msgstr "मुझे प्रांत के बजाय {0} मिला! इसके बजाय {1} कमांड का उपयोग करें।"
+
+msgid "Invalid action. It must be one of {0}."
+msgstr "अवैध कार्रवाई। यह {0} में से एक होना चाहिए।"
 
 msgid ""
-"❌ You can't set the autoupdater delay to less than 10 minutes unless you are "
-"a premium guild.\n"
-"Hint: there's no point in setting it to less than 10 minutes due to the fact "
-"the stats updater only fires once every 10 minutes. If you really want to "
-"get a shorter delay (no point in doing so), check out the `/donate` command."
+"No data is available at the moment. Wait a few moments. **Spamming this "
+"command will result in a temporary ban!**"
 msgstr ""
-
-msgid "✅ Disabled autoupdates in this channel."
-msgstr ""
-
-msgid "❌ You don't have a autoupdater set here!"
-msgstr ""
+"फिलहाल कोई डेटा उपलब्ध नहीं है। कुछ क्षण रुकिए। ** इस कमांड को स्पैम करने पर "
+"अस्थायी प्रतिबंध लगेगा! **"
 
 msgid ""
-"There was an error running the specified command. This error has been logged."
-""
-msgstr ""
-
-msgid "Graph for {location}"
-msgstr ""
-
-msgid " This is the current shard"
-msgstr ""
-
-msgid "\n"
-"```\n"
 "\n"
-"Avg latency: {0}ms"
+"For help, join the bot's support server at {0}\n"
+"Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"मदद के लिए, {0} चेक पर बॉट के सपोर्ट सर्वर से जुड़ें<https://discordstatus."
+"com/> त्याग के मुद्दों पर अधिक जानकारी के लिए।"
+
+msgid ""
+"Set up your simulation to default values. Edit them with the {0} commands."
+msgstr ""
+"अपने सिमुलेशन को डिफ़ॉल्ट मानों पर सेट करें। उन्हें {0} आदेशों के साथ "
+"संपादित करें।"
+
+msgid ""
+"ISO3 codes are always 3 characters long! If you're trying to get the world, "
+"try {0}."
+msgstr ""
+"ISO3 कोड हमेशा 3 वर्ण लंबे होते हैं! यदि आप दुनिया को पाने की कोशिश कर रहे "
+"हैं, तो {0} कोशिश करें।"
+
+msgid "Country name for simulation set to {0}."
+msgstr "सिमुलेशन के लिए देश का नाम {0} पर सेट करें।"
+
+msgid "3 years is the upper limit on simulation length."
+msgstr "3 साल सिमुलेशन लंबाई पर ऊपरी सीमा है।"
+
+msgid "Simulation time set to {0} days."
+msgstr "सिमुलेशन समय {0} दिनों के लिए सेट।"
+
+msgid "Didn't get a response. To try again, do {0}."
+msgstr "प्रतिक्रिया नहीं मिली। फिर से प्रयास करने के लिए, {0} करें।"
+
+msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
+msgstr ""
+"आपने अपना सिमुलेशन सेट नहीं किया है! अपना अनुकरण सेट करने के लिए {0} चलाएं!"
+
+msgid "Running simulation..."
+msgstr "सिमुलेशन चल रहा है ..."
+
+msgid ""
+"Invalid country name! Try again, making sure the ISO3 code you passed is "
+"correct! For the world, the code is {0}."
+msgstr ""
+"अमान्य देश का नाम! पुन: प्रयास करें, सुनिश्चित करें कि आपके द्वारा पास किया "
+"गया ISO3 कोड सही है! दुनिया के लिए, कोड {0} है।"
+
+msgid "Results after {0} days"
+msgstr "{0} दिनों के बाद परिणाम"
+
+msgid ""
+"More features will be available later: join the support server for updates "
+"when new features are released!"
+msgstr ""
+"अधिक सुविधाएँ बाद में उपलब्ध होंगी: नई सुविधाएँ जारी होने पर अपडेट के लिए "
+"समर्थन सर्वर से जुड़ें!"
+
+msgid "Total Cases"
+msgstr "कुल मामले"
+
+msgid "Total Deaths"
+msgstr "कुल मौतें"
+
+msgid "Took {0} seconds ({1}ns) to run."
+msgstr "चलाने के लिए {0} सेकंड ({1} ns) लिया।"
+
+msgid ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 10 seconds."
+msgstr ""
+"लॉगरिदमिक ग्राफ के लिए 📈 के साथ प्रतिक्रिया करें। एक रेखीय ग्राफ के लिए 📉 "
+"के साथ प्रतिक्रिया करें। यह संदेश 10 सेकंड के बाद समाप्त हो जाता है।"
+
+msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
+msgstr ""
+"• उत्पन्न करने के लिए {0} सेकंड ({1} नैनोसेकंड) लिया • कैश की स्थिति: {2}"
+
+msgid ""
+"That isn't a valid name! Check out {0} for a list of all names I can get "
+"data for!"
+msgstr ""
+"यह एक वैध नाम नहीं है! सभी नामों की सूची के लिए {0} देखें, जिनके लिए मुझे "
+"डेटा मिल सकता है!"
+
+msgid "I found a {0} instead of a country!"
+msgstr "मुझे देश के बजाय {0} मिला!"
+
+msgid "I found a {0} instead of a province! Try {1} instead."
+msgstr "मुझे प्रांत के बजाय {0} मिला! इसके बजाय {1} का प्रयास करें।"
+
+msgid "I found a {0} instead of a state! Try {1} instead."
+msgstr "मुझे एक राज्य के बजाय एक {0} मिला! इसके बजाय {1} का प्रयास करें।"
+
+msgid "Help"
+msgstr "मदद"
+
+msgid "No help available."
+msgstr "कोई सहायता उपलब्ध नहीं है।"
+
+msgid "Aliases"
+msgstr "उपनाम"
+
+msgid "No command called {0} found."
+msgstr "{0} नामक कोई कमांड नहीं मिली।"
+
+msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
+msgstr "\"{0.qualified_name}\" कमांड का कोई उप-नाम नहीं है जिसका नाम {1} है"
+
+msgid "Command \"{0.qualified_name}\" has no subcommands."
+msgstr "कमांड \"{0.quified_name}\" में कोई उप-क्षेत्र नहीं है।"
+
+msgid "Error"
+msgstr "त्रुटि"
+
+msgid "The bot's still setting up, please wait up to 10 minutes."
+msgstr "बॉट की अभी भी स्थापना हो रही है, कृपया 10 मिनट तक प्रतीक्षा करें।"
+
+msgid "React to this message with 📥 within 10 seconds to send your reaction."
+msgstr ""
+"अपनी प्रतिक्रिया भेजने के लिए 10 सेकंड के भीतर इस संदेश के साथ प्रतिक्रिया "
+"करें।"
+
+msgid ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {0}"
+msgstr ""
+"मुझे यहाँ देश का नाम खोजने के साथ एक समस्या हो रही है! यहाँ मैं दिखा रहा हूँ:"
+" {0}"
+
+msgid ""
+"Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
+"default prefix is `/`. This can be changed with `/settings prefix <new "
+"prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
+"commands, run `/help`."
+msgstr ""
+"नमस्ते! मैं COVID-19 महामारी पर लाइव आँकड़े देने के लिए एक बॉट हूँ। मेरा "
+"डिफ़ॉल्ट उपसर्ग `/` है। इसे `/ सेटिंग्स उपसर्ग के साथ बदला जा सकता है<new "
+"prefix> `, की जगह<new prefix> उपसर्ग के साथ आप चाहते हैं। मेरे आदेशों की "
+"सूची के लिए, `/ help` चलाएं।"
+
+msgid "New Cases (7d avg)"
+msgstr "नए मामले (7d औसत)"
+
+msgid "New Deaths (7d avg)"
+msgstr "नई मौतें (7d औसत)"
+
+msgid "Total Cases per 1m"
+msgstr "कुल मामलों प्रति 1 मी"
+
+msgid "New Cases per 1m"
+msgstr "नए मामले प्रति 1 मी"
+
+msgid "New Cases per 1m (7d avg)"
+msgstr "1 मी (7 डी एवीजी) पर नए मामले"
+
+msgid "Total Deaths per 1m"
+msgstr "कुल मृत्यु प्रति 1 मी"
+
+msgid "New Deaths per 1m"
+msgstr "नई मृत्यु प्रति 1 मी"
+
+msgid "New Deaths per 1m (7d avg)"
+msgstr "नई मृत्यु प्रति 1 मी (7 डी एवीजी)"
+
+msgid "R-Value"
+msgstr "आर-वैल्यू"
+
+msgid "Stringency Index"
+msgstr "स्ट्रिंग इंडेक्स"
+
+msgid "ICU Patients"
+msgstr "आईसीयू के मरीज"
+
+msgid "ICU Patients per 1m"
+msgstr "आईसीयू मरीजों को प्रति 1 मी"
+
+msgid "Hospitalized Patients"
+msgstr "अस्पताल में भर्ती मरीज"
+
+msgid "Hospitalized Patients per 1m"
+msgstr "अस्पताल में भर्ती मरीजों को प्रति 1 मी"
+
+msgid "Weekly ICU Admissions"
+msgstr "साप्ताहिक आईसीयू प्रवेश"
+
+msgid "Weekly ICU Admissions per 1m"
+msgstr "प्रति सप्ताह साप्ताहिक आईसीयू प्रवेश"
+
+msgid "Weekly Hospital Admissions"
+msgstr "साप्ताहिक अस्पताल प्रवेश"
+
+msgid "Weekly Hospital Admissions per 1m"
+msgstr "साप्ताहिक अस्पताल प्रवेश प्रति 1 मी"
+
+msgid "Total Tests"
+msgstr "कुल टेस्ट"
+
+msgid "New Tests"
+msgstr "नए टेस्ट"
+
+msgid "New Tests (7d avg)"
+msgstr "नए टेस्ट (7 डी एवीजी)"
+
+msgid "Total Tests per 1k"
+msgstr "कुल टेस्ट प्रति 1k"
+
+msgid "New Tests per 1k"
+msgstr "1k प्रति नए टेस्ट"
+
+msgid "New Tests per 1k (7d avg)"
+msgstr "1k प्रति नया टेस्ट (7d औसत)"
+
+msgid "Tests Per Case"
+msgstr "टेस्ट प्रति केस"
+
+msgid "Test Positivity Rate"
+msgstr "परीक्षण सकारात्मकता दर"
+
+msgid "Total Vaccinations"
+msgstr "कुल टीकाकरण"
+
+msgid "Total Vaccinations per 100"
+msgstr "कुल टीकाकरण प्रति 100"
+
+msgid "New Vaccinations"
+msgstr "नया टीकाकरण"
+
+msgid "New Vaccinations per 1m"
+msgstr "प्रति 1 मी नया टीकाकरण"
+
+msgid "Population Density (km^2)"
+msgstr "जनसंख्या घनत्व (किमी ^ 2)"
+
+msgid "Median Age"
+msgstr "मध्य आयु"
+
+msgid "% of population 65+"
+msgstr "जनसंख्या का% 65"
+
+msgid "% of population 70+"
+msgstr "जनसंख्या का% 70"
+
+msgid "GDP per person (USD$)"
+msgstr "प्रति व्यक्ति सकल घरेलू उत्पाद (USD $)"
+
+msgid "% in extreme poverty"
+msgstr "अति गरीबी में%"
+
+msgid "Cardiovascular Event Death Rate"
+msgstr "कार्डियोवस्कुलर इवेंट डेथ रेट"
+
+msgid "% of population with diabetes"
+msgstr "मधुमेह के साथ जनसंख्या का%"
+
+msgid "% of women that smoke"
+msgstr "% महिलाएं जो धूम्रपान करती हैं"
+
+msgid "% of men that smoke"
+msgstr "द% खकर द% ख"
+
+msgid "% of the population with access to handwashing facilities"
+msgstr "जनसंख्या का% हैंडवाशिंग सुविधाओं तक पहुंच के साथ"
+
+msgid "Hospital beds per 1,000 people"
+msgstr "प्रति 1,000 लोगों पर अस्पताल का बिस्तर"
+
+msgid "Life expectancy"
+msgstr "जीवन प्रत्याशा"
+
+msgid "Human Development Index"
+msgstr "मानव विकास सूची"
+
+msgid "COVID-19 Stats for {0}"
+msgstr "{0} के लिए COVID-19 आँकड़े"
+
+msgid "COVID-19 Hospital Stats for {0}"
+msgstr "COVID-19 अस्पताल के आँकड़े {0} के लिए"
+
+msgid "COVID-19 Test Stats for {0}"
+msgstr "{0} के लिए COVID-19 टेस्ट आँकड़े"
+
+msgid "COVID-19 Vaccination Stats for {0}"
+msgstr "{0} के लिए COVID-19 टीकाकरण आँकड़े"
+
+msgid "General Stats for {0}"
+msgstr "{0} के लिए सामान्य आँकड़े"

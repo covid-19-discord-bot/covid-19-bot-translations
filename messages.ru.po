@@ -15,22 +15,29 @@ msgid ""
 "You've used too many updaters! You've used {0} of your {1} updaters. Get "
 "more by voting on top.gg."
 msgstr ""
+"Ты использовал слишком много модификаторов! Вы использовали {0} ваших "
+"{1}обновителей. Получите больше, проголосовав на top.gg."
 
 msgid ""
 "❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
 "Anyways, that isn't allowed. Try again with a more reasonable delay."
 msgstr ""
+"❌ Вы действительно пытались установить задержку автообновления более чем на "
+"год? Эй. В любом случае, это не разрешено. Попробуй еще раз с более разумной "
+"задержкой."
 
 msgid ""
 "⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
 "this? To confirm, type `ok` within 15 seconds."
 msgstr ""
+"⚠ Вы устанавливаете задержку дольше, чем на 1 день! Ты уверен, что хочешь "
+"это сделать? Для подтверждения введите `ок` в течение 15 секунд."
 
 msgid "Action cancelled."
-msgstr ""
+msgstr "Действие отменяется."
 
 msgid "Continuing setup..."
-msgstr ""
+msgstr "Продолжающаяся настройка..."
 
 msgid ""
 "Hi there! Welcome to the COVID-19 Bot autoupdater interactive setup.\n"
@@ -39,190 +46,226 @@ msgid ""
 "2⃣: Updates for a continent.\n"
 "3⃣: Updates for a country."
 msgstr ""
+"Привет! Добро пожаловать на интерактивную установку автообновления бота "
+"COVID-19.\n"
+"Начнем. Выберите один из следующих вариантов.\n"
+"1⃣: Обновления для всего мира.\n"
+"2⃣: Обновления для континента.\n"
+"3⃣: Обновления для страны."
 
 msgid "Timed out."
-msgstr ""
+msgstr "Время вышло."
 
 msgid ""
 "Next, what update delay would you like? For example, 12h would do a update "
 "every 12 hours. Keep in mind any delays beyond 1 year will not work."
 msgstr ""
+"Далее, какая задержка обновления вам нужна? Например, каждые 12 часов "
+"обновление будет производиться каждые 12 часов. Помните, что любые задержки "
+"после 1 года не будут работать."
 
 msgid "Invalid time provided. Make sure it's in the correct format!"
 msgstr ""
+"Недопустимое время предоставлено. Убедитесь, что оно в правильном формате!"
 
 msgid ""
 "Finally, what country would you like to do a update for? Type the country's "
 "ISO2 code into chat."
 msgstr ""
+"Наконец, для какой страны вы хотели бы сделать обновление? Введите код "
+"страны ISO2 в чат."
 
 msgid "Didn't find a country name! Try again."
-msgstr ""
+msgstr "Не нашел названия страны! Попробуй еще раз."
 
 msgid ""
 "I found a {0} instead of a country! You can let this time out and try again."
 msgstr ""
+"Я нашел не страну, а страну! Ты можешь отпустить этот раз и попробовать еще "
+"раз."
 
 msgid ""
 "Finally, what continent would you like to do a update for? Type the "
 "continent name into chat."
 msgstr ""
+"Наконец, для какого континента вы хотели бы сделать обновление? Введите "
+"название континента в чат."
 
 msgid "Didn't find a continent name! Try again."
-msgstr ""
+msgstr "Не нашел названия континента! Попробуй еще раз."
 
 msgid ""
 "I found a {0} instead of a continent! You can let this time out and try "
 "again."
 msgstr ""
+"Я нашел не континент, а континент! Ты можешь отпустить этот раз и "
+"попробовать снова."
 
 msgid ""
 "❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
 "countries and their IDs."
 msgstr ""
+"❌ Не удалось получить код ISO2 для страны! `/список` покажет вам список "
+"стран и их ID."
 
 msgid "I found a {0} instead of a country! You can try `{1}` instead."
 msgstr ""
+"Я нашел не страну, а страну! Ты можешь попробовать {{1}}А вместо этого.{1}"
 
 msgid "✅ Posting stats for {0} in this channel every {1}."
-msgstr ""
+msgstr "✅ Размещение статистики {0} на этом канале каждый {1}."
 
 msgid ""
 "❌ Failed to get a continent name! {0} will show you a list of continents."
 msgstr ""
+"❌ Не удалось получить название континента! {0} покажет вам список "
+"континентов."
 
 msgid "❌ I found a {0} instead of a continent! You can try `{1}` instead."
 msgstr ""
+"❌ Я нашел {0} вместо континента! Ты можешь попробовать {{1}}А вместо этого."
+"{0}"
 
 msgid "❌ Must pass either {0} or a ID as a argument."
-msgstr ""
+msgstr "❌ В качестве аргумента должен быть передан либо {0}, либо ID."
 
 msgid "✅ Deleted all autoupdaters in this channel."
-msgstr ""
+msgstr "✅ Удалены все автообновители в этом канале."
 
 msgid "❌ No autoupdater with that ID found."
-msgstr ""
+msgstr "❌ Не найден автообновитель с этим идентификатором."
 
 msgid "✅ Deleted autoupdater with ID {0}."
-msgstr ""
+msgstr "✅ Удален автообновитель с идентификатором {0}."
 
 msgid "List of Updaters"
-msgstr ""
+msgstr "Список обновлений"
 
 msgid "To disable one of these updaters, run {0}, replacing {1} with the ID."
 msgstr ""
+"Чтобы отключить один из этих обновлятелей, запустите {0}, заменив {1} на ID."
 
 msgid "Country: {0}\n"
 "Delay: {1} seconds"
-msgstr ""
+msgstr "Страна: {0}\n"
+"Задержка: {1}секунды"
 
 msgid "None 😞"
-msgstr ""
+msgstr "Нет 😞"
 
 msgid "Add one with the {0} command!"
-msgstr ""
+msgstr "Добавь один с командой {0}!"
 
 msgid "❌ You don't have a autoupdater set here or the ID you sent is invalid!"
-msgstr ""
+msgstr "❌ Здесь нет автообновителя или отправленный вами ID недействителен!"
 
 msgid "✅ Forcing a update sometime in the next minute."
-msgstr ""
+msgstr "✅ Принудительное обновление в течение следующей минуты."
 
 msgid "✅ Next update: {0}"
-msgstr ""
+msgstr "✅ Следующее обновление: {0}"
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {trying}"
-msgstr ""
+msgstr "У меня проблема с поиском названия страны! Вот что я показываю: .."
 
 msgid "Stopping task..."
-msgstr ""
+msgstr "Останавливающее задание..."
 
 msgid "Task has been sent a stop signal. Waiting 10 seconds..."
-msgstr ""
+msgstr "Задача была отправлена сигнал остановки. Ждать 10 секунд..."
 
 msgid "Sending terminate signal..."
-msgstr ""
+msgstr "Отправка сигнала о прекращении..."
 
 msgid "Task has been killed. Starting now..."
-msgstr ""
+msgstr "Задание убито. Начиная с этого момента..."
 
 msgid "Task has been sent a start signal."
-msgstr ""
+msgstr "Задание было отправлено в стартовый сигнал."
 
 msgid "Task restarted!"
-msgstr ""
+msgstr "Задание перезапущено!"
 
 msgid "Credits"
-msgstr ""
+msgstr "Кредиты"
 
 msgid "current bot version: v5.2.0"
-msgstr ""
+msgstr "текущая версия бота: v5.2.0"
 
 msgid "v3+ Creator"
-msgstr ""
+msgstr "v3 Создатель"
 
 msgid "Original Creator"
-msgstr ""
+msgstr "оригинальный создатель"
 
 msgid "Bot Framework"
-msgstr ""
+msgstr "Бот-каркас"
 
 msgid "Moral Support"
-msgstr ""
+msgstr "моральная поддержка"
 
 msgid "API Providers"
-msgstr ""
+msgstr "поставщики API"
 
 msgid "discord.py Devs"
-msgstr ""
+msgstr "дискорда.пи Дева"
 
 msgid "Invite Links"
-msgstr ""
+msgstr "Приглашаем ссылки"
 
 msgid "Bot Invite Link"
-msgstr ""
+msgstr "Ссылка Bot Invite"
 
 msgid "Discord Server Invite Link"
-msgstr ""
+msgstr "Приглашающее звено сервера дискорда"
 
 msgid ""
 "I seem to be having issues, apparently I can't find the channel you ran that "
 "command in! Please try again."
 msgstr ""
+"Похоже, у меня проблемы, видимо, я не могу найти канал, на котором вы "
+"запустили эту команду! Пожалуйста, попробуйте еще раз."
 
 msgid "Pong. — Time taken: {0}ms"
-msgstr ""
+msgstr "Понг. - Время вышло: {0}ms"
 
 msgid "Calling `self.bot.async_setup()`..."
-msgstr ""
+msgstr "Вызов `самого себя.bot.async_setup()`...`..."
 
 msgid "Bot has been setup!"
-msgstr ""
+msgstr "Бот был подставлен!"
 
 msgid "Vote Sites"
-msgstr ""
+msgstr "Голосовые сайты"
 
 msgid ""
 "Voting for the bot gives it more visibility, which means it ends up in more "
 "servers, giving me (the dev) more incentive to add more features!\n"
 "If you want a specific feature, let me know with the `/suggest` command!"
 msgstr ""
+"Голосование за бота дает ему больше видимости, что означает, что он "
+"заканчивается в большем количестве серверов, давая мне (девчонке) больше "
+"стимула добавлять больше функций!\n"
+"Если вам нужна конкретная функция, дайте мне знать с помощью команды `/"
+"suggest`!"
 
 msgid "**DO NOT disable adblockers!**"
-msgstr ""
+msgstr "**Не отключайте рекламные блокираторы!*"
 
 msgid ""
 "A fatal error has happened! The world data seems to have gone missing. "
 "Please let a mod in the bot's support server know."
 msgstr ""
+"Произошла фатальная ошибка! Похоже, что мировые данные пропали. Пожалуйста, "
+"сообщите об этом модему на сервере поддержки бота."
 
 msgid "Didn't find any continents with that name!"
-msgstr ""
+msgstr "Не нашёл ни одного континента с таким названием!"
 
 msgid "Use the `{0}covid world` command instead."
-msgstr ""
+msgstr "Вместо этого используйте команду `{0}covid world`."
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
@@ -230,312 +273,381 @@ msgid ""
 "Hint: if you're looking for North or South Korea, try `{0}covid KP` or "
 "`{0}covid KR` for North and South Korea, respectively!"
 msgstr ""
+"Не нашла страну с таким названием, или у страны нет дел! Попробуйте поискать "
+"название с `{0} списком стран`.\n"
+"Подсказка: если вы ищете Северную или Южную Корею, попробуйте `{0}covid KP` "
+"или `{0}covid KR` для Северной и Южной Кореи, соответственно!"
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
 "searching for the name with `{0}list country`."
 msgstr ""
+"Не нашла страну с таким названием, или у страны нет дел! Попробуйте поискать "
+"название с `{0} списком стран`."
 
 msgid "You've used a incorrect command: try `{0}covid {1}`"
-msgstr ""
+msgstr "Вы использовали неверную команду: попробуйте {{0}covid {1}}"
 
 msgid "You haven't split the country name and province with a `; `!"
-msgstr ""
+msgstr "Вы не разделили название страны и провинции на `; ``!"
 
 msgid ""
 "You've placed too many `; ` in your message! You can use only one to split "
 "the country and province names! For help, run `{0}help covid province`!"
 msgstr ""
+"Ты поместил слишком много ``; `` в своё сообщение! Вы можете использовать "
+"только один, чтобы разделить названия стран и провинций! На помощь, бегите "
+"`{0}спасибо провинции ковидов`!"
 
 msgid ""
 "Couldn't find a country with that ID (`/list` for a list of IDs) or the "
 "country has no cases!"
 msgstr ""
+"Не удалось найти страну с таким удостоверением личности (`/список` для "
+"списка удостоверений личности) или страна не имеет случаев!"
 
 msgid ""
 "Couldn't find a province with that name! If you're looking for US states, "
 "see the `{0}covid states` command."
 msgstr ""
+"Не смог найти провинцию с таким именем! Если вы ищете штаты США, смотрите "
+"команду `{0}ковиды штатов`."
 
 msgid ""
 "Something went wrong, I can't find today's stats! I'm currently trying to "
 "find stats for {0}!"
 msgstr ""
+"Что-то пошло не так, я не могу найти сегодняшнюю статистику! Я сейчас "
+"пытаюсь найти статистику для {0}!"
 
 msgid "You need to specify a US state! For a list, run `{0}list states`."
 msgstr ""
+"Вам необходимо указать штат США! Чтобы получить список, запустите `{0}штаты "
+"списка`."
 
 msgid "Didn't find a state with that name! For a list, run `{0}list states`."
 msgstr ""
+"Не нашел штата с таким именем! Чтобы получить список, запустите `{0}штаты "
+"списка`."
 
 msgid "That isn't a state! Try the `{0}covid {1}` command."
-msgstr ""
+msgstr "Это не государство! Попробуй команду {0}Ковид {1}."
 
 msgid ""
 "I can't send the entire country list: it's over Discord's 6,000 character "
 "limit! Try `{0}{1} <letter>` to get only countries starting with `<letter>`."
 msgstr ""
+"Я не могу отправить весь список стран: он превысил лимит в 6000 символов "
+"Диссорда! Попробуйте `{0}{1} <letter>`чтобы получить только страны, начиная "
+"с ```<letter>.</letter></letter>"
 
 msgid ""
 "Whatever you have requested, it is over 6,000 characters. I can send a text "
 "file, however. React with 📔 any time in the next 15 seconds to be DMed a "
 "text file instead of a embed."
 msgstr ""
+"Что бы вы ни запросили, это более 6000 символов. Однако, я могу послать "
+"текстовый файл. Реагируйте с 📔 в любое время в течение следующих 15 секунд, "
+"чтобы быть DMed текстовый файл вместо встраиваемого."
 
 msgid "Sent you a DM!"
-msgstr ""
+msgstr "Отправил тебе DM!"
 
 msgid "DMed a list to you!"
-msgstr ""
+msgstr "Прислал тебе список!"
 
 msgid "List of {0}"
-msgstr ""
+msgstr "Список {0}"
 
 msgid "Use `{0}covid {1} <name>` when getting stats for a {1}!"
 msgstr ""
+"Используй {0}ковид {1} <name>{1}когда получаешь статистику за {1}!{\"i0}</"
+"name>"
 
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 msgid "List of American States"
-msgstr ""
+msgstr "Список американских государств"
 
 msgid ""
 "Use the `{0}covid states <name>` command when getting stats for `<name>`!"
 msgstr ""
+"Используйте <name>команду</name>`{0}covid states` <name>, когда получаете "
+"статистику по ```<name>!</name></name>"
 
 msgid ""
 "The page number you have selected is not between 1 and {0}. Please try again."
 ""
 msgstr ""
+"Номер страницы, который вы выбрали, не находится между 1 и {0}. Пожалуйста, "
+"повторите попытку."
 
 msgid "Page {0} of {1}"
-msgstr ""
+msgstr "Страница {0} of {1}"
 
 msgid "To go to the next page, run `{0}{1} {2} {3}`"
-msgstr ""
+msgstr "Чтобы перейти на следующую страницу, запустите `{0}{1} {2} {3}`"
 
 msgid "Incorrect Top List Type"
-msgstr ""
+msgstr "Неправильный тип верхнего списка"
 
 msgid "Try sorting with one of the following:"
-msgstr ""
+msgstr "Попробуйте сортировать с одним из следующих:"
 
 msgid "Top List"
-msgstr ""
+msgstr "Список лучших"
 
 msgid "Run `{0}help top` for a list of all possible sorts!"
-msgstr ""
+msgstr "Беги `{0}help top` для списка всех возможных сортов!"
 
 msgid "{0}: {1}"
-msgstr ""
+msgstr "{0}: {1}"
 
 msgid "The server prefix is set to `{0}`."
-msgstr ""
+msgstr "Префикс сервера установлен в `{0}`."
 
 msgid "There is no specific prefix set for this guild."
-msgstr ""
+msgstr "Для этой гильдии нет специального набора префиксов."
 
 msgid "The server language is now set to `{0}`."
-msgstr ""
+msgstr "Язык сервера теперь установлен на `{0}`."
 
 msgid "There is no specific language set for this guild."
-msgstr ""
+msgstr "Для этой гильдии нет специфического языка."
 
 msgid "Tips are currently enabled for this guild."
-msgstr ""
+msgstr "Советы в настоящее время включены для этой гильдии."
 
 msgid "Tips are currently disabled for this guild."
-msgstr ""
+msgstr "Советы в настоящее время отключены для этой гильдии."
 
 msgid "Enabled tips for this guild."
-msgstr ""
+msgstr "Включены советы для этой гильдии."
 
 msgid "Disabled tips for this guild."
-msgstr ""
+msgstr "Инвалидные советы для этой гильдии."
 
 msgid ""
 "The API has been disabled for this channel. To restore your permissions, "
 "contact 0/0#0001 on the official support server."
 msgstr ""
+"API был отключен для этого канала. Для восстановления прав доступа свяжитесь "
+"с 0/0#0001 на официальном сервере поддержки."
 
 msgid "DMed your API key to you."
-msgstr ""
+msgstr "Сделал ваш API-ключ доступным для вас."
 
 msgid "Revoked/deleted API key."
-msgstr ""
+msgstr "Отзывной/удаленный API ключ."
 
 msgid "DMed your new API key to you."
-msgstr ""
+msgstr "Сделал ваш новый API-ключ для вас."
 
 msgid "Disabled the API for {0}."
-msgstr ""
+msgstr "Отключить API для {0}."
 
 msgid ""
 "There was an error converting one of your arguments with {0}. The correct "
 "syntax would be `{1}`. The converter returned the following error: {2}"
 msgstr ""
+"Произошла ошибка преобразования одного из ваших аргументов с помощью {0}. "
+"Правильный синтаксис был бы {{1}`. Преобразователь вернул следующую ошибку: "
+"{2}"
 
 msgid ""
 "This command is missing an argument. The correct syntax would be `{0}`."
 msgstr ""
+"В этой команде не хватает аргумента. Правильный синтаксис будет `{0}`."
 
 msgid ""
 "Too many quotes were provided in your message: don't forget to escape your "
 "quotes like this `\\{0}`. The correct syntax for the command is `{1}`."
 msgstr ""
+"Слишком много цитат было приведено в вашем сообщении: не забудьте избежать "
+"ваших цитат вот так `{0}`. Правильный синтаксис команды `{1}`."
 
 msgid ""
 "A space was expected after a closing quote, but I found {0}. Please check "
 "that you are using the correct syntax: `{1}`."
 msgstr ""
+"Пространство ожидалось после заключительной цитаты, но я нашел {0}. "
+"Пожалуйста, проверьте, что вы используете правильный синтаксис: `{1}`."
 
 msgid ""
 "A closing quote was expected, but wasn't found. Don't forget to close your "
 "quotes with `{0}` at the end of your argument. Please check that you are "
 "using the correct syntax: `{1}`."
 msgstr ""
+"Заключительная цитата ожидалась, но не была найдена. Не забудьте закрыть "
+"свои котировки `{0}` в конце аргумента. Пожалуйста, проверьте, что Вы "
+"используете правильный синтаксис: `{1}`."
 
 msgid ""
 "Too many arguments were passed in this command. Please check that you are "
 "using the correct syntax: `{0}`."
 msgstr ""
+"Слишком много аргументов было передано в этой команде. Пожалуйста, "
+"проверьте, что вы используете правильный синтаксис: `{0}`."
 
 msgid ""
 "The way you are invoking this command is confusing me. The correct syntax "
 "would be `{0}`."
 msgstr ""
+"То, как ты ссылаешься на эту команду, сбивает меня с толку. Правильный "
+"синтаксис будет `{0}`."
 
 msgid ""
 "An argument passed was incorrect. `{0}`.Please check that you are using the "
 "correct syntax: `{command_invoke_help}`."
 msgstr ""
+"Переданный аргумент был неверен. `{0}`Пожалуйста, проверьте, что вы "
+"используете правильный синтаксис: `{command_invoke_help}`."
 
 msgid "{0} Please check that you are using the correct syntax: `{1}`."
 msgstr ""
+"{0} Пожалуйста, проверьте, что вы используете правильный синтаксис: `{1}`."
 
 msgid "This command can only be used in a private message."
-msgstr ""
+msgstr "Эта команда может быть использована только в личном сообщении."
 
 msgid "This command cannot be used in a private message."
-msgstr ""
+msgstr "Эта команда не может быть использована в личном сообщении."
 
 msgid "Multiple errors were encountered when running your command: {0}"
-msgstr ""
+msgstr "При выполнении команды возникало множество ошибок: {0}"
 
 msgid "You need to be the owner of the bot to run that."
-msgstr ""
+msgstr "Ты должен быть хозяином бота, чтобы управлять им."
 
 msgid "You are missing permissions to run this command. {0}"
-msgstr ""
+msgstr "У вас не хватает разрешений на выполнение этой команды. {0}"
 
 msgid "I am missing permissions to run this command. {0}"
-msgstr ""
+msgstr "Мне не хватает разрешений на выполнение этой команды. {0}"
 
 msgid "You are missing the following role: {0}"
-msgstr ""
+msgstr "Ты пропускаешь следующую роль: {0}"
 
 msgid "I am missing the following role: {0}"
-msgstr ""
+msgstr "Я пропускаю следующую роль: {0}"
 
 msgid "You are missing one of the following roles: {0}"
-msgstr ""
+msgstr "Ты пропускаешь одну из следующих ролей: {0}"
 
 msgid "I am missing one of the following roles: {0}"
-msgstr ""
+msgstr "Я пропускаю одну из следующих ролей: {0}"
 
 msgid "You need to be in a NSFW channel to run that."
-msgstr ""
+msgstr "Вам нужно быть в NSFW канале, чтобы запустить это."
 
 msgid "You need to be in the {0} server (`{1}`)."
-msgstr ""
+msgstr "Вы должны быть на сервере {0} (`{1}`)."
 
 msgid "You need to be in a server with ID {0}."
-msgstr ""
+msgstr "Вы должны быть на сервере с ID {0}."
 
 msgid "You have the `{0}` permission."
-msgstr ""
+msgstr "У тебя есть разрешение."
 
 msgid "You need the `{0}` permission."
-msgstr ""
+msgstr "Тебе нужно разрешение."
 
 msgid "You have {0} or more of the following permissions: `{1}`."
-msgstr ""
+msgstr "У вас есть {0} или более из следующих разрешений: `{1}`."
 
 msgid "You need {0} or more of the following permissions: `{1}`."
-msgstr ""
+msgstr "Вам нужно {0} или больше из следующих разрешений: `{1}`."
 
 msgid "The provided command was not found."
-msgstr ""
+msgstr "Предоставленная команда не была найдена."
 
 msgid "That command has been disabled."
-msgstr ""
+msgstr "Эта команда была отключена."
 
 msgid ""
 "I don't have permissions to send messages there! Try again somewhere I do "
 "have permissions to send messages!"
 msgstr ""
+"У меня нет разрешения посылать туда сообщения! Попробуй еще раз где-нибудь, "
+"где у меня есть разрешение на отправку сообщений!"
 
 msgid "The bot's still setting up, please wait a few minutes and try again!"
 msgstr ""
+"Бот все еще настраивается, пожалуйста, подождите несколько минут и "
+"попробуйте еще раз!"
 
 msgid ""
 "I can't find your original message, Discord may be having issues! Try again."
 msgstr ""
+"Я не могу найти ваше оригинальное сообщение, у Раздора могут быть проблемы! "
+"Попробуй еще раз."
 
 msgid ""
 "There was an error running the specified command‽ This error has been logged."
 ""
 msgstr ""
+"Произошла ошибка при выполнении указанного command‽. Эта ошибка была "
+"записана в журнал."
 
 msgid "You are being ratelimited. Please try again {0}."
-msgstr ""
+msgstr "Тебя ратимитируют. Пожалуйста, попробуй еще раз {0}."
 
 msgid "globally"
-msgstr ""
+msgstr "глобальная сеть"
 
 msgid "per user"
-msgstr ""
+msgstr "на пользователя"
 
 msgid "per guild"
-msgstr ""
+msgstr "в расчете на гильдию"
 
 msgid "per channel"
-msgstr ""
+msgstr "на канал"
 
 msgid "per member"
-msgstr ""
+msgstr "на члена"
 
 msgid "per category"
-msgstr ""
+msgstr "по категории"
 
 msgid "per role"
-msgstr ""
+msgstr "в роли"
 
 msgid ""
 "Too many users are using this command. Only {0} users can use it at the same "
 "time {1}."
 msgstr ""
+"Слишком много пользователей используют эту команду. Только {0} пользователи "
+"могут использовать ее одновременно {1}."
 
 msgid ""
 "Simulations have been disabled in this guild due to a missing permission. "
 "Ask a admin to give me the Manage Messages permission."
 msgstr ""
+"Симуляции были отключены в этой гильдии из-за отсутствия разрешения. "
+"Попросите администратора дать мне разрешение на управление сообщениями."
 
 msgid ""
 "This should not have happened. A command raised an error that does not comes "
 "from CommandError. Please inform the owner."
 msgstr ""
+"Этого не должно было случиться. Команда подняла ошибку, которая не исходит "
+"от CommandError. Пожалуйста, сообщите об этом владельцу."
 
 msgid "\n"
 "For help, join the bot's support server at {invite}"
 msgstr ""
+"\n"
+"Чтобы получить помощь, подключитесь к серверу поддержки бота по адресу "
+"{invite}"
 
 msgid "No message was defined. This error has been logged."
 msgstr ""
+"Не было определено никакого сообщения. Эта ошибка была зарегистрирована."
 
 msgid "Data for Day {0}"
-msgstr ""
+msgstr "Данные за день {0}"
 
 msgid ""
 "**WARNING**\n"
@@ -545,50 +657,72 @@ msgid ""
 "liable for anything stemming from the use of this modeling system. Type `ok` "
 "within 15 seconds to agree to these terms."
 msgstr ""
+"**ПРЕДУПРЕЖДЕНИЕ**\n"
+"Это ни в коем случае не система научного моделирования, она существует "
+"исключительно в развлекательных целях. За фактической консультацией "
+"обращайтесь к своему медицинскому специалисту. Соглашаясь с этими условиями, "
+"вы соглашаетесь не привлекать 0/0#0001 к ответственности за что-либо, "
+"проистекающее из использования данной системы моделирования. Введите `ок` в "
+"течение 15 секунд, чтобы согласиться с этими условиями."
 
 msgid "Didn't get a response. To try again, do `{0}{1}`."
-msgstr ""
+msgstr "Не получил ответа. Чтобы попробовать еще раз, сделай `{0}{1}`."
 
 msgid "I'll ping you when this is done, you can go do other stuff."
 msgstr ""
+"Я дам тебе пинка, когда все закончится, ты можешь пойти и заняться чем-"
+"нибудь другим."
 
 msgid "Please wait, initializing..."
-msgstr ""
+msgstr "Пожалуйста, подождите, инициализирую..."
 
 msgid ""
 "You haven't set up your simulation! Run `{0}simulate setup` to set your sim "
 "up!"
 msgstr ""
+"Ты не настроил свою симуляцию! Запустите `{0} имитацию настройки`, чтобы "
+"настроить симулятор!"
 
 msgid "Submitting your item to be processed..."
-msgstr ""
+msgstr "Отправляя вашу вещь на обработку..."
 
 msgid "Waiting for next run of simulation processor, which will happen {0}."
 msgstr ""
+"Ожидание следующего запуска симуляционного процессора, который произойдет "
+"{0}."
 
 msgid "Simulation failed: ran out of memory: retry with smaller values."
 msgstr ""
+"Моделирование не удалось: закончилась память: повторите попытку с меньшими "
+"значениями."
 
 msgid ""
 "Simulation failed: had incorrect values passed to it: try with more "
 "reasonable values."
 msgstr ""
+"Моделирование не прошло: были переданы неверные значения: попробуйте с более "
+"разумными значениями."
 
 msgid ""
 "Simulation failed: process running the simulation has failed: ask a mod in "
 "the bot's support server (find it via {0}) to run {1}."
 msgstr ""
+"Моделирование завершилось неудачно: процесс, запускающий симуляцию, "
+"завершился неудачно: попросите мода на сервере поддержки бота (найдите его "
+"через {0}) запустить {1}."
 
 msgid ""
 "Simulation failed: had a unknown error: report ID ({0}) to 0/0#0001 to be "
 "fixed."
 msgstr ""
+"Моделирование не прошло: была обнаружена неизвестная ошибка: необходимо "
+"исправить идентификатор отчета ({0}) на 0/0#0001."
 
 msgid "Processed simulation!"
-msgstr ""
+msgstr "Обработанная симуляция!"
 
 msgid "Simulation Results"
-msgstr ""
+msgstr "Результаты моделирования"
 
 msgid ""
 "Navigate using `next` to view the next day's stats, `prev` to view the "
@@ -597,21 +731,26 @@ msgid ""
 "straight to that day. Type `exit` to exit the paginator (for example, if you "
 "want to modify sim data)."
 msgstr ""
+"Навигация с помощью `nxt` для просмотра статистики за следующий день, `prev` "
+"для просмотра статистики за предыдущий день, `первого` для прыжка в первый "
+"день (завтра), и `последнего` для прыжка в последний день в вашей симуляции. "
+"Введите число, чтобы перейти прямо к этому дню. Введите `выход`, чтобы выйти "
+"из пагинатора (например, если вы хотите изменить данные симулятора)."
 
 msgid "Total infections by end of simulation"
-msgstr ""
+msgstr "Общее количество инфекций по окончании моделирования"
 
 msgid "Total recoveries by end of simulation"
-msgstr ""
+msgstr "Общее восстановление по окончании моделирования"
 
 msgid "Total deaths by end of simulation"
-msgstr ""
+msgstr "Общее количество смертей по окончании моделирования"
 
 msgid "Your simulation is ready: it will be available for 15 minutes."
-msgstr ""
+msgstr "Ваша симуляция готова: она будет доступна в течение 15 минут."
 
 msgid "Your simulation has timed out. Request a new one with `{0}{1}`."
-msgstr ""
+msgstr "Твоя симуляция вышла из строя. Запросите новую с `{0}{1}`."
 
 msgid ""
 "I now require the MANAGE MESSAGES permission. I've disabled this command "
@@ -619,182 +758,212 @@ msgid ""
 "permission, the bot will still function, just with the simulation module "
 "disabled. Thanks in advance!"
 msgstr ""
+"Теперь мне нужно разрешение MANAGE MESSAGES. Я отключил эту команду, пока вы "
+"не дадите мне это разрешение. Если вы не хотите давать мне такое разрешение, "
+"бот все равно будет функционировать, только с отключенным модулем имитации. "
+"Заранее спасибо!"
 
 msgid "Internal bot error. Try again."
-msgstr ""
+msgstr "Внутренняя ошибка бота. Попробуй еще раз."
 
 msgid "Out of bounds."
-msgstr ""
+msgstr "Выходит за рамки."
 
 msgid ""
 "You aren't a mod in the bot's support server! You can't run this command. If "
 "simulations are actually broken, ask a mod in the bot's support server (find "
 "it via {0}) to run this command."
 msgstr ""
+"Вы не модник на сервере поддержки бота! Вы не можете запустить эту команду. "
+"Если симуляции действительно нарушены, попросите мода на сервере поддержки "
+"бота (найдите его через {0}) выполнить эту команду."
 
 msgid "This could take up to 60 seconds, please wait..."
-msgstr ""
+msgstr "Это может занять до 60 секунд, пожалуйста, подождите..."
 
 msgid "Stopping simulation runners..."
-msgstr ""
+msgstr "Остановка симуляционных бегунов..."
 
 msgid "Stopping broken process pools..."
-msgstr ""
+msgstr "Остановка сломанных технологических бассейнов..."
 
 msgid "Waiting 20 seconds for the final tasks to stop..."
-msgstr ""
+msgstr "Ждать 20 секунд, чтобы остановить финальные задания..."
 
 msgid "Destroying pools..."
-msgstr ""
+msgstr "Разрушающие бассейны..."
 
 msgid "Creating new pools..."
-msgstr ""
+msgstr "Создание новых бассейнов..."
 
 msgid "Starting up simulation runners..."
-msgstr ""
+msgstr "Запуск симуляторов бегунов..."
 
 msgid "Restarted pool sucessfully!"
-msgstr ""
+msgstr "Бассейн перезапущен успешно!"
 
 msgid ""
 "Simulation results are very inaccurate after 157 days. I have set the "
 "simulation length to 157 days."
 msgstr ""
+"Результаты моделирования очень неточны через 157 дней. Я установил "
+"длительность моделирования на 157 дней."
 
 msgid "Set simulation length to {0} days."
-msgstr ""
+msgstr "Установите длительность моделирования на {0} дней."
 
 msgid "Couldn't find that name. Try again, or use `{0}list` for help."
 msgstr ""
+"Не смог найти это имя. Попробуй еще раз, или используй `{0}список` для "
+"помощи."
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 30 seconds."
 msgstr ""
+"Реагируйте с 📈 для логарифмического графика.\n"
+"Реагируйте с 📉 для линейного графика.\n"
+"Срок действия этого сообщения истекает через 30 секунд."
 
 msgid "Timed out. Request a new message with `{0}graphs`"
-msgstr ""
+msgstr "Время вышло. Запросить новое сообщение с `{0}графами`"
 
 msgid "Please wait, this could take a few seconds..."
-msgstr ""
+msgstr "Пожалуйста, подождите, это может занять несколько секунд..."
 
 msgid "Graph for {0}"
-msgstr ""
+msgstr "График для {0}"
 
 msgid "Took {0} seconds ({1}ns) to generate. • Cache Status: {2}"
 msgstr ""
+"Потребовалось {0} секунд ({1}нс), чтобы сгенерировать. - Статус кэша: {2}"
 
 msgid "Map Types"
-msgstr ""
+msgstr "Типы карт"
 
 msgid "Use one of these map types when running `{0}maps show <name>`."
 msgstr ""
+"Используйте один из этих типов карт при запуске `{0}maps show` <name>.</"
+"name>"
 
 msgid ""
 "I don't know what map you're looking for! Run `{0}maps types` to see all the "
 "maps I can show you!"
 msgstr ""
+"Я не знаю, какую карту ты ищешь! Бегите `{0}maps types`, чтобы увидеть все "
+"карты, которые я могу вам показать!"
 
 msgid "Map for {0}"
-msgstr ""
+msgstr "Карта для {0}"
 
 msgid "Updating maps..."
-msgstr ""
+msgstr "Обновление карт..."
 
 msgid "Done!"
-msgstr ""
+msgstr "Готово!"
 
 msgid "😃 You have that permission."
-msgstr ""
+msgstr "😃 У вас есть такое разрешение."
 
 msgid "☹️ You don't have that permission."
-msgstr ""
+msgstr "☹️ У вас нет такого разрешения."
 
 msgid "Details of permissions hierarchy"
-msgstr ""
+msgstr "Детали иерархии разрешений"
 
 msgid "{0} Default (from {0}{1})"
-msgstr ""
+msgstr "{0} По умолчанию (из {0}{1})"
 
 msgid "{0} Guild role {1} (from {0}{2})"
-msgstr ""
+msgstr "{0} Роль гильдии {1} (от {0}{2})"
 
 msgid "{0} Channel role {1} (from {0}{2})"
-msgstr ""
+msgstr "{0} Роли канала {1} (от {0}{2})"
 
 msgid "{0} Member (from {0}{1})"
-msgstr ""
+msgstr "{0} Член (от {0}{1})"
 
 msgid "{0} Fixed (from {0}{1})"
-msgstr ""
+msgstr "{0} Исправлено (из {0}{1})"
 
 msgid "{0} User (from {0}{1})"
-msgstr ""
+msgstr "{0} Пользователь (из {0}{1})"
 
 msgid "**{0} permissions**"
-msgstr ""
+msgstr "**разрешения*"
 
 msgid "There are no specific permissions set in this guild."
-msgstr ""
+msgstr "В этой гильдии нет специальных разрешений."
 
 msgid "There are no specific permissions set in this channel."
-msgstr ""
+msgstr "В этом канале не установлено никаких специальных разрешений."
 
 msgid "There are no specific permissions for this member."
-msgstr ""
+msgstr "Для этого члена нет специальных разрешений."
 
 msgid "👌 Permission {0} for user {1} has been set to {2} globally."
 msgstr ""
+"👌 Разрешение {0} для пользователя {1} было установлено в {2} глобально."
 
 msgid "👌 Permission {0} for member {1} has been set to {2} globally."
-msgstr ""
+msgstr "👌 Разрешение {0} для члена {1} было установлено на {2} глобально."
 
 msgid "❌ Can't set permissions in a channel that is not in this guild."
 msgstr ""
+"❌ Не могу установить разрешения в канале, которого нет в этой гильдии."
 
 msgid "❌ Can't set permissions for a role that does not exist in this guild."
 msgstr ""
+"❌ Не может установить разрешения на роль, которая не существует в этой "
+"гильдии."
 
 msgid ""
 "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this channel."
 msgstr ""
+"👌 Разрешение {0} на роль {1} [`{2}`] был установлен на {3} в этом канале."
 
 msgid ""
 "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this guild."
 msgstr ""
+"👌 Разрешение {0} на роль {1} [`{2}}В этой гильдии было установлено значение "
+"{3}."
 
 msgid "Failed to send suggestion due to a Discord error. Try again."
 msgstr ""
+"Не удалось отправить предложение из-за ошибки Разногласия. Попробуйте еще "
+"раз."
 
 msgid "Sent suggestion successfully."
-msgstr ""
+msgstr "Отправлено предложение успешно."
 
 msgid "The bot is not yet sharded."
-msgstr ""
+msgstr "Бот еще не осколок."
 
 msgid "•\t Shard ID {0}: {1}ms"
-msgstr ""
+msgstr "- Идентификатор осколков {0}: {1}ms"
 
 msgid " (ready)"
-msgstr ""
+msgstr " (готово)"
 
 msgid " (current shard)"
-msgstr ""
+msgstr " (текущий осколок)"
 
 msgid "\n"
 "\n"
 "Avg latency: {0}ms"
-msgstr ""
+msgstr "\n"
+"\n"
+"Задержка Avg: {0}ms"
 
 msgid " (bot ready)"
-msgstr ""
+msgstr " (бот готов)"
 
 msgid "{0}: {1} candidates\n"
-msgstr ""
+msgstr "{0}: {1}кандидаты\n"
 
 msgid "Vaccine Updates"
-msgstr ""
+msgstr "Обновления вакцин"
 
 msgid ""
 "(For more details, run `{0}help vaccine`)\n"
@@ -802,66 +971,79 @@ msgid ""
 "__**Phases**__\n"
 "{2}"
 msgstr ""
+"(Для более подробной информации, запустите вакцину \"Хелп\")\n"
+"Всего есть **{1}кандидаты на вакцину**.\n"
+"Фасы***\n"
+"{2}"
 
 msgid "Last updated at"
-msgstr ""
+msgstr "Последнее обновление"
 
 msgid "Vaccine Candidates"
-msgstr ""
+msgstr "кандидаты в вакцины"
 
 msgid ""
 "To get more details on a vaccine candidate, run `{0}vaccine details <id>`\n"
 "The ID of any given candidate is under the name."
 msgstr ""
+"Чтобы получить более подробную информацию о кандидате на вакцину, запустите "
+"<id>`{0}вакцину`\n"
+"Удостоверение личности того или иного кандидата находится под его именем.</"
+"id>"
 
 msgid "That isn't a valid vaccine ID! View all the IDs in {0}!"
 msgstr ""
+"Это не действительный паспорт вакцины! Просмотрите все документы в {0}!"
 
 msgid "Description is too long! Download the attachment to see it!"
-msgstr ""
+msgstr "Описание слишком длинное! Скачайте насадку, чтобы увидеть его!"
 
 msgid "Mechanism"
-msgstr ""
+msgstr "Механизм"
 
 msgid "Sponsors"
-msgstr ""
+msgstr "Спонсоры"
 
 msgid "Phase"
-msgstr ""
+msgstr "Этап"
 
 msgid "Institutions"
-msgstr ""
+msgstr "Учреждения"
 
 msgid "You must pass a number or {0}."
-msgstr ""
+msgstr "Вы должны передать номер или {0}."
 
 msgid ""
 "You don't have enough credits to transfer. Go vote on top.gg for more!\n"
 "{0}"
 msgstr ""
+"У тебя недостаточно кредитов для перевода. Голосуйте на top.gg за большее!\n"
+"{0}"
 
 msgid ""
 "You are going to transfer {0} updater credits to this guild ({1}). This "
 "action is irreversible. Type {2} within 30 seconds to confirm."
 msgstr ""
+"Вы собираетесь перевести {0} кредитов обновления в эту гильдию ({1}). Это "
+"действие необратимо. Введите {2} в течение 30 секунд для подтверждения."
 
 msgid "Timed out waiting for response."
-msgstr ""
+msgstr "Время ожидания ответа."
 
 msgid "Transferred {0} credits to {1}."
-msgstr ""
+msgstr "Переведено {0} кредитов на {1}."
 
 msgid "<:infected:775877435320565801> Total Cases"
-msgstr ""
+msgstr "<:infected:775877435320565801> Всего случаев"
 
 msgid "<:deaths:775877434687488030> Total Deaths"
-msgstr ""
+msgstr "<:deaths:775877434687488030> Тотальная смертность"
 
 msgid "<:recovered:775877435089748008> Total Recoveries"
-msgstr ""
+msgstr "<:recovered:775877435089748008> Общее восстановление"
 
 msgid "Province Stats for {province} on {today}"
-msgstr ""
+msgstr "Провинциальная статистика на сегодняшний день"
 
 msgid ""
 "Why such a small amount of data compared to country stats?\n"
@@ -869,65 +1051,71 @@ msgid ""
 "up such a small amount of all provinces, meaning it's not worth it to try to "
 "show it for all of them."
 msgstr ""
+"Почему такой небольшой объем данных по сравнению со статистикой по странам?\n"
+"Некоторые провинции могут сообщать один и тот же объем данных, но эти "
+"провинции составляют такой небольшой объем всех провинций, что не стоит "
+"пытаться показать его по всем из них."
 
 msgid "{0} (could also have no data)"
-msgstr ""
+msgstr "{0} (может также не иметь данных)"
 
 msgid "New Cases"
-msgstr ""
+msgstr "Новые случаи"
 
 msgid "Cases per 1m People"
-msgstr ""
+msgstr "Дела на 1м человек"
 
 msgid "<:active:775877437056614491> Active Cases"
-msgstr ""
+msgstr "<:active:775877437056614491> Активные случаи"
 
 msgid "Active Case Change"
-msgstr ""
+msgstr "Изменение в активном случае"
 
 msgid "Active Cases per 1m People"
-msgstr ""
+msgstr "Активные случаи на 1м человек"
 
 msgid "New Deaths"
-msgstr ""
+msgstr "Новые Смерти"
 
 msgid "Deaths per 1m People"
-msgstr ""
+msgstr "Смертность на 1м Люди"
 
 msgid "New Recoveries"
-msgstr ""
+msgstr "Новые поступления"
 
 msgid "Recovered per 1m People"
-msgstr ""
+msgstr "Восстановленный на 1м Люди"
 
 msgid "<:tests:775877436075802676> Tests"
-msgstr ""
+msgstr "<:tests:775877436075802676> Тесты"
 
 msgid "Tests per 1m People"
-msgstr ""
+msgstr "Тесты на 1м человек"
 
 msgid "Critical Cases"
-msgstr ""
+msgstr "Критические случаи"
 
 msgid "Population"
-msgstr ""
+msgstr "Население"
 
 msgid "COVID-19 Stats for {name}"
-msgstr ""
+msgstr "КОВИД-19 Статистика для {имя}"
 
 msgid "Stats last updated at (UTC)"
-msgstr ""
+msgstr "Статистика в последний раз обновлялась по (UTC)"
 
 msgid "no data"
-msgstr ""
+msgstr "отсутствие информации"
 
 msgid "Affected Countries"
-msgstr ""
+msgstr "Затронутые страны"
 
 msgid "Country List"
-msgstr ""
+msgstr "Список стран"
 
 msgid ""
 "Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
 "covid <name>`!"
 msgstr ""
+"Используйте либо название страны, либо код ISO2/ISO3 при получении "
+"статистики с <name>`/covid`!</name>"
