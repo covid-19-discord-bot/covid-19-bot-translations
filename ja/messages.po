@@ -13,157 +13,163 @@ msgstr ""
 
 msgid ""
 "You need to vote for one of these special updaters! See `/vote` for details."
-msgstr ""
+msgstr "これらの特別なアップデータに投票する必要があります。詳細は `/vote` を参照してください。"
 
 msgid ""
 "❌ Failed to find a state with that name! `/list` will show you a list of "
 "states and their names."
-msgstr ""
+msgstr "❌ その名前の州が見つかりませんでした!list` は州とその名前のリストを表示します。"
 
 msgid "I found a {0} instead of a state! You can try `{1}` instead."
-msgstr ""
+msgstr "状態の代わりに{0}を見つけました。代わりに `{1}` を試してみてください。"
 
 msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
-msgstr ""
+msgstr "✅ このチャンネルの{1}の{0}のグラフを{2}ごとに投稿する。"
 
 msgid "logarithmic"
-msgstr ""
+msgstr "対数"
 
 msgid "linear"
-msgstr ""
+msgstr "線状"
 
 msgid "❌ Failed to find that province name!"
-msgstr ""
+msgstr "❌ その県名を見つけるのに失敗しました!"
 
 msgid "I found a {0} instead of a province! You can try `{1}` instead."
-msgstr ""
+msgstr "県の代わりに{0}を見つけました。代わりに `{1}` を使ってみてください。"
 
 msgid "❌ Failed to find that state name! See {0} for help!"
-msgstr ""
+msgstr "❌ その州名が見つかりませんでした!0}を参照してください!"
 
 msgid "Didn't find any provinces with that name!"
-msgstr ""
+msgstr "その名前の州は見つかりませんでした！"
 
 msgid "I found a {0} instead of a province! Use the {1} command instead."
-msgstr ""
+msgstr "県の代わりに{0}を見つけました!代わりに{1}コマンドを使ってください。"
 
 msgid "Invalid action. It must be one of {0}."
-msgstr ""
+msgstr "無効な動作です。0}のいずれかでなければなりません。"
 
 msgid ""
 "No data is available at the moment. Wait a few moments. **Spamming this "
 "command will result in a temporary ban!**"
-msgstr ""
+msgstr "今のところデータはありません。しばらくお待ちください。 **このコマンドをスパムすると一時的に禁止されます。"
 
 msgid ""
 "\n"
 "For help, join the bot's support server at {0}\n"
 "Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"\n"
+"助けを求めて、ボットのサポートサーバーに参加してください。\n"
+"Discord問題の詳細については、<https://discordstatus.com/> をチェックしてください。"
 
 msgid ""
 "Set up your simulation to default values. Edit them with the {0} commands."
-msgstr ""
+msgstr "シミュレーションのデフォルト値を設定します。0}コマンドで編集します。"
 
 msgid ""
 "ISO3 codes are always 3 characters long! If you're trying to get the world, "
 "try {0}."
-msgstr ""
+msgstr "ISO3のコードは常に3文字です!世界を手に入れようとしている人は{0}を試してみてください。"
 
 msgid "Country name for simulation set to {0}."
-msgstr ""
+msgstr "シミュレーションの国名を{0}に設定します。"
 
 msgid "3 years is the upper limit on simulation length."
-msgstr ""
+msgstr "3年がシミュレーションの長さの上限です。"
 
 msgid "Simulation time set to {0} days."
-msgstr ""
+msgstr "シミュレーション時間は{0}日に設定されています。"
 
 msgid "Didn't get a response. To try again, do {0}."
-msgstr ""
+msgstr "応答がありませんでした。再度試すには、{0}を実行してください。"
 
 msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
-msgstr ""
+msgstr "シミュレーションが設定されていません!0}を実行してシミュレーションをセットアップしてください!"
 
 msgid "Running simulation..."
-msgstr ""
+msgstr "シミュレーションの実行..."
 
 msgid ""
 "Invalid country name! Try again, making sure the ISO3 code you passed is "
 "correct! For the world, the code is {0}."
-msgstr ""
+msgstr "国名が無効です。ISO3コードが正しいことを確認して、もう一度試してみてください。世界の場合、コードは{0}です。"
 
 msgid "Results after {0} days"
-msgstr ""
+msgstr "0}日後の結果"
 
 msgid ""
 "More features will be available later: join the support server for updates "
 "when new features are released!"
-msgstr ""
+msgstr "より多くの機能は後ほど利用可能になります：新機能がリリースされた際には、サポートサーバーに参加してアップデートを行いましょう。"
 
 msgid "Total Cases"
-msgstr ""
+msgstr "症例数"
 
 msgid "Total Deaths"
-msgstr ""
+msgstr "総死亡者数"
 
 msgid "Took {0} seconds ({1}ns) to run."
-msgstr ""
+msgstr "0}秒({1}ns)かかった。"
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 10 seconds."
 msgstr ""
+"対数グラフの場合は leasesSo_1F4C8 letsize で反応します。\n"
+"直線グラフに対しては、So_1F4C9 せり出しで反応します。\n"
+"このメッセージは 10 秒後に終了します。"
 
 msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
-msgstr ""
+msgstr "生成に {0} 秒 ({1} ナノ秒) かかりました。{2}"
 
 msgid ""
 "That isn't a valid name! Check out {0} for a list of all names I can get "
 "data for!"
-msgstr ""
+msgstr "それは有効な名前ではありません!0}でデータを取得できるすべての名前のリストをチェックしてください!"
 
 msgid "I found a {0} instead of a country!"
-msgstr ""
+msgstr "国の代わりに{0}を見つけました!"
 
 msgid "I found a {0} instead of a province! Try {1} instead."
-msgstr ""
+msgstr "県の代わりに{0}を見つけました。代わりに{1}を試してみてください。"
 
 msgid "I found a {0} instead of a state! Try {1} instead."
-msgstr ""
+msgstr "状態の代わりに{0}を見つけました。代わりに{1}を試してみてください。"
 
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 msgid "No help available."
-msgstr ""
+msgstr "ヘルプはありません。"
 
 msgid "Aliases"
-msgstr ""
+msgstr "エイリアス"
 
 msgid "No command called {0} found."
-msgstr ""
+msgstr "0}というコマンドが見つかりませんでした。"
 
 msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
-msgstr ""
+msgstr "コマンド「{0.qualified_name}」には、{1}というサブコマンドがありません。"
 
 msgid "Command \"{0.qualified_name}\" has no subcommands."
-msgstr ""
+msgstr "コマンド「{0.qualified_name}」にはサブコマンドがありません。"
 
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 msgid "The bot's still setting up, please wait up to 10 minutes."
-msgstr ""
+msgstr "ボットはまだセットアップ中ですが、10分ほどお待ちください。"
 
 msgid "React to this message with 📥 within 10 seconds to send your reaction."
-msgstr ""
+msgstr "このメッセージに反応するには、10秒以内に ķelSo_1F4E5 を使って反応を送信してください。"
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {0}"
-msgstr ""
+msgstr "ここで国名を見つけるのに苦労しています!表示されているのは以下の通りです。{0}"
 
 msgid ""
 "Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
@@ -171,150 +177,154 @@ msgid ""
 "prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
 "commands, run `/help`."
 msgstr ""
+"こんにちは！私はCOVID-19パンデミックのライブ統計を与えるためのボットです。私はCOVID-"
+"19パンデミックのライブ統計を提供するためのボットです。デフォルトのプレフィックスは `/` です。これは `/settings prefix<new "
+"prefix>`</new> で変更できます<new prefix> <new prefix>。コマンドの一覧は `/help` を実行してください。</"
+"new></new>"
 
 msgid "New Cases (7d avg)"
-msgstr ""
+msgstr "新しいケース(平均7d)"
 
 msgid "New Deaths (7d avg)"
-msgstr ""
+msgstr "新規死亡者数(7d平均)"
 
 msgid "Total Cases per 1m"
-msgstr ""
+msgstr "1mあたりの総症例数"
 
 msgid "New Cases per 1m"
-msgstr ""
+msgstr "1mあたりの新規症例数"
 
 msgid "New Cases per 1m (7d avg)"
-msgstr ""
+msgstr "1m当たりの新規症例数（平均7d"
 
 msgid "Total Deaths per 1m"
-msgstr ""
+msgstr "1m当たりの総死亡者数"
 
 msgid "New Deaths per 1m"
-msgstr ""
+msgstr "1m当たりの新規死亡者数"
 
 msgid "New Deaths per 1m (7d avg)"
-msgstr ""
+msgstr "1m当たりの新規死亡者数（平均7d"
 
 msgid "R-Value"
-msgstr ""
+msgstr "R値"
 
 msgid "Stringency Index"
-msgstr ""
+msgstr "厳しさ指数"
 
 msgid "ICU Patients"
-msgstr ""
+msgstr "ICUの患者さん"
 
 msgid "ICU Patients per 1m"
-msgstr ""
+msgstr "1mあたりのICU患者数"
 
 msgid "Hospitalized Patients"
-msgstr ""
+msgstr "入院患者"
 
 msgid "Hospitalized Patients per 1m"
-msgstr ""
+msgstr "1m当たりの入院患者数"
 
 msgid "Weekly ICU Admissions"
-msgstr ""
+msgstr "週刊ICUアドミッション"
 
 msgid "Weekly ICU Admissions per 1m"
-msgstr ""
+msgstr "1mあたりの毎週のICU入試"
 
 msgid "Weekly Hospital Admissions"
-msgstr ""
+msgstr "週間の入院患者数"
 
 msgid "Weekly Hospital Admissions per 1m"
-msgstr ""
+msgstr "1m当たりの週次入院数"
 
 msgid "Total Tests"
-msgstr ""
+msgstr "総テスト数"
 
 msgid "New Tests"
-msgstr ""
+msgstr "新しいテスト"
 
 msgid "New Tests (7d avg)"
-msgstr ""
+msgstr "新しいテスト(7d平均)"
 
 msgid "Total Tests per 1k"
-msgstr ""
+msgstr "1kあたりの総テスト数"
 
 msgid "New Tests per 1k"
-msgstr ""
+msgstr "1kあたりの新しいテスト"
 
 msgid "New Tests per 1k (7d avg)"
-msgstr ""
+msgstr "1kあたりの新しいテスト(7d avg)"
 
 msgid "Tests Per Case"
-msgstr ""
+msgstr "ケースごとのテスト"
 
 msgid "Test Positivity Rate"
-msgstr ""
+msgstr "テストの陽性率"
 
 msgid "Total Vaccinations"
-msgstr ""
+msgstr "予防接種の総数"
 
 msgid "Total Vaccinations per 100"
-msgstr ""
+msgstr "100人あたりの予防接種総数"
 
 msgid "New Vaccinations"
-msgstr ""
+msgstr "新しい予防接種"
 
 msgid "New Vaccinations per 1m"
-msgstr ""
+msgstr "1m当たりの新規接種数"
 
 msgid "Population Density (km^2)"
-msgstr ""
+msgstr "人口密度（km^2"
 
 msgid "Median Age"
-msgstr ""
+msgstr "平均年齢"
 
 msgid "% of population 65+"
-msgstr ""
+msgstr "人口に占める割合 65 "
 
 msgid "% of population 70+"
-msgstr ""
+msgstr "人口に占める割合 70 "
 
 msgid "GDP per person (USD$)"
-msgstr ""
+msgstr "一人当たりGDP（米ドル"
 
 msgid "% in extreme poverty"
-msgstr ""
+msgstr "極貧状態の割合"
 
 msgid "Cardiovascular Event Death Rate"
-msgstr ""
+msgstr "心血管イベント死亡率"
 
 msgid "% of population with diabetes"
-msgstr ""
+msgstr "糖尿病人口の割合"
 
 msgid "% of women that smoke"
-msgstr ""
+msgstr "タバコを吸う女性の割合"
 
 msgid "% of men that smoke"
-msgstr ""
+msgstr "タバコを吸う男性の割合"
 
 msgid "% of the population with access to handwashing facilities"
-msgstr ""
+msgstr "手洗い施設を利用できる人口の割合"
 
 msgid "Hospital beds per 1,000 people"
-msgstr ""
+msgstr "1,000人当たりの病院病床数"
 
 msgid "Life expectancy"
-msgstr ""
+msgstr "平均寿命"
 
 msgid "Human Development Index"
-msgstr ""
+msgstr "人間開発指数"
 
 msgid "COVID-19 Stats for {0}"
-msgstr ""
+msgstr "COVID-19 の {0} の統計"
 
 msgid "COVID-19 Hospital Stats for {0}"
-msgstr ""
+msgstr "COVID-19 {0} の病院統計"
 
 msgid "COVID-19 Test Stats for {0}"
-msgstr ""
+msgstr "COVID-19の{0}のためのテスト統計"
 
 msgid "COVID-19 Vaccination Stats for {0}"
-msgstr ""
+msgstr "COVID-19 ワクチン接種統計 ({0})"
 
 msgid "General Stats for {0}"
-msgstr ""
+msgstr "0}の一般的な統計"

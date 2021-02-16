@@ -14,156 +14,175 @@ msgstr ""
 msgid ""
 "You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
+"تحتاج إلى التصويت لأحد هؤلاء المحدثين الخاصين! راجع \"/ التصويت\" للحصول على "
+"التفاصيل."
 
 msgid ""
 "❌ Failed to find a state with that name! `/list` will show you a list of "
 "states and their names."
 msgstr ""
+"❌ فشل في إيجاد دولة بهذا الاسم! سيُظهر لك `list / قائمة بالحالات وأسمائها."
 
 msgid "I found a {0} instead of a state! You can try `{1}` instead."
-msgstr ""
+msgstr "لقد وجدت {0} بدلاً من ولاية! يمكنك تجربة \"{1}\" بدلاً من ذلك."
 
 msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
-msgstr ""
+msgstr "✅ نشر رسم بياني {0} لـ {1} في هذه القناة كل {2}."
 
 msgid "logarithmic"
-msgstr ""
+msgstr "لوغاريتمي"
 
 msgid "linear"
-msgstr ""
+msgstr "خطي"
 
 msgid "❌ Failed to find that province name!"
-msgstr ""
+msgstr "❌ فشل في العثور على اسم المقاطعة!"
 
 msgid "I found a {0} instead of a province! You can try `{1}` instead."
-msgstr ""
+msgstr "لقد وجدت {0} بدلاً من مقاطعة! يمكنك تجربة \"{1}\" بدلاً من ذلك."
 
 msgid "❌ Failed to find that state name! See {0} for help!"
-msgstr ""
+msgstr "❌ فشل في العثور على اسم الدولة هذا! راجع {0} للحصول على المساعدة!"
 
 msgid "Didn't find any provinces with that name!"
-msgstr ""
+msgstr "لم يتم العثور على أي مقاطعات بهذا الاسم!"
 
 msgid "I found a {0} instead of a province! Use the {1} command instead."
-msgstr ""
+msgstr "لقد وجدت {0} بدلاً من مقاطعة! استخدم الأمر {1} بدلاً من ذلك."
 
 msgid "Invalid action. It must be one of {0}."
-msgstr ""
+msgstr "عمل غير صالح. يجب أن تكون واحدة من {0}."
 
 msgid ""
 "No data is available at the moment. Wait a few moments. **Spamming this "
 "command will result in a temporary ban!**"
 msgstr ""
+"لا توجد بيانات متاحة في الوقت الحالي. انتظر بضع لحظات. ** إرسال بريد عشوائي "
+"على هذا الأمر سيؤدي إلى حظر مؤقت! **"
 
 msgid ""
 "\n"
 "For help, join the bot's support server at {0}\n"
 "Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"للحصول على المساعدة ، انضم إلى خادم دعم الروبوت على {0} تحقق<https://"
+"discordstatus.com/> لمزيد من التفاصيل حول قضايا Discord."
 
 msgid ""
 "Set up your simulation to default values. Edit them with the {0} commands."
 msgstr ""
+"قم بإعداد المحاكاة على القيم الافتراضية. قم بتحريرها باستخدام أوامر {0}."
 
 msgid ""
 "ISO3 codes are always 3 characters long! If you're trying to get the world, "
 "try {0}."
 msgstr ""
+"تتكون رموز ISO3 دائمًا من 3 أحرف! إذا كنت تحاول الحصول على العالم ، فجرّب "
+"{0}."
 
 msgid "Country name for simulation set to {0}."
-msgstr ""
+msgstr "تم تعيين اسم البلد الخاص بالمحاكاة على {0}."
 
 msgid "3 years is the upper limit on simulation length."
-msgstr ""
+msgstr "3 سنوات هي الحد الأقصى لطول المحاكاة."
 
 msgid "Simulation time set to {0} days."
-msgstr ""
+msgstr "تم ضبط وقت المحاكاة على {0} يوم."
 
 msgid "Didn't get a response. To try again, do {0}."
-msgstr ""
+msgstr "لم تحصل على رد. للمحاولة مرة أخرى ، نفذ {0}."
 
 msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
-msgstr ""
+msgstr "لم تقم بإعداد المحاكاة الخاصة بك! شغّل {0} لإعداد المحاكاة!"
 
 msgid "Running simulation..."
-msgstr ""
+msgstr "تشغيل المحاكاة ..."
 
 msgid ""
 "Invalid country name! Try again, making sure the ISO3 code you passed is "
 "correct! For the world, the code is {0}."
 msgstr ""
+"اسم البلد غير صالح! حاول مرة أخرى ، وتأكد من صحة رمز ISO3 الذي مررته! "
+"بالنسبة للعالم ، الرمز هو {0}."
 
 msgid "Results after {0} days"
-msgstr ""
+msgstr "النتائج بعد {0} يوم"
 
 msgid ""
 "More features will be available later: join the support server for updates "
 "when new features are released!"
 msgstr ""
+"ستتوفر المزيد من الميزات لاحقًا: انضم إلى خادم الدعم للحصول على التحديثات "
+"عند إصدار ميزات جديدة!"
 
 msgid "Total Cases"
-msgstr ""
+msgstr "إجمالي الحالات"
 
 msgid "Total Deaths"
-msgstr ""
+msgstr "إجمالي الوفيات"
 
 msgid "Took {0} seconds ({1}ns) to run."
-msgstr ""
+msgstr "استغرقت {0} ثانية ({1} نانوثانية) للتشغيل."
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 10 seconds."
 msgstr ""
+"تفاعل مع للرسم البياني اللوغاريتمي. تفاعل مع لرسم بياني خطي. تنتهي صلاحية "
+"هذه الرسالة بعد 10 ثوانٍ."
 
 msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
 msgstr ""
+"استغرق إنشاء {0} ثانية ({1} نانوثانية) • حالة ذاكرة التخزين المؤقت: {2}"
 
 msgid ""
 "That isn't a valid name! Check out {0} for a list of all names I can get "
 "data for!"
 msgstr ""
+"هذا ليس اسمًا صالحًا! تحقق من {0} للحصول على قائمة بجميع الأسماء التي يمكنني "
+"الحصول على بيانات عنها!"
 
 msgid "I found a {0} instead of a country!"
-msgstr ""
+msgstr "لقد وجدت {0} بدلاً من بلد!"
 
 msgid "I found a {0} instead of a province! Try {1} instead."
-msgstr ""
+msgstr "لقد وجدت {0} بدلاً من مقاطعة! جرب {1} بدلاً من ذلك."
 
 msgid "I found a {0} instead of a state! Try {1} instead."
-msgstr ""
+msgstr "لقد وجدت {0} بدلاً من ولاية! جرب {1} بدلاً من ذلك."
 
 msgid "Help"
-msgstr ""
+msgstr "مساعدة"
 
 msgid "No help available."
-msgstr ""
+msgstr "لا توجد مساعدة متاحة."
 
 msgid "Aliases"
-msgstr ""
+msgstr "اسماء مستعارة"
 
 msgid "No command called {0} found."
-msgstr ""
+msgstr "لم يتم العثور على أمر يسمى {0}."
 
 msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
-msgstr ""
+msgstr "الأمر \"{0.qualified_name}\" ليس له أمر فرعي باسم {1}"
 
 msgid "Command \"{0.qualified_name}\" has no subcommands."
-msgstr ""
+msgstr "الأمر \"{0.qualified_name}\" ليس له أوامر فرعية."
 
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 msgid "The bot's still setting up, please wait up to 10 minutes."
-msgstr ""
+msgstr "لا يزال برنامج التتبُّع قيد الإعداد ، يُرجى الانتظار حتى 10 دقائق."
 
 msgid "React to this message with 📥 within 10 seconds to send your reaction."
-msgstr ""
+msgstr "رد على هذه الرسالة بـ في غضون 10 ثوانٍ لإرسال رد فعلك."
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {0}"
-msgstr ""
+msgstr "أواجه مشكلة في العثور على اسم البلد هنا! هذا ما أعرضه: {0}"
 
 msgid ""
 "Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
@@ -171,150 +190,154 @@ msgid ""
 "prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
 "commands, run `/help`."
 msgstr ""
+"أهلا! أنا روبوت لتقديم إحصائيات مباشرة عن جائحة COVID-19. البادئة الافتراضية "
+"الخاصة بي هي `` / `. يمكن تغيير هذا مع بادئة الإعدادات / /<new prefix> ، "
+"استبدال<new prefix> بالبادئة التي تريدها. للحصول على قائمة بأوامري ، قم "
+"بتشغيل `/ help`."
 
 msgid "New Cases (7d avg)"
-msgstr ""
+msgstr "حالات جديدة (7d في المتوسط)"
 
 msgid "New Deaths (7d avg)"
-msgstr ""
+msgstr "وفيات جديدة (7d في المتوسط)"
 
 msgid "Total Cases per 1m"
-msgstr ""
+msgstr "إجمالي الحالات لكل 1 م"
 
 msgid "New Cases per 1m"
-msgstr ""
+msgstr "حالات جديدة لكل مليون"
 
 msgid "New Cases per 1m (7d avg)"
-msgstr ""
+msgstr "حالات جديدة لكل مليون (7d في المتوسط)"
 
 msgid "Total Deaths per 1m"
-msgstr ""
+msgstr "إجمالي الوفيات لكل 1 م"
 
 msgid "New Deaths per 1m"
-msgstr ""
+msgstr "وفيات جديدة لكل مليون"
 
 msgid "New Deaths per 1m (7d avg)"
-msgstr ""
+msgstr "وفيات جديدة لكل مليون (7 أيام في المتوسط)"
 
 msgid "R-Value"
-msgstr ""
+msgstr "R- القيمة"
 
 msgid "Stringency Index"
-msgstr ""
+msgstr "مؤشر التشدد"
 
 msgid "ICU Patients"
-msgstr ""
+msgstr "مرضى وحدة العناية المركزة"
 
 msgid "ICU Patients per 1m"
-msgstr ""
+msgstr "مرضى وحدة العناية المركزة لكل 1 م"
 
 msgid "Hospitalized Patients"
-msgstr ""
+msgstr "المرضى في المستشفى"
 
 msgid "Hospitalized Patients per 1m"
-msgstr ""
+msgstr "المرضى في المستشفى لكل 1 م"
 
 msgid "Weekly ICU Admissions"
-msgstr ""
+msgstr "القبول الأسبوعي لوحدة العناية المركزة"
 
 msgid "Weekly ICU Admissions per 1m"
-msgstr ""
+msgstr "معدل القبول الأسبوعي في وحدة العناية المركزة لكل شهر"
 
 msgid "Weekly Hospital Admissions"
-msgstr ""
+msgstr "دخول المستشفى الأسبوعي"
 
 msgid "Weekly Hospital Admissions per 1m"
-msgstr ""
+msgstr "دخول المستشفى الأسبوعي لكل 1 مليون"
 
 msgid "Total Tests"
-msgstr ""
+msgstr "إجمالي الاختبارات"
 
 msgid "New Tests"
-msgstr ""
+msgstr "اختبارات جديدة"
 
 msgid "New Tests (7d avg)"
-msgstr ""
+msgstr "اختبارات جديدة (متوسط 7d)"
 
 msgid "Total Tests per 1k"
-msgstr ""
+msgstr "مجموع الاختبارات لكل 1 كيلو"
 
 msgid "New Tests per 1k"
-msgstr ""
+msgstr "اختبارات جديدة لكل 1 كيلو"
 
 msgid "New Tests per 1k (7d avg)"
-msgstr ""
+msgstr "اختبارات جديدة لكل 1 كيلو (7 أيام في المتوسط)"
 
 msgid "Tests Per Case"
-msgstr ""
+msgstr "الاختبارات لكل حالة"
 
 msgid "Test Positivity Rate"
-msgstr ""
+msgstr "اختبار معدل الإيجابية"
 
 msgid "Total Vaccinations"
-msgstr ""
+msgstr "إجمالي التطعيمات"
 
 msgid "Total Vaccinations per 100"
-msgstr ""
+msgstr "إجمالي التطعيمات لكل 100"
 
 msgid "New Vaccinations"
-msgstr ""
+msgstr "تطعيمات جديدة"
 
 msgid "New Vaccinations per 1m"
-msgstr ""
+msgstr "تطعيمات جديدة لكل مليون"
 
 msgid "Population Density (km^2)"
-msgstr ""
+msgstr "الكثافة السكانية (كم ^ 2)"
 
 msgid "Median Age"
-msgstr ""
+msgstr "منتصف العمر"
 
 msgid "% of population 65+"
-msgstr ""
+msgstr "٪ من السكان 65"
 
 msgid "% of population 70+"
-msgstr ""
+msgstr "٪ من السكان 70"
 
 msgid "GDP per person (USD$)"
-msgstr ""
+msgstr "الناتج المحلي الإجمالي للفرد (دولار أمريكي)"
 
 msgid "% in extreme poverty"
-msgstr ""
+msgstr "٪ في فقر مدقع"
 
 msgid "Cardiovascular Event Death Rate"
-msgstr ""
+msgstr "معدل الوفيات الناجمة عن أحداث القلب والأوعية الدموية"
 
 msgid "% of population with diabetes"
-msgstr ""
+msgstr "٪ من السكان المصابين بداء السكري"
 
 msgid "% of women that smoke"
-msgstr ""
+msgstr "النسبة المئوية للنساء المدخنات"
 
 msgid "% of men that smoke"
-msgstr ""
+msgstr "النسبة المئوية للرجال الذين يدخنون"
 
 msgid "% of the population with access to handwashing facilities"
-msgstr ""
+msgstr "النسبة المئوية للسكان الذين يمكنهم الوصول إلى مرافق غسل اليدين"
 
 msgid "Hospital beds per 1,000 people"
-msgstr ""
+msgstr "أسرة المستشفيات لكل 1000 شخص"
 
 msgid "Life expectancy"
-msgstr ""
+msgstr "متوسط العمر المتوقع"
 
 msgid "Human Development Index"
-msgstr ""
+msgstr "مؤشر التنمية البشرية"
 
 msgid "COVID-19 Stats for {0}"
-msgstr ""
+msgstr "إحصائيات COVID-19 لـ {0}"
 
 msgid "COVID-19 Hospital Stats for {0}"
-msgstr ""
+msgstr "إحصائيات مستشفى COVID-19 لـ {0}"
 
 msgid "COVID-19 Test Stats for {0}"
-msgstr ""
+msgstr "إحصائيات اختبار COVID-19 لـ {0}"
 
 msgid "COVID-19 Vaccination Stats for {0}"
-msgstr ""
+msgstr "إحصائيات التطعيم COVID-19 لـ {0}"
 
 msgid "General Stats for {0}"
-msgstr ""
+msgstr "إحصائيات عامة لـ {0}"

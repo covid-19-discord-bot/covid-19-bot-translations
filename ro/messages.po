@@ -14,156 +14,184 @@ msgstr ""
 msgid ""
 "You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
+"Trebuie să votezi pentru aceste update-uri speciale! Scrie `/vote` pentru "
+"detalii."
 
 msgid ""
 "❌ Failed to find a state with that name! `/list` will show you a list of "
 "states and their names."
 msgstr ""
+"Nu am găsit niciun județ/stat cu acel nume! `/list` o să-ți arate o listă cu "
+"state/județe și numele lor."
 
 msgid "I found a {0} instead of a state! You can try `{1}` instead."
 msgstr ""
+"Am găsit un {0} în loc de un stat/județ. În schimb poți încerca `{1}` ."
 
 msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
-msgstr ""
+msgstr "Postând un grafic {0} pentru {1} in acest canal fiecare {2}."
 
 msgid "logarithmic"
-msgstr ""
+msgstr "logaritmic"
 
 msgid "linear"
-msgstr ""
+msgstr "liniar"
 
 msgid "❌ Failed to find that province name!"
-msgstr ""
+msgstr "❌ Nu am găsit numele de provincie!"
 
 msgid "I found a {0} instead of a province! You can try `{1}` instead."
-msgstr ""
+msgstr "Am găsit un {0} în loc de o provincie. În schimb poți încerca `{1}` ."
 
 msgid "❌ Failed to find that state name! See {0} for help!"
-msgstr ""
+msgstr "❌ Nu s-a găsit numele de stat! Consultați {0} pentru ajutor!"
 
 msgid "Didn't find any provinces with that name!"
-msgstr ""
+msgstr "Nu am găsit niciun județ cu acel nume!"
 
 msgid "I found a {0} instead of a province! Use the {1} command instead."
 msgstr ""
+"Am găsit un {0} în loc de o provincie! Poți folosii comanda {1} în schimb."
 
 msgid "Invalid action. It must be one of {0}."
-msgstr ""
+msgstr "Acțiune invalidă. Trebuie să fie unul/una dintre {0}."
 
 msgid ""
 "No data is available at the moment. Wait a few moments. **Spamming this "
 "command will result in a temporary ban!**"
 msgstr ""
+"Informațiile nu sunt valabile în acest moment. Așteptați câteva momente. ** "
+"Spamarea acestei comenzi va rezulta într-un ban temporar!**"
 
 msgid ""
 "\n"
 "For help, join the bot's support server at {0}\n"
 "Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"Pentru ajutor, alăturați-vă server-ului pentru ajutor la {0}, vedeți <https:/"
+"/discordstatus.com/> pentru mai multe detalii despre problemele Discord-ului."
+""
 
 msgid ""
 "Set up your simulation to default values. Edit them with the {0} commands."
 msgstr ""
+"Configurați-vă simularea la valorile implicite. Editați-le cu comanda {0}."
 
 msgid ""
 "ISO3 codes are always 3 characters long! If you're trying to get the world, "
 "try {0}."
 msgstr ""
+"Codurile ISO3 sunt întotdeauna lungi de 3 caractere! Dacă încercați să "
+"obțineți date despre lume încercați {0}."
 
 msgid "Country name for simulation set to {0}."
-msgstr ""
+msgstr "Numele tării pentru simulare setat la {0}."
 
 msgid "3 years is the upper limit on simulation length."
-msgstr ""
+msgstr "Limita superioară a simulării este de 3 ani."
 
 msgid "Simulation time set to {0} days."
-msgstr ""
+msgstr "Timpul simulării setat la {0} zile."
 
 msgid "Didn't get a response. To try again, do {0}."
-msgstr ""
+msgstr "Nu am primit niciun răspuns. Ca să încercați din nou, scrieți {0}."
 
 msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
 msgstr ""
+"Nu v-ați configurat simularea! Rulați {0} pentru a vă configura simularea!"
 
 msgid "Running simulation..."
-msgstr ""
+msgstr "Rularea simulării..."
 
 msgid ""
 "Invalid country name! Try again, making sure the ISO3 code you passed is "
 "correct! For the world, the code is {0}."
 msgstr ""
+"Numele țării este invalid! Încercați din nou, fiind sigur că codul ISO3 pe "
+"care l-ați scris e corect! Pentru codul lumii, codul este  {0}."
 
 msgid "Results after {0} days"
-msgstr ""
+msgstr "Rezultate după {0} zile"
 
 msgid ""
 "More features will be available later: join the support server for updates "
 "when new features are released!"
 msgstr ""
+"Mai multe caracteristici vor fi valabile mai târziu: alăturați-vă server-"
+"ului de asistență pentru a fii notificat când mai multe caracteristici vor "
+"fi lansate!"
 
 msgid "Total Cases"
-msgstr ""
+msgstr "Cazuri totale"
 
 msgid "Total Deaths"
-msgstr ""
+msgstr "Decese totale"
 
 msgid "Took {0} seconds ({1}ns) to run."
-msgstr ""
+msgstr "A durat {0} secunde ({1}ns) pentru a rula."
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 10 seconds."
 msgstr ""
+"Reacționați cu 📈 pentru un grafic logaritmic. Reacționează cu 📉 pentru un "
+"grafic liniar. Acest mesaj expiră după 10 secunde."
 
 msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
 msgstr ""
+"A durat {0} secunde,  ({1} nanoseconds) pentru a genera • Cache Status: {2} "
 
 msgid ""
 "That isn't a valid name! Check out {0} for a list of all names I can get "
 "data for!"
 msgstr ""
+"Acesta nu este un nume valid! Uite-te la {0} pentru o lista de nume pe care "
+"o pot verifica."
 
 msgid "I found a {0} instead of a country!"
-msgstr ""
+msgstr "Am găsit {0} în loc de o țară!"
 
 msgid "I found a {0} instead of a province! Try {1} instead."
-msgstr ""
+msgstr "Am găsit {0} în loc de o provincie! În schimb încearcă {1}. "
 
 msgid "I found a {0} instead of a state! Try {1} instead."
-msgstr ""
+msgstr "Am găsit {0} în loc de un stat/județ! În schimb încearcă {1}"
 
 msgid "Help"
-msgstr ""
+msgstr "Ajutor"
 
 msgid "No help available."
-msgstr ""
+msgstr "Nu este ajutor valabil."
 
 msgid "Aliases"
-msgstr ""
+msgstr "Alias-uri "
 
 msgid "No command called {0} found."
-msgstr ""
+msgstr "Nicio comandă numită {0} găsită."
 
 msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
 msgstr ""
+"Comanda \"{0.qualified_name}\" nu are numită nici o subcomandă numită {1}"
 
 msgid "Command \"{0.qualified_name}\" has no subcommands."
-msgstr ""
+msgstr "Comanda \"{0.qualified_name}\" nu are numită nici o subcomandă."
 
 msgid "Error"
-msgstr ""
+msgstr "Eroare"
 
 msgid "The bot's still setting up, please wait up to 10 minutes."
-msgstr ""
+msgstr "Botul încă se inițializează, vă rugam așteptați până la 10 minute."
 
 msgid "React to this message with 📥 within 10 seconds to send your reaction."
 msgstr ""
+"Reacționează la acest mesaj cu 📥 în decurs de 10 secunde pentru a-ți "
+"trimite reacția."
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {0}"
-msgstr ""
+msgstr "Am probleme cu găsirea numelui țării! Iată ce arăt: {0}"
 
 msgid ""
 "Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
@@ -171,150 +199,155 @@ msgid ""
 "prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
 "commands, run `/help`."
 msgstr ""
+"Salut! Sunt un bot care trimite statistici live asupra pandemiei COVID-19. "
+"Prefixul meu implicit este `/`. Acesta poate fi schimbat cu ajutorul "
+"comenzii  `/settings prefix <new prefix>`, schimbarea <new prefix> cu "
+"prefixul care îl doriți. Pentru o listă cu comenzile valabile, scrieți `/"
+"help`."
 
 msgid "New Cases (7d avg)"
-msgstr ""
+msgstr "Cazuri Noi (med. 7z)"
 
 msgid "New Deaths (7d avg)"
-msgstr ""
+msgstr "Decese Noi (med. 7z)"
 
 msgid "Total Cases per 1m"
-msgstr ""
+msgstr "Cazuri Totale per. 1m"
 
 msgid "New Cases per 1m"
-msgstr ""
+msgstr "Cazuri Noi per. 1m"
 
 msgid "New Cases per 1m (7d avg)"
-msgstr ""
+msgstr "Cazuri Noi per. 1m (med. 7z)"
 
 msgid "Total Deaths per 1m"
-msgstr ""
+msgstr "Decese Totale per. 1m"
 
 msgid "New Deaths per 1m"
-msgstr ""
+msgstr "Decese Noi per. 1m"
 
 msgid "New Deaths per 1m (7d avg)"
-msgstr ""
+msgstr "Decese noi per. 1m (med. 7z)"
 
 msgid "R-Value"
-msgstr ""
+msgstr "Valoarea-R"
 
 msgid "Stringency Index"
-msgstr ""
+msgstr "Index-ul de Stringenţă"
 
 msgid "ICU Patients"
-msgstr ""
+msgstr "Pacienți la ATI"
 
 msgid "ICU Patients per 1m"
-msgstr ""
+msgstr "Pacienți ATI per. 1m"
 
 msgid "Hospitalized Patients"
-msgstr ""
+msgstr "Pacienți Hospitalizați "
 
 msgid "Hospitalized Patients per 1m"
-msgstr ""
+msgstr "Pacienți Hospitalizați per. 1m"
 
 msgid "Weekly ICU Admissions"
-msgstr ""
+msgstr "Admiteri ATI Săptămânale "
 
 msgid "Weekly ICU Admissions per 1m"
-msgstr ""
+msgstr "Admiteri ATI Săptămânale per. 1m"
 
 msgid "Weekly Hospital Admissions"
-msgstr ""
+msgstr "Admiteri Săptămânale la Spitale "
 
 msgid "Weekly Hospital Admissions per 1m"
-msgstr ""
+msgstr "Admiteri Săptămânale la Spitale per. 1m"
 
 msgid "Total Tests"
-msgstr ""
+msgstr "Teste Totale"
 
 msgid "New Tests"
-msgstr ""
+msgstr "Teste Noi"
 
 msgid "New Tests (7d avg)"
-msgstr ""
+msgstr "Teste Noi (med. 7z)"
 
 msgid "Total Tests per 1k"
-msgstr ""
+msgstr "Teste Totale per. 1k"
 
 msgid "New Tests per 1k"
-msgstr ""
+msgstr "Teste Noi per. 1k"
 
 msgid "New Tests per 1k (7d avg)"
-msgstr ""
+msgstr "Teste Noi per. 1k (med. 7z)"
 
 msgid "Tests Per Case"
-msgstr ""
+msgstr "Teste per. Caz"
 
 msgid "Test Positivity Rate"
-msgstr ""
+msgstr "Rată de Pozitivare "
 
 msgid "Total Vaccinations"
-msgstr ""
+msgstr "Vaccinări Totale "
 
 msgid "Total Vaccinations per 100"
-msgstr ""
+msgstr "Vaccinări Totale per. 100"
 
 msgid "New Vaccinations"
-msgstr ""
+msgstr "Vaccinări Noi"
 
 msgid "New Vaccinations per 1m"
-msgstr ""
+msgstr "Vaccinări Noi per. 1m"
 
 msgid "Population Density (km^2)"
-msgstr ""
+msgstr "Densitatea Populației (km^2) "
 
 msgid "Median Age"
-msgstr ""
+msgstr "Vârsta Medie"
 
 msgid "% of population 65+"
-msgstr ""
+msgstr "% din populați, vârsta 65+"
 
 msgid "% of population 70+"
-msgstr ""
+msgstr "% din populație, vârsta 70+"
 
 msgid "GDP per person (USD$)"
-msgstr ""
+msgstr "GDP per. persoană (USD$)"
 
 msgid "% in extreme poverty"
-msgstr ""
+msgstr "% in sărăcie extremă"
 
 msgid "Cardiovascular Event Death Rate"
-msgstr ""
+msgstr "Rata de Decese Cardiovasculare"
 
 msgid "% of population with diabetes"
-msgstr ""
+msgstr "% din populație cu diabet"
 
 msgid "% of women that smoke"
-msgstr ""
+msgstr "% de femei care fumează"
 
 msgid "% of men that smoke"
-msgstr ""
+msgstr "% de bărbați care fumează"
 
 msgid "% of the population with access to handwashing facilities"
-msgstr ""
+msgstr "% de populație care are acces la apă curată de la robinet"
 
 msgid "Hospital beds per 1,000 people"
-msgstr ""
+msgstr "Paturi de Spital per. 1,000 de oameni"
 
 msgid "Life expectancy"
-msgstr ""
+msgstr "Speranța de viață"
 
 msgid "Human Development Index"
-msgstr ""
+msgstr "Index-ul dezvoltării umane"
 
 msgid "COVID-19 Stats for {0}"
-msgstr ""
+msgstr "Statistici COVID-19 pentru {0}"
 
 msgid "COVID-19 Hospital Stats for {0}"
-msgstr ""
+msgstr "Statistici pentru spitalele COVID-19 {0}"
 
 msgid "COVID-19 Test Stats for {0}"
-msgstr ""
+msgstr "Statistici Testare COVID-19 {0}"
 
 msgid "COVID-19 Vaccination Stats for {0}"
-msgstr ""
+msgstr "Statisticile vaccinării COVID-19 {0}"
 
 msgid "General Stats for {0}"
-msgstr ""
+msgstr "Statistici Generale pentru {0}"

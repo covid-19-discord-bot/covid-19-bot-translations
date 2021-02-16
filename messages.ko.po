@@ -15,22 +15,26 @@ msgid ""
 "You've used too many updaters! You've used {0} of your {1} updaters. Get "
 "more by voting on top.gg."
 msgstr ""
+"업데이터를 너무 많이 사용하셨습니다! {1} 개의 업데이터 중 {0} 개를 사용했습니다. top.gg에서 투표하여 더 많은 것을 "
+"얻으십시오."
 
 msgid ""
 "❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
 "Anyways, that isn't allowed. Try again with a more reasonable delay."
 msgstr ""
+"❌ 자동 업데이트 지연을 1 년 이상으로 설정하려고 했나요? Oi. 어쨌든, 그것은 허용되지 않습니다. 더 합리적인 지연으로 다시 "
+"시도하십시오."
 
 msgid ""
 "⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
 "this? To confirm, type `ok` within 15 seconds."
-msgstr ""
+msgstr "⚠ 1 일 이상 지연 설정 중입니다! 이 작업을 수행 하시겠습니까? 확인하려면 15 초 이내에`ok`를 입력하십시오."
 
 msgid "Action cancelled."
-msgstr ""
+msgstr "작업이 취소되었습니다."
 
 msgid "Continuing setup..."
-msgstr ""
+msgstr "계속 설정 중 ..."
 
 msgid ""
 "Hi there! Welcome to the COVID-19 Bot autoupdater interactive setup.\n"
@@ -39,9 +43,11 @@ msgid ""
 "2⃣: Updates for a continent.\n"
 "3⃣: Updates for a country."
 msgstr ""
+"안녕! COVID-19 봇 자동 업데이트 프로그램 대화 형 설정에 오신 것을 환영합니다. 시작하자. 다음 옵션 중 하나를 선택하십시오. "
+"1⃣ : 세계를위한 업데이트. 2⃣ : 대륙 업데이트. 3⃣ : 국가 업데이트."
 
 msgid "Timed out."
-msgstr ""
+msgstr "시간 초과."
 
 msgid ""
 "Next, what update delay would you like? For example, 12h would do a update "
@@ -51,7 +57,7 @@ msgstr ""
 "않습니다."
 
 msgid "Invalid time provided. Make sure it's in the correct format!"
-msgstr ""
+msgstr "잘못된 시간이 제공되었습니다. 올바른 형식인지 확인하십시오!"
 
 msgid ""
 "Finally, what country would you like to do a update for? Type the country's "
@@ -59,11 +65,11 @@ msgid ""
 msgstr "마지막으로, 어떤 국가에 대해 업데이트를 원하십니까? 채팅에 국가의 ISO2 코드를 입력합니다."
 
 msgid "Didn't find a country name! Try again."
-msgstr ""
+msgstr "국가 이름을 찾지 못했습니다! 다시 시도하십시오."
 
 msgid ""
 "I found a {0} instead of a country! You can let this time out and try again."
-msgstr ""
+msgstr "국가 대신 {0}을 (를) 찾았습니다! 이 시간을두고 다시 시도 할 수 있습니다."
 
 msgid ""
 "Finally, what continent would you like to do a update for? Type the "
@@ -71,160 +77,162 @@ msgid ""
 msgstr "마지막으로 어떤 대륙에 대해 업데이트를 하시겠습니까? 채팅에 대륙 이름을 입력합니다."
 
 msgid "Didn't find a continent name! Try again."
-msgstr ""
+msgstr "대륙 이름을 찾지 못했습니다! 다시 시도하십시오."
 
 msgid ""
 "I found a {0} instead of a continent! You can let this time out and try "
 "again."
-msgstr ""
+msgstr "대륙 대신 {0}을 (를) 찾았습니다! 이 시간을두고 다시 시도 할 수 있습니다."
 
 msgid ""
 "❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
 "countries and their IDs."
-msgstr ""
+msgstr "❌ 해당 국가의 ISO2 코드를받지 못했습니다! `/ list`는 국가 및 ID 목록을 표시합니다."
 
 msgid "I found a {0} instead of a country! You can try `{1}` instead."
-msgstr ""
+msgstr "국가 대신 {0}을 (를) 찾았습니다! 대신`{1}`를 시도 할 수 있습니다."
 
 msgid "✅ Posting stats for {0} in this channel every {1}."
-msgstr ""
+msgstr "✅이 채널에서 {1}마다 {0}에 대한 통계를 게시합니다."
 
 msgid ""
 "❌ Failed to get a continent name! {0} will show you a list of continents."
-msgstr ""
+msgstr "❌ 대륙 이름을 얻지 못했습니다! {0}는 대륙 목록을 표시합니다."
 
 msgid "❌ I found a {0} instead of a continent! You can try `{1}` instead."
-msgstr ""
+msgstr "❌ 대륙 대신 {0}을 (를) 찾았습니다! 대신`{1}`를 시도 할 수 있습니다."
 
 msgid "❌ Must pass either {0} or a ID as a argument."
 msgstr "❌ {0} 또는 ID를 인수로 전달해야합니다."
 
 msgid "✅ Deleted all autoupdaters in this channel."
-msgstr ""
+msgstr "✅이 채널의 모든 자동 업데이트 프로그램을 삭제했습니다."
 
 msgid "❌ No autoupdater with that ID found."
-msgstr ""
+msgstr "❌ 해당 ID를 가진 자동 업데이트 프로그램이 없습니다."
 
 msgid "✅ Deleted autoupdater with ID {0}."
-msgstr ""
+msgstr "✅ ID가 {0} 인 자동 업데이트 프로그램을 삭제했습니다."
 
 msgid "List of Updaters"
-msgstr ""
+msgstr "업데이터 목록"
 
 msgid "To disable one of these updaters, run {0}, replacing {1} with the ID."
-msgstr ""
+msgstr "이러한 업데이터 중 하나를 사용하지 않으려면 {0}를 실행하여 {1}를 ID로 바꿉니다."
 
 msgid "Country: {0}\n"
 "Delay: {1} seconds"
-msgstr ""
+msgstr "국가 : {0} 지연 : {1} 초"
 
 msgid "None 😞"
-msgstr ""
+msgstr "없음 😞"
 
 msgid "Add one with the {0} command!"
 msgstr "{0} 명령으로 추가하십시오!"
 
 msgid "❌ You don't have a autoupdater set here or the ID you sent is invalid!"
-msgstr ""
+msgstr "❌ 여기에 자동 업데이트 프로그램이 설정되어 있지 않거나 보낸 ID가 유효하지 않습니다!"
 
 msgid "✅ Forcing a update sometime in the next minute."
-msgstr ""
+msgstr "✅ 몇 분 안에 업데이트를 강제합니다."
 
 msgid "✅ Next update: {0}"
-msgstr ""
+msgstr "✅ 다음 업데이트 : {0}"
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {trying}"
-msgstr ""
+msgstr "여기서 국가 이름을 찾는 데 문제가 있습니다! 내가 보여주는 내용은 다음과 같습니다. {trying}"
 
 msgid "Stopping task..."
-msgstr ""
+msgstr "작업 중지 중 ..."
 
 msgid "Task has been sent a stop signal. Waiting 10 seconds..."
-msgstr ""
+msgstr "작업에 중지 신호가 전송되었습니다. 10 초 대기 중 ..."
 
 msgid "Sending terminate signal..."
-msgstr ""
+msgstr "종료 신호를 보내는 중 ..."
 
 msgid "Task has been killed. Starting now..."
-msgstr ""
+msgstr "작업이 종료되었습니다. 지금부터 ..."
 
 msgid "Task has been sent a start signal."
-msgstr ""
+msgstr "작업에 시작 신호가 전송되었습니다."
 
 msgid "Task restarted!"
-msgstr ""
+msgstr "작업이 다시 시작되었습니다!"
 
 msgid "Credits"
-msgstr ""
+msgstr "크레딧"
 
 msgid "current bot version: v5.2.0"
-msgstr ""
+msgstr "현재 봇 버전 : v5.2.0"
 
 msgid "v3+ Creator"
-msgstr ""
+msgstr "v3 작성자"
 
 msgid "Original Creator"
-msgstr ""
+msgstr "오리지널 크리에이터"
 
 msgid "Bot Framework"
 msgstr "봇 프레임 워크"
 
 msgid "Moral Support"
-msgstr ""
+msgstr "도덕적 지원"
 
 msgid "API Providers"
 msgstr "API 제공 업체"
 
 msgid "discord.py Devs"
-msgstr ""
+msgstr "discord.py 개발자"
 
 msgid "Invite Links"
-msgstr ""
+msgstr "링크 초대"
 
 msgid "Bot Invite Link"
 msgstr "봇 초대 링크"
 
 msgid "Discord Server Invite Link"
-msgstr ""
+msgstr "Discord 서버 초대 링크"
 
 msgid ""
 "I seem to be having issues, apparently I can't find the channel you ran that "
 "command in! Please try again."
-msgstr ""
+msgstr "문제가있는 것 같습니다. 명령을 실행 한 채널을 찾을 수없는 것 같습니다. 다시 시도하십시오."
 
 msgid "Pong. — Time taken: {0}ms"
-msgstr ""
+msgstr "탁구. — 소요 시간 : {0} ms"
 
 msgid "Calling `self.bot.async_setup()`..."
-msgstr ""
+msgstr "`self.bot.async_setup ()`호출 중 ..."
 
 msgid "Bot has been setup!"
 msgstr "봇이 설정되었습니다!"
 
 msgid "Vote Sites"
-msgstr ""
+msgstr "투표 사이트"
 
 msgid ""
 "Voting for the bot gives it more visibility, which means it ends up in more "
 "servers, giving me (the dev) more incentive to add more features!\n"
 "If you want a specific feature, let me know with the `/suggest` command!"
 msgstr ""
+"봇에 투표하면 더 많은 가시성을 얻을 수 있습니다. 즉, 더 많은 서버에 배치되어 더 많은 기능을 추가 할 수있는 인센티브를 제공합니다! "
+"특정 기능을 원하시면`/ suggest` 명령으로 알려주세요!"
 
 msgid "**DO NOT disable adblockers!**"
-msgstr ""
+msgstr "** 광고 차단기를 비활성화하지 마십시오! **"
 
 msgid ""
 "A fatal error has happened! The world data seems to have gone missing. "
 "Please let a mod in the bot's support server know."
-msgstr ""
+msgstr "치명적인 오류가 발생했습니다! 세계 데이터가 누락 된 것 같습니다. 봇 지원 서버의 모드에게 알려주세요."
 
 msgid "Didn't find any continents with that name!"
-msgstr ""
+msgstr "그 이름의 대륙을 찾지 못했습니다!"
 
 msgid "Use the `{0}covid world` command instead."
-msgstr ""
+msgstr "대신`{0} covid world` 명령어를 사용하세요."
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
@@ -232,292 +240,306 @@ msgid ""
 "Hint: if you're looking for North or South Korea, try `{0}covid KP` or "
 "`{0}covid KR` for North and South Korea, respectively!"
 msgstr ""
+"해당 이름의 국가를 찾지 못했거나 국가에 사례가 없습니다! '{0} list country'로 이름을 검색해보세요. 힌트 : 남한과 "
+"북한을 찾고 있다면 각각 북한과 남한을위한`{0} covid KP` 또는`{0} covid KR`을 사용해보세요."
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
 "searching for the name with `{0}list country`."
-msgstr ""
+msgstr "해당 이름의 국가를 찾지 못했거나 국가에 사례가 없습니다! '{0} list country'로 이름을 검색해보세요."
 
 msgid "You've used a incorrect command: try `{0}covid {1}`"
-msgstr ""
+msgstr "잘못된 명령어를 사용했습니다.`{0} covid {1}`를 사용해보세요."
 
 msgid "You haven't split the country name and province with a `; `!"
-msgstr ""
+msgstr "`;로 국가 이름과도를 분할하지 않았습니다. `!"
 
 msgid ""
 "You've placed too many `; ` in your message! You can use only one to split "
 "the country and province names! For help, run `{0}help covid province`!"
 msgstr ""
+"너무 많은`; `메시지에! 하나만 사용하여 국가 및도 이름을 분할 할 수 있습니다! 도움이 필요하면`{0} help covid "
+"province`를 실행하세요!"
 
 msgid ""
 "Couldn't find a country with that ID (`/list` for a list of IDs) or the "
 "country has no cases!"
-msgstr ""
+msgstr "해당 ID (ID 목록의 경우 '/ list')로 국가를 찾을 수 없거나 국가에 사례가 없습니다!"
 
 msgid ""
 "Couldn't find a province with that name! If you're looking for US states, "
 "see the `{0}covid states` command."
-msgstr ""
+msgstr "해당 이름의 주를 찾을 수 없습니다! 미국 주를 찾는 경우`{0} covid states` 명령어를 참조하세요."
 
 msgid ""
 "Something went wrong, I can't find today's stats! I'm currently trying to "
 "find stats for {0}!"
-msgstr ""
+msgstr "문제가 발생했습니다. 오늘의 통계를 찾을 수 없습니다! 현재 {0}에 대한 통계를 찾고 있습니다!"
 
 msgid "You need to specify a US state! For a list, run `{0}list states`."
-msgstr ""
+msgstr "미국 주를 지정해야합니다! 목록의 경우`{0} list states`를 실행합니다."
 
 msgid "Didn't find a state with that name! For a list, run `{0}list states`."
-msgstr ""
+msgstr "그 이름을 가진 주를 찾지 못했습니다! 목록의 경우`{0} list states`를 실행합니다."
 
 msgid "That isn't a state! Try the `{0}covid {1}` command."
-msgstr ""
+msgstr "그것은 상태가 아닙니다! `{0} covid {1}`명령어를 사용해보세요."
 
 msgid ""
 "I can't send the entire country list: it's over Discord's 6,000 character "
 "limit! Try `{0}{1} <letter>` to get only countries starting with `<letter>`."
 msgstr ""
+"전체 국가 목록을 보낼 수 없습니다. Discord의 6,000 자 제한을 초과했습니다! `{0} {1} 시도<letter> `로 "
+"시작하는 국가 만 가져 오려면`<letter> `."
 
 msgid ""
 "Whatever you have requested, it is over 6,000 characters. I can send a text "
 "file, however. React with 📔 any time in the next 15 seconds to be DMed a "
 "text file instead of a embed."
 msgstr ""
+"요청하신 내용은 6,000 자 이상입니다. 하지만 텍스트 파일을 보낼 수 있습니다. 다음 15 초 동안 언제든지 📔과 반응하여 임베딩 "
+"대신 텍스트 파일을 DMed합니다."
 
 msgid "Sent you a DM!"
-msgstr ""
+msgstr "DM을 보냈습니다!"
 
 msgid "DMed a list to you!"
-msgstr ""
+msgstr "당신에게 목록을 DMed!"
 
 msgid "List of {0}"
-msgstr ""
+msgstr "{0} 목록"
 
 msgid "Use `{0}covid {1} <name>` when getting stats for a {1}!"
-msgstr ""
+msgstr "`{0} covid {1} 사용<name> `{1}에 대한 통계를 얻을 때!"
 
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 msgid "List of American States"
-msgstr ""
+msgstr "미국 주 목록"
 
 msgid ""
 "Use the `{0}covid states <name>` command when getting stats for `<name>`!"
-msgstr ""
+msgstr "`{0} 코 비드 상태 사용<name> `에 대한 통계를 가져올 때`명령<name> `!"
 
 msgid ""
 "The page number you have selected is not between 1 and {0}. Please try again."
 ""
-msgstr ""
+msgstr "선택한 페이지 번호가 1에서 {0} 사이가 아닙니다. 다시 시도하십시오."
 
 msgid "Page {0} of {1}"
-msgstr ""
+msgstr "{0} / {1} 페이지"
 
 msgid "To go to the next page, run `{0}{1} {2} {3}`"
-msgstr ""
+msgstr "다음 페이지로 이동하려면`{0} {1} {2} {3}`실행"
 
 msgid "Incorrect Top List Type"
-msgstr ""
+msgstr "잘못된 상위 목록 유형"
 
 msgid "Try sorting with one of the following:"
-msgstr ""
+msgstr "다음 중 하나로 정렬 해보십시오."
 
 msgid "Top List"
-msgstr ""
+msgstr "상위 목록"
 
 msgid "Run `{0}help top` for a list of all possible sorts!"
-msgstr ""
+msgstr "가능한 모든 정렬 목록을 보려면`{0} help top`을 실행하세요."
 
 msgid "{0}: {1}"
-msgstr ""
+msgstr "{0} : {1}"
 
 msgid "The server prefix is set to `{0}`."
 msgstr "서버 접두사는`{0}`로 설정됩니다."
 
 msgid "There is no specific prefix set for this guild."
-msgstr ""
+msgstr "이 길드에는 특정 접두어가 설정되어 있지 않습니다."
 
 msgid "The server language is now set to `{0}`."
-msgstr ""
+msgstr "이제 서버 언어가`{0}`로 설정되었습니다."
 
 msgid "There is no specific language set for this guild."
-msgstr ""
+msgstr "이 길드에는 특정 언어가 설정되어 있지 않습니다."
 
 msgid "Tips are currently enabled for this guild."
-msgstr ""
+msgstr "현재이 길드에 대한 팁이 활성화되어 있습니다."
 
 msgid "Tips are currently disabled for this guild."
-msgstr ""
+msgstr "현재이 길드에서는 팁이 비활성화되어 있습니다."
 
 msgid "Enabled tips for this guild."
-msgstr ""
+msgstr "이 길드에 대한 도움말을 활성화했습니다."
 
 msgid "Disabled tips for this guild."
-msgstr ""
+msgstr "이 길드의 팁을 비활성화했습니다."
 
 msgid ""
 "The API has been disabled for this channel. To restore your permissions, "
 "contact 0/0#0001 on the official support server."
-msgstr ""
+msgstr "이 채널에 대한 API가 비활성화되었습니다. 권한을 복원하려면 공식 지원 서버에서 0 / 0 # 0001에 문의하세요."
 
 msgid "DMed your API key to you."
-msgstr ""
+msgstr "API 키를 DM으로 전송했습니다."
 
 msgid "Revoked/deleted API key."
-msgstr ""
+msgstr "해지 / 삭제 된 API 키입니다."
 
 msgid "DMed your new API key to you."
-msgstr ""
+msgstr "새 API 키를 DM으로 전송했습니다."
 
 msgid "Disabled the API for {0}."
-msgstr ""
+msgstr "{0}에 대한 API를 사용 중지했습니다."
 
 msgid ""
 "There was an error converting one of your arguments with {0}. The correct "
 "syntax would be `{1}`. The converter returned the following error: {2}"
 msgstr ""
+"{0}로 인수 중 하나를 변환하는 중에 오류가 발생했습니다. 올바른 구문은`{1}`입니다. 변환기가 다음 오류를 리턴했습니다. {2}"
 
 msgid ""
 "This command is missing an argument. The correct syntax would be `{0}`."
-msgstr ""
+msgstr "이 명령에 인수가 없습니다. 올바른 구문은`{0}`입니다."
 
 msgid ""
 "Too many quotes were provided in your message: don't forget to escape your "
 "quotes like this `\\{0}`. The correct syntax for the command is `{1}`."
 msgstr ""
+"메시지에 너무 많은 따옴표가 제공되었습니다. '\\ {0}`과 같이 따옴표를 이스케이프하는 것을 잊지 마십시오. 명령의 올바른 "
+"구문은`{1}`입니다."
 
 msgid ""
 "A space was expected after a closing quote, but I found {0}. Please check "
 "that you are using the correct syntax: `{1}`."
-msgstr ""
+msgstr "닫는 따옴표 뒤에 공백이 있어야하는데 {0}을 (를) 찾았습니다. 올바른 구문 (`{1}`)을 사용하고 있는지 확인하세요."
 
 msgid ""
 "A closing quote was expected, but wasn't found. Don't forget to close your "
 "quotes with `{0}` at the end of your argument. Please check that you are "
 "using the correct syntax: `{1}`."
 msgstr ""
+"닫는 따옴표가 예상되었지만 찾을 수 없습니다. 인수 끝에`{0}`로 따옴표를 닫는 것을 잊지 마세요. 올바른 구문 (`{1}`)을 "
+"사용하고 있는지 확인하세요."
 
 msgid ""
 "Too many arguments were passed in this command. Please check that you are "
 "using the correct syntax: `{0}`."
-msgstr ""
+msgstr "이 명령에 너무 많은 인수가 전달되었습니다. 올바른 구문 (`{0}`)을 사용하고 있는지 확인하세요."
 
 msgid ""
 "The way you are invoking this command is confusing me. The correct syntax "
 "would be `{0}`."
-msgstr ""
+msgstr "이 명령을 호출하는 방식이 혼란 스럽습니다. 올바른 구문은`{0}`입니다."
 
 msgid ""
 "An argument passed was incorrect. `{0}`.Please check that you are using the "
 "correct syntax: `{command_invoke_help}`."
 msgstr ""
+"전달 된 인수가 잘못되었습니다. `{0}`. 올바른 구문`{command_invoke_help}`를 사용하고 있는지 확인하세요."
 
 msgid "{0} Please check that you are using the correct syntax: `{1}`."
-msgstr ""
+msgstr "{0} 올바른 구문`{1}`을 사용하고 있는지 확인하십시오."
 
 msgid "This command can only be used in a private message."
-msgstr ""
+msgstr "이 명령은 개인 메시지에서만 사용할 수 있습니다."
 
 msgid "This command cannot be used in a private message."
-msgstr ""
+msgstr "이 명령은 개인 메시지에서 사용할 수 없습니다."
 
 msgid "Multiple errors were encountered when running your command: {0}"
-msgstr ""
+msgstr "명령을 실행할 때 여러 오류가 발생했습니다 : {0}"
 
 msgid "You need to be the owner of the bot to run that."
-msgstr ""
+msgstr "이를 실행하려면 봇의 소유자 여야합니다."
 
 msgid "You are missing permissions to run this command. {0}"
-msgstr ""
+msgstr "이 명령을 실행할 수있는 권한이 없습니다. {0}"
 
 msgid "I am missing permissions to run this command. {0}"
-msgstr ""
+msgstr "이 명령을 실행할 권한이 없습니다. {0}"
 
 msgid "You are missing the following role: {0}"
-msgstr ""
+msgstr "다음 역할이 누락되었습니다. {0}"
 
 msgid "I am missing the following role: {0}"
-msgstr ""
+msgstr "다음 역할이 없습니다. {0}"
 
 msgid "You are missing one of the following roles: {0}"
-msgstr ""
+msgstr "다음 역할 중 하나가 누락되었습니다. {0}"
 
 msgid "I am missing one of the following roles: {0}"
-msgstr ""
+msgstr "다음 역할 중 하나가 누락되었습니다. {0}"
 
 msgid "You need to be in a NSFW channel to run that."
-msgstr ""
+msgstr "이를 실행하려면 NSFW 채널에 있어야합니다."
 
 msgid "You need to be in the {0} server (`{1}`)."
-msgstr ""
+msgstr "{0} 서버 (`{1}`)에 있어야합니다."
 
 msgid "You need to be in a server with ID {0}."
-msgstr ""
+msgstr "ID가 {0} 인 서버에 있어야합니다."
 
 msgid "You have the `{0}` permission."
-msgstr ""
+msgstr "`{0}`권한이 있습니다."
 
 msgid "You need the `{0}` permission."
-msgstr ""
+msgstr "`{0}`권한이 필요합니다."
 
 msgid "You have {0} or more of the following permissions: `{1}`."
-msgstr ""
+msgstr "다음 권한 중 {0} 개 이상이 있습니다.`{1}`."
 
 msgid "You need {0} or more of the following permissions: `{1}`."
-msgstr ""
+msgstr "다음 권한 중 {0} 이상이 필요합니다.`{1}`."
 
 msgid "The provided command was not found."
-msgstr ""
+msgstr "제공된 명령을 찾을 수 없습니다."
 
 msgid "That command has been disabled."
-msgstr ""
+msgstr "해당 명령이 비활성화되었습니다."
 
 msgid ""
 "I don't have permissions to send messages there! Try again somewhere I do "
 "have permissions to send messages!"
-msgstr ""
+msgstr "거기에 메시지를 보낼 권한이 없습니다! 메시지를 보낼 수있는 권한이있는 곳에서 다시 시도하세요!"
 
 msgid "The bot's still setting up, please wait a few minutes and try again!"
-msgstr ""
+msgstr "봇이 아직 설정 중입니다. 잠시 기다렸다가 다시 시도하세요!"
 
 msgid ""
 "I can't find your original message, Discord may be having issues! Try again."
-msgstr ""
+msgstr "원본 메시지를 찾을 수 없습니다. Discord에 문제가있을 수 있습니다! 다시 시도하십시오."
 
 msgid ""
 "There was an error running the specified command‽ This error has been logged."
 ""
-msgstr ""
+msgstr "지정된 명령을 실행하는 동안 오류가 발생했습니다 .‽이 오류가 기록되었습니다."
 
 msgid "You are being ratelimited. Please try again {0}."
-msgstr ""
+msgstr "요금이 제한됩니다. {0}을 (를) 다시 시도하십시오."
 
 msgid "globally"
-msgstr ""
+msgstr "전 세계적으로"
 
 msgid "per user"
-msgstr ""
+msgstr "사용자 당"
 
 msgid "per guild"
-msgstr ""
+msgstr "길드 당"
 
 msgid "per channel"
-msgstr ""
+msgstr "채널당"
 
 msgid "per member"
-msgstr ""
+msgstr "회원 당"
 
 msgid "per category"
-msgstr ""
+msgstr "카테고리 별"
 
 msgid "per role"
-msgstr ""
+msgstr "역할 당"
 
 msgid ""
 "Too many users are using this command. Only {0} users can use it at the same "
 "time {1}."
-msgstr ""
+msgstr "너무 많은 사용자가이 명령을 사용하고 있습니다. {0} 명의 사용자 만 동시에 사용할 수 있습니다 {1}."
 
 msgid ""
 "Simulations have been disabled in this guild due to a missing permission. "
@@ -527,17 +549,17 @@ msgstr "권한이 없어이 길드에서 시뮬레이션이 비활성화되었�
 msgid ""
 "This should not have happened. A command raised an error that does not comes "
 "from CommandError. Please inform the owner."
-msgstr ""
+msgstr "이것은 일어나지 않아야합니다. 명령에서 CommandError가 아닌 오류가 발생했습니다. 소유자에게 알려주십시오."
 
 msgid "\n"
 "For help, join the bot's support server at {invite}"
-msgstr ""
+msgstr "도움이 필요하면 {invite}에서 봇의 지원 서버에 가입하세요."
 
 msgid "No message was defined. This error has been logged."
-msgstr ""
+msgstr "정의 된 메시지가 없습니다. 이 오류가 기록되었습니다."
 
 msgid "Data for Day {0}"
-msgstr ""
+msgstr "{0} 일 데이터"
 
 msgid ""
 "**WARNING**\n"
@@ -547,26 +569,29 @@ msgid ""
 "liable for anything stemming from the use of this modeling system. Type `ok` "
 "within 15 seconds to agree to these terms."
 msgstr ""
+"** 경고 ** 이것은 어떤 방식 으로든 과학적 모델링 시스템이 아니며 순전히 오락 목적으로 존재합니다. 실제 조언은 의사에게 "
+"문의하십시오. 이 약관에 동의하면이 모델링 시스템의 사용으로 인해 발생하는 모든 것에 대해 0 / 0 # 0001에게 책임을지지 않는다는 "
+"데 동의하는 것입니다. 15 초 이내에 'ok'를 입력하여 약관에 동의합니다."
 
 msgid "Didn't get a response. To try again, do `{0}{1}`."
-msgstr ""
+msgstr "응답을받지 못했습니다. 다시 시도하려면`{0} {1}`을 (를) 수행하세요."
 
 msgid "I'll ping you when this is done, you can go do other stuff."
-msgstr ""
+msgstr "이 작업이 완료되면 핑을하겠습니다. 다른 작업을 할 수 있습니다."
 
 msgid "Please wait, initializing..."
-msgstr ""
+msgstr "잠시만 기다려주십시오. 초기화 중 ..."
 
 msgid ""
 "You haven't set up your simulation! Run `{0}simulate setup` to set your sim "
 "up!"
-msgstr ""
+msgstr "시뮬레이션을 설정하지 않았습니다! `{0} simulate setup`을 실행하여 시뮬레이션을 설정하세요!"
 
 msgid "Submitting your item to be processed..."
-msgstr ""
+msgstr "처리 할 항목을 제출하는 중 ..."
 
 msgid "Waiting for next run of simulation processor, which will happen {0}."
-msgstr ""
+msgstr "다음 시뮬레이션 프로세서 실행을 기다리는 중입니다.이 작업은 {0}에 발생합니다."
 
 msgid "Simulation failed: ran out of memory: retry with smaller values."
 msgstr "시뮬레이션 실패 : 메모리 부족 : 더 작은 값으로 다시 시도하십시오."
@@ -580,14 +605,16 @@ msgid ""
 "Simulation failed: process running the simulation has failed: ask a mod in "
 "the bot's support server (find it via {0}) to run {1}."
 msgstr ""
+"시뮬레이션 실패 : 시뮬레이션을 실행하는 프로세스가 실패했습니다. {1}을 (를) 실행하기 위해 봇의 지원 서버 ({0}을 통해 "
+"찾기)에서 모드를 요청합니다."
 
 msgid ""
 "Simulation failed: had a unknown error: report ID ({0}) to 0/0#0001 to be "
 "fixed."
-msgstr ""
+msgstr "시뮬레이션 실패 : 알 수없는 오류가 있습니다. 수정해야 할 0 / 0 # 0001에 대한 보고서 ID ({0})입니다."
 
 msgid "Processed simulation!"
-msgstr ""
+msgstr "가공 시뮬레이션!"
 
 msgid "Simulation Results"
 msgstr "시뮬레이션 결과"
@@ -604,19 +631,19 @@ msgstr ""
 "종료하려면`exit`를 입력합니다 (예 : sim 데이터를 수정하려는 경우)."
 
 msgid "Total infections by end of simulation"
-msgstr ""
+msgstr "시뮬레이션 종료시 총 감염"
 
 msgid "Total recoveries by end of simulation"
-msgstr ""
+msgstr "시뮬레이션 종료시 총 회수율"
 
 msgid "Total deaths by end of simulation"
-msgstr ""
+msgstr "시뮬레이션 종료시 총 사망자"
 
 msgid "Your simulation is ready: it will be available for 15 minutes."
-msgstr ""
+msgstr "시뮬레이션이 준비되었습니다. 15 분 동안 사용할 수 있습니다."
 
 msgid "Your simulation has timed out. Request a new one with `{0}{1}`."
-msgstr ""
+msgstr "시뮬레이션 시간이 초과되었습니다. `{0} {1}`로 새로 요청하세요."
 
 msgid ""
 "I now require the MANAGE MESSAGES permission. I've disabled this command "
@@ -628,10 +655,10 @@ msgstr ""
 "않으려면 시뮬레이션 모듈이 비활성화 된 상태에서 봇이 계속 작동합니다. 미리 감사드립니다!"
 
 msgid "Internal bot error. Try again."
-msgstr ""
+msgstr "내부 봇 오류입니다. 다시 시도하십시오."
 
 msgid "Out of bounds."
-msgstr ""
+msgstr "출입 금지 구역의."
 
 msgid ""
 "You aren't a mod in the bot's support server! You can't run this command. If "
@@ -642,36 +669,36 @@ msgstr ""
 "통해 찾기)에이 명령을 실행하도록 요청합니다."
 
 msgid "This could take up to 60 seconds, please wait..."
-msgstr ""
+msgstr "최대 60 초가 소요될 수 있습니다. 잠시 기다려주십시오 ..."
 
 msgid "Stopping simulation runners..."
-msgstr ""
+msgstr "시뮬레이션 실행 중지 중 ..."
 
 msgid "Stopping broken process pools..."
-msgstr ""
+msgstr "손상된 프로세스 풀을 중지하는 중 ..."
 
 msgid "Waiting 20 seconds for the final tasks to stop..."
-msgstr ""
+msgstr "최종 작업이 중지 될 때까지 20 초 동안 대기 중 ..."
 
 msgid "Destroying pools..."
-msgstr ""
+msgstr "풀 파괴 중 ..."
 
 msgid "Creating new pools..."
-msgstr ""
+msgstr "새 풀 생성 중 ..."
 
 msgid "Starting up simulation runners..."
-msgstr ""
+msgstr "시뮬레이션 실행기 시작 중 ..."
 
 msgid "Restarted pool sucessfully!"
-msgstr ""
+msgstr "풀을 성공적으로 다시 시작했습니다!"
 
 msgid ""
 "Simulation results are very inaccurate after 157 days. I have set the "
 "simulation length to 157 days."
-msgstr ""
+msgstr "시뮬레이션 결과는 157 일 후에 매우 부정확합니다. 시뮬레이션 기간을 157 일로 설정했습니다."
 
 msgid "Set simulation length to {0} days."
-msgstr ""
+msgstr "시뮬레이션 기간을 {0} 일로 설정합니다."
 
 msgid "Couldn't find that name. Try again, or use `{0}list` for help."
 msgstr "이름을 찾을 수 없습니다. 다시 시도하거나`{0} list`를 사용하여 도움을 받으세요."
@@ -680,130 +707,130 @@ msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 30 seconds."
-msgstr ""
+msgstr "로그 그래프를 위해 📈와 반응합니다. 선형 그래프의 경우 📉과 반응합니다. 이 메시지는 30 초 후에 만료됩니다."
 
 msgid "Timed out. Request a new message with `{0}graphs`"
-msgstr ""
+msgstr "시간 초과. `{0} 그래프`로 새 메시지 요청"
 
 msgid "Please wait, this could take a few seconds..."
-msgstr ""
+msgstr "잠시만 기다려주세요. 몇 초 정도 걸릴 수 있습니다 ..."
 
 msgid "Graph for {0}"
-msgstr ""
+msgstr "{0}에 대한 그래프"
 
 msgid "Took {0} seconds ({1}ns) to generate. • Cache Status: {2}"
-msgstr ""
+msgstr "생성하는 데 {0} 초 ({1} ns)가 걸렸습니다. • 캐시 상태 : {2}"
 
 msgid "Map Types"
-msgstr ""
+msgstr "지도 유형"
 
 msgid "Use one of these map types when running `{0}maps show <name>`."
-msgstr ""
+msgstr "`{0} maps show를 실행할 때 다음지도 유형 중 하나를 사용하세요.<name> `."
 
 msgid ""
 "I don't know what map you're looking for! Run `{0}maps types` to see all the "
 "maps I can show you!"
-msgstr ""
+msgstr "어떤지도를 찾고 있는지 모르겠습니다! 내가 보여줄 수있는 모든지도를 보려면`{0}지도 유형`을 실행하세요."
 
 msgid "Map for {0}"
-msgstr ""
+msgstr "{0}지도"
 
 msgid "Updating maps..."
-msgstr ""
+msgstr "지도 업데이트 중 ..."
 
 msgid "Done!"
-msgstr ""
+msgstr "끝난!"
 
 msgid "😃 You have that permission."
-msgstr ""
+msgstr "😃 그 권한이 있습니다."
 
 msgid "☹️ You don't have that permission."
-msgstr ""
+msgstr "☹️ 해당 권한이 없습니다."
 
 msgid "Details of permissions hierarchy"
-msgstr ""
+msgstr "권한 계층 세부 정보"
 
 msgid "{0} Default (from {0}{1})"
-msgstr ""
+msgstr "{0} 기본값 ({0} {1}에서)"
 
 msgid "{0} Guild role {1} (from {0}{2})"
-msgstr ""
+msgstr "{0} 길드 역할 {1} (출처 : {0} {2})"
 
 msgid "{0} Channel role {1} (from {0}{2})"
-msgstr ""
+msgstr "{0} 채널 역할 {1} (출처 : {0} {2})"
 
 msgid "{0} Member (from {0}{1})"
-msgstr ""
+msgstr "{0} 회원 (출처 : {0} {1})"
 
 msgid "{0} Fixed (from {0}{1})"
-msgstr ""
+msgstr "{0} 고정 ({0} {1}에서)"
 
 msgid "{0} User (from {0}{1})"
-msgstr ""
+msgstr "{0} 사용자 ({0} {1})"
 
 msgid "**{0} permissions**"
 msgstr "** {0} 권한 **"
 
 msgid "There are no specific permissions set in this guild."
-msgstr ""
+msgstr "이 길드에는 특정 권한이 설정되어 있지 않습니다."
 
 msgid "There are no specific permissions set in this channel."
-msgstr ""
+msgstr "이 채널에 설정된 특정 권한이 없습니다."
 
 msgid "There are no specific permissions for this member."
-msgstr ""
+msgstr "이 구성원에 대한 특정 권한이 없습니다."
 
 msgid "👌 Permission {0} for user {1} has been set to {2} globally."
-msgstr ""
+msgstr "👌 사용자 {1}에 대한 {0} 권한이 전역 적으로 {2} (으)로 설정되었습니다."
 
 msgid "👌 Permission {0} for member {1} has been set to {2} globally."
-msgstr ""
+msgstr "👌 구성원 {1}에 대한 {0} 권한이 전역 적으로 {2} (으)로 설정되었습니다."
 
 msgid "❌ Can't set permissions in a channel that is not in this guild."
-msgstr ""
+msgstr "❌이 길드에없는 채널에서는 권한을 설정할 수 없습니다."
 
 msgid "❌ Can't set permissions for a role that does not exist in this guild."
-msgstr ""
+msgstr "❌이 길드에 존재하지 않는 역할에 대한 권한을 설정할 수 없습니다."
 
 msgid ""
 "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this channel."
-msgstr ""
+msgstr "👌이 채널에서 역할 {1} [`{2}`]에 대한 {0} 권한이 {3} (으)로 설정되었습니다."
 
 msgid ""
 "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this guild."
-msgstr ""
+msgstr "👌이 길드에서 역할 {1} [`{2}`]에 대한 {0} 권한이 {3} (으)로 설정되었습니다."
 
 msgid "Failed to send suggestion due to a Discord error. Try again."
-msgstr ""
+msgstr "Discord 오류로 인해 제안을 보내지 못했습니다. 다시 시도하십시오."
 
 msgid "Sent suggestion successfully."
-msgstr ""
+msgstr "제안을 성공적으로 보냈습니다."
 
 msgid "The bot is not yet sharded."
-msgstr ""
+msgstr "봇은 아직 샤딩되지 않았습니다."
 
 msgid "•\t Shard ID {0}: {1}ms"
-msgstr ""
+msgstr "• 샤드 ID {0} : {1} ms"
 
 msgid " (ready)"
-msgstr ""
+msgstr "(준비된)"
 
 msgid " (current shard)"
-msgstr ""
+msgstr "(현재 샤드)"
 
 msgid "\n"
 "\n"
 "Avg latency: {0}ms"
-msgstr ""
+msgstr "평균 지연 시간 : {0} ms"
 
 msgid " (bot ready)"
-msgstr ""
+msgstr "(봇 준비)"
 
 msgid "{0}: {1} candidates\n"
-msgstr ""
+msgstr "{0} : 후보 {1} 명"
 
 msgid "Vaccine Updates"
-msgstr ""
+msgstr "백신 업데이트"
 
 msgid ""
 "(For more details, run `{0}help vaccine`)\n"
@@ -811,66 +838,70 @@ msgid ""
 "__**Phases**__\n"
 "{2}"
 msgstr ""
+"(자세한 내용은`{0} help 백신`실행) ** 총 ** {1} 백신 후보 **가 있습니다. __ ** 단계 ** __ {2}"
 
 msgid "Last updated at"
-msgstr ""
+msgstr "마지막 업데이트"
 
 msgid "Vaccine Candidates"
-msgstr ""
+msgstr "백신 후보자"
 
 msgid ""
 "To get more details on a vaccine candidate, run `{0}vaccine details <id>`\n"
 "The ID of any given candidate is under the name."
 msgstr ""
+"백신 후보에 대한 자세한 내용을 보려면`{0} vaccine details<id> `주어진 후보자의 ID는 이름 아래에 있습니다."
 
 msgid "That isn't a valid vaccine ID! View all the IDs in {0}!"
-msgstr ""
+msgstr "유효한 백신 ID가 아닙니다! {0}의 모든 ID를 확인하세요!"
 
 msgid "Description is too long! Download the attachment to see it!"
-msgstr ""
+msgstr "설명이 너무 깁니다! 그것을 보려면 첨부 파일을 다운로드하십시오!"
 
 msgid "Mechanism"
-msgstr ""
+msgstr "기구"
 
 msgid "Sponsors"
-msgstr ""
+msgstr "스폰서"
 
 msgid "Phase"
-msgstr ""
+msgstr "단계"
 
 msgid "Institutions"
 msgstr "기관"
 
 msgid "You must pass a number or {0}."
-msgstr ""
+msgstr "숫자 또는 {0}을 전달해야합니다."
 
 msgid ""
 "You don't have enough credits to transfer. Go vote on top.gg for more!\n"
 "{0}"
-msgstr ""
+msgstr "양도 할 크레딧이 충분하지 않습니다. 더 많은 것을 위해 top.gg에서 투표하세요! {0}"
 
 msgid ""
 "You are going to transfer {0} updater credits to this guild ({1}). This "
 "action is irreversible. Type {2} within 30 seconds to confirm."
 msgstr ""
+"{0} 업데이터 크레딧을이 길드 ({1})로 이전하려고합니다. 이 작업은 되돌릴 수 없습니다. 확인하려면 30 초 내에 {2}을 "
+"입력하십시오."
 
 msgid "Timed out waiting for response."
-msgstr ""
+msgstr "응답 대기 시간이 초과되었습니다."
 
 msgid "Transferred {0} credits to {1}."
-msgstr ""
+msgstr "{0} 크레딧을 {1} (으)로 이전했습니다."
 
 msgid "<:infected:775877435320565801> Total Cases"
 msgstr "<: infected : 775877435320565801> 총 사례"
 
 msgid "<:deaths:775877434687488030> Total Deaths"
-msgstr ""
+msgstr "<: deaths : 775877434687488030> 총 사망자"
 
 msgid "<:recovered:775877435089748008> Total Recoveries"
-msgstr ""
+msgstr "<: recovered : 775877435089748008> 총 복구"
 
 msgid "Province Stats for {province} on {today}"
-msgstr ""
+msgstr "{today}의 {province}에 대한 주 통계"
 
 msgid ""
 "Why such a small amount of data compared to country stats?\n"
@@ -878,33 +909,35 @@ msgid ""
 "up such a small amount of all provinces, meaning it's not worth it to try to "
 "show it for all of them."
 msgstr ""
+"국가 통계에 비해 데이터 양이 적은 이유는 무엇입니까? 일부 영토는 동일한 양의 데이터를보고 할 수 있지만, 이러한 영토는 모든 영토에서 "
+"그렇게 적은 양을 구성하므로 모든 영토에 대해 표시 할 가치가 없습니다."
 
 msgid "{0} (could also have no data)"
-msgstr ""
+msgstr "{0} (데이터가 없을 수도 있음)"
 
 msgid "New Cases"
-msgstr ""
+msgstr "새로운 사례"
 
 msgid "Cases per 1m People"
 msgstr "1m 당 케이스"
 
 msgid "<:active:775877437056614491> Active Cases"
-msgstr ""
+msgstr "<: active : 775877437056614491> 활성 사례"
 
 msgid "Active Case Change"
-msgstr ""
+msgstr "활성 케이스 변경"
 
 msgid "Active Cases per 1m People"
-msgstr ""
+msgstr "백만 명당 활성 케이스"
 
 msgid "New Deaths"
-msgstr ""
+msgstr "새로운 죽음"
 
 msgid "Deaths per 1m People"
-msgstr ""
+msgstr "1m 당 사망자"
 
 msgid "New Recoveries"
-msgstr ""
+msgstr "새로운 복구"
 
 msgid "Recovered per 1m People"
 msgstr "1m 당 회복"
@@ -913,30 +946,30 @@ msgid "<:tests:775877436075802676> Tests"
 msgstr "<: tests : 775877436075802676> 테스트"
 
 msgid "Tests per 1m People"
-msgstr ""
+msgstr "1m 당 테스트"
 
 msgid "Critical Cases"
-msgstr ""
+msgstr "중요한 사례"
 
 msgid "Population"
-msgstr ""
+msgstr "인구"
 
 msgid "COVID-19 Stats for {name}"
-msgstr ""
+msgstr "{name}에 대한 COVID-19 통계"
 
 msgid "Stats last updated at (UTC)"
-msgstr ""
+msgstr "(UTC)에 마지막으로 업데이트 된 통계"
 
 msgid "no data"
-msgstr ""
+msgstr "데이터 없음"
 
 msgid "Affected Countries"
 msgstr "영향을받는 국가"
 
 msgid "Country List"
-msgstr ""
+msgstr "국가 목록"
 
 msgid ""
 "Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
 "covid <name>`!"
-msgstr ""
+msgstr "국가 이름 또는`/ covid로 통계를 가져올 때 ISO2 / ISO3 코드를 사용하십시오.<name> `!"

@@ -14,23 +14,23 @@ msgstr ""
 msgid ""
 "You've used too many updaters! You've used {0} of your {1} updaters. Get "
 "more by voting on top.gg."
-msgstr ""
+msgstr "你已经使用了太多的更新器!您已经使用了{0}个更新器。通过在top.gg上投票来获得更多的更新器。"
 
 msgid ""
 "❌ Did you really try to set the autoupdater delay to more than a year? Oi. "
 "Anyways, that isn't allowed. Try again with a more reasonable delay."
-msgstr ""
+msgstr "❌你真的尝试将自动更新器延迟设置为一年以上吗？Oi.总之，这是不允许的。再试试更合理的延迟。"
 
 msgid ""
 "⚠ You're setting a delay longer than 1 day! Are you sure you want to do "
 "this? To confirm, type `ok` within 15 seconds."
-msgstr ""
+msgstr "⚠ 你设置了超过一天的延迟!你确定要这样做吗？要确认，请在15秒内输入`ok`。"
 
 msgid "Action cancelled."
-msgstr ""
+msgstr "行动取消。"
 
 msgid "Continuing setup..."
-msgstr ""
+msgstr "继续设置..."
 
 msgid ""
 "Hi there! Welcome to the COVID-19 Bot autoupdater interactive setup.\n"
@@ -39,190 +39,199 @@ msgid ""
 "2⃣: Updates for a continent.\n"
 "3⃣: Updates for a country."
 msgstr ""
+"你好！欢迎来到COVID-19 Bot自动更新器互动设置。欢迎来到COVID-19 Bot自动更新器交互式设置。\n"
+"让我们开始吧。请选择以下选项之一。\n"
+"1⃣:为世界更新。\n"
+"2⃣:更新一个大陆。\n"
+"3⃣:一个国家的更新。"
 
 msgid "Timed out."
-msgstr ""
+msgstr "时间到了。"
 
 msgid ""
 "Next, what update delay would you like? For example, 12h would do a update "
 "every 12 hours. Keep in mind any delays beyond 1 year will not work."
-msgstr ""
+msgstr "其次，你想要什么样的更新延迟？例如，12h将每12小时进行一次更新。请记住，任何超过1年的延迟都是不行的。"
 
 msgid "Invalid time provided. Make sure it's in the correct format!"
-msgstr ""
+msgstr "提供的时间无效。请确保它的格式正确!"
 
 msgid ""
 "Finally, what country would you like to do a update for? Type the country's "
 "ISO2 code into chat."
-msgstr ""
+msgstr "最后，你想为哪个国家进行更新？在聊天中输入国家的ISO2代码。"
 
 msgid "Didn't find a country name! Try again."
-msgstr ""
+msgstr "没有找到一个国家的名字!再试一次。"
 
 msgid ""
 "I found a {0} instead of a country! You can let this time out and try again."
-msgstr ""
+msgstr "我发现一个{0}而不是一个国家!你可以让这个时间出来，再试一次。"
 
 msgid ""
 "Finally, what continent would you like to do a update for? Type the "
 "continent name into chat."
-msgstr ""
+msgstr "最后，你想为哪个大陆进行更新？在聊天中输入大陆名称。"
 
 msgid "Didn't find a continent name! Try again."
-msgstr ""
+msgstr "没有找到大陆名称!再试一次。"
 
 msgid ""
 "I found a {0} instead of a continent! You can let this time out and try "
 "again."
-msgstr ""
+msgstr "我发现一个{0}而不是一个大陆!你可以让这个时间出来，再试一次。"
 
 msgid ""
 "❌ Failed to get a ISO2 code for the country! `/list` will show you a list of "
 "countries and their IDs."
-msgstr ""
+msgstr "❌未能获得国家的ISO2代码!`/list`将显示一个国家及其ID的列表。"
 
 msgid "I found a {0} instead of a country! You can try `{1}` instead."
-msgstr ""
+msgstr "我找到了一个{0}而不是一个国家！你可以试试`{1}`。你可以试试\"{1}\"。"
 
 msgid "✅ Posting stats for {0} in this channel every {1}."
-msgstr ""
+msgstr "✅每隔{1}在这个频道发布{0}的统计信息。"
 
 msgid ""
 "❌ Failed to get a continent name! {0} will show you a list of continents."
-msgstr ""
+msgstr "❌未能得到一个大陆名称！{0}将显示一个大陆列表。{0}将显示一个大陆列表。"
 
 msgid "❌ I found a {0} instead of a continent! You can try `{1}` instead."
-msgstr ""
+msgstr "❌我发现了一个{0}而不是一个大陆！你可以试试`{1}`。你可以试试\"{1}\"。"
 
 msgid "❌ Must pass either {0} or a ID as a argument."
-msgstr ""
+msgstr "❌ 必须传递{0}或一个ID作为参数。"
 
 msgid "✅ Deleted all autoupdaters in this channel."
-msgstr ""
+msgstr "✅ 删除该频道的所有自动更新器。"
 
 msgid "❌ No autoupdater with that ID found."
-msgstr ""
+msgstr "❌ 没有找到该ID的自动更新器。"
 
 msgid "✅ Deleted autoupdater with ID {0}."
-msgstr ""
+msgstr "✅删除ID为{0}的自动更新器。"
 
 msgid "List of Updaters"
-msgstr ""
+msgstr "更新者名单"
 
 msgid "To disable one of these updaters, run {0}, replacing {1} with the ID."
-msgstr ""
+msgstr "要禁用其中一个更新器，运行{0}，用ID代替{1}。"
 
 msgid "Country: {0}\n"
 "Delay: {1} seconds"
-msgstr ""
+msgstr "国家：{0}{0}\n"
+"延迟。{1}秒"
 
 msgid "None 😞"
-msgstr ""
+msgstr "无 ↪So_1F61E↩。"
 
 msgid "Add one with the {0} command!"
-msgstr ""
+msgstr "用{0}命令添加一个!"
 
 msgid "❌ You don't have a autoupdater set here or the ID you sent is invalid!"
-msgstr ""
+msgstr "❌ 你在这里没有设置自动更新器，或者你发送的ID无效!"
 
 msgid "✅ Forcing a update sometime in the next minute."
-msgstr ""
+msgstr "✅下一分钟强制更新。"
 
 msgid "✅ Next update: {0}"
-msgstr ""
+msgstr "✅ 下次更新：{0}"
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {trying}"
-msgstr ""
+msgstr "我在这里找不到国家名称的问题!下面是我显示的内容。{trying}"
 
 msgid "Stopping task..."
-msgstr ""
+msgstr "停止任务..."
 
 msgid "Task has been sent a stop signal. Waiting 10 seconds..."
-msgstr ""
+msgstr "任务已被发送停止信号。等待10秒..."
 
 msgid "Sending terminate signal..."
-msgstr ""
+msgstr "发送终止信号..."
 
 msgid "Task has been killed. Starting now..."
-msgstr ""
+msgstr "任务已被杀死。现在开始..."
 
 msgid "Task has been sent a start signal."
-msgstr ""
+msgstr "任务已发出启动信号。"
 
 msgid "Task restarted!"
-msgstr ""
+msgstr "任务重启!"
 
 msgid "Credits"
-msgstr ""
+msgstr "学分"
 
 msgid "current bot version: v5.2.0"
-msgstr ""
+msgstr "当前机器人版本: v5.2.0"
 
 msgid "v3+ Creator"
-msgstr ""
+msgstr "v3 Creator"
 
 msgid "Original Creator"
-msgstr ""
+msgstr "原创者"
 
 msgid "Bot Framework"
-msgstr ""
+msgstr "机器人框架"
 
 msgid "Moral Support"
-msgstr ""
+msgstr "道德支持"
 
 msgid "API Providers"
-msgstr ""
+msgstr "API供应商"
 
 msgid "discord.py Devs"
-msgstr ""
+msgstr "discord.py 开发者"
 
 msgid "Invite Links"
-msgstr ""
+msgstr "邀请链接"
 
 msgid "Bot Invite Link"
-msgstr ""
+msgstr "机器人邀请链接"
 
 msgid "Discord Server Invite Link"
-msgstr ""
+msgstr "Discord 服务器邀请链接"
 
 msgid ""
 "I seem to be having issues, apparently I can't find the channel you ran that "
 "command in! Please try again."
-msgstr ""
+msgstr "我似乎遇到了问题，显然我找不到你运行该命令的频道!请再试一次。"
 
 msgid "Pong. — Time taken: {0}ms"
-msgstr ""
+msgstr "庞。- 所需时间：{0}ms{0}ms"
 
 msgid "Calling `self.bot.async_setup()`..."
-msgstr ""
+msgstr "调用`self.bot.async_setup()`......。"
 
 msgid "Bot has been setup!"
-msgstr ""
+msgstr "机器人已经安装完毕!"
 
 msgid "Vote Sites"
-msgstr ""
+msgstr "投票网站"
 
 msgid ""
 "Voting for the bot gives it more visibility, which means it ends up in more "
 "servers, giving me (the dev) more incentive to add more features!\n"
 "If you want a specific feature, let me know with the `/suggest` command!"
 msgstr ""
+"为机器人投票可以让它有更多的知名度，这意味着它最终会出现在更多的服务器上，让我（开发）有更多的动力去增加更多的功能！如果你想要特定的功能，请用`/"
+"suggest`命令告诉我。\n"
+"如果你想要一个特定的功能，请用`/suggest`命令告诉我。"
 
 msgid "**DO NOT disable adblockers!**"
-msgstr ""
+msgstr "**不要禁用广告拦截器！**。"
 
 msgid ""
 "A fatal error has happened! The world data seems to have gone missing. "
 "Please let a mod in the bot's support server know."
-msgstr ""
+msgstr "一个致命的错误发生了！世界数据似乎已经丢失。请让机器人支持服务器的mod知道。"
 
 msgid "Didn't find any continents with that name!"
-msgstr ""
+msgstr "没有发现任何大陆有这个名字!"
 
 msgid "Use the `{0}covid world` command instead."
-msgstr ""
+msgstr "使用`{0}covid world`命令代替。"
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
@@ -230,312 +239,322 @@ msgid ""
 "Hint: if you're looking for North or South Korea, try `{0}covid KP` or "
 "`{0}covid KR` for North and South Korea, respectively!"
 msgstr ""
+"没有找到该名称的国家，或者该国家没有案例！请尝试用`{0}list country`搜索该名称。试试用`{0}list country`搜索这个名字。\n"
+"提示：如果您要找北韩或南韩，请分别用`{0}covid KP`或`{0}covid KR`来搜索北韩和南韩。"
 
 msgid ""
 "Didn't find a country with that name, or the country has no cases! Try "
 "searching for the name with `{0}list country`."
 msgstr ""
+"没有找到该名称的国家，或者该国家没有案例！请尝试用`{0}list country`搜索该名称。试着用\"{0}list country\"搜索该名称。"
 
 msgid "You've used a incorrect command: try `{0}covid {1}`"
-msgstr ""
+msgstr "您使用了一个错误的命令：试试`{0}covid {1}`。"
 
 msgid "You haven't split the country name and province with a `; `!"
-msgstr ""
+msgstr "你没有把国名和省名用`;`分割开来!"
 
 msgid ""
 "You've placed too many `; ` in your message! You can use only one to split "
 "the country and province names! For help, run `{0}help covid province`!"
 msgstr ""
+"你在信息中放了太多的`；`！你只能用一个来分割国家和省名。你只能用一个来分割国家和省名!如需帮助，请运行`{0}help covid "
+"province`!"
 
 msgid ""
 "Couldn't find a country with that ID (`/list` for a list of IDs) or the "
 "country has no cases!"
-msgstr ""
+msgstr "找不到有这个ID的国家(`/list`为ID列表)，或者这个国家没有案例!"
 
 msgid ""
 "Couldn't find a province with that name! If you're looking for US states, "
 "see the `{0}covid states` command."
-msgstr ""
+msgstr "找不到这个名字的省份!如果你要找美国的州，可以参考`{0}covid states`命令。"
 
 msgid ""
 "Something went wrong, I can't find today's stats! I'm currently trying to "
 "find stats for {0}!"
-msgstr ""
+msgstr "出了点问题，我找不到今天的统计资料了!我目前正在努力寻找{0}的统计资料!"
 
 msgid "You need to specify a US state! For a list, run `{0}list states`."
-msgstr ""
+msgstr "你需要指定一个美国州!对于一个列表，运行`{0}list states`。"
 
 msgid "Didn't find a state with that name! For a list, run `{0}list states`."
-msgstr ""
+msgstr "没有找到这个名字的州!如果要找一个列表，运行`{0}list states`。"
 
 msgid "That isn't a state! Try the `{0}covid {1}` command."
-msgstr ""
+msgstr "这不是一个状态!试试`{0}covid {1}`命令。"
 
 msgid ""
 "I can't send the entire country list: it's over Discord's 6,000 character "
 "limit! Try `{0}{1} <letter>` to get only countries starting with `<letter>`."
 msgstr ""
+"我无法发送整个国家列表：超过了Discord的6000个字符限制。试试`{0}{1}。<letter>`只得到以``开头的国家<letter>。</"
+"letter></letter>"
 
 msgid ""
 "Whatever you have requested, it is over 6,000 characters. I can send a text "
 "file, however. React with 📔 any time in the next 15 seconds to be DMed a "
 "text file instead of a embed."
 msgstr ""
+"不管你要求的是什么，都是超过6000个字符。我可以发送一个文本文件，但是。在接下来的15秒内，随时用↪So_1F4D4↩反应，就能收到一个文本文件，而不是一个嵌入文件。"
 
 msgid "Sent you a DM!"
-msgstr ""
+msgstr "给你发了个DM！"
 
 msgid "DMed a list to you!"
-msgstr ""
+msgstr "给你发了一份名单！"
 
 msgid "List of {0}"
-msgstr ""
+msgstr "列表{0}"
 
 msgid "Use `{0}covid {1} <name>` when getting stats for a {1}!"
-msgstr ""
+msgstr "使用`{0}covid {1}。<name>`在获取{1}!</name>"
 
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 msgid "List of American States"
-msgstr ""
+msgstr "美洲国家名单"
 
 msgid ""
 "Use the `{0}covid states <name>` command when getting stats for `<name>`!"
 msgstr ""
+" <name>在获取``的统计信息时，</name>使用`{0}covid states<name>`命令<name>。</name></name>"
 
 msgid ""
 "The page number you have selected is not between 1 and {0}. Please try again."
 ""
-msgstr ""
+msgstr "您选择的页码不在1和{0}之间。请再试一次。"
 
 msgid "Page {0} of {1}"
-msgstr ""
+msgstr "第{0}页，共{1}页"
 
 msgid "To go to the next page, run `{0}{1} {2} {3}`"
-msgstr ""
+msgstr "要进入下一页，运行`{0}{1}。{2}{3}`"
 
 msgid "Incorrect Top List Type"
-msgstr ""
+msgstr "错误的顶部列表类型"
 
 msgid "Try sorting with one of the following:"
-msgstr ""
+msgstr "试着用以下一种方式排序。"
 
 msgid "Top List"
-msgstr ""
+msgstr "榜单"
 
 msgid "Run `{0}help top` for a list of all possible sorts!"
-msgstr ""
+msgstr "运行\"{0}help top\"查看所有可能的类型列表!"
 
 msgid "{0}: {1}"
-msgstr ""
+msgstr "{0}:{1}"
 
 msgid "The server prefix is set to `{0}`."
-msgstr ""
+msgstr "服务器前缀设置为`{0}`。"
 
 msgid "There is no specific prefix set for this guild."
-msgstr ""
+msgstr "这个行会没有设置特定的前缀。"
 
 msgid "The server language is now set to `{0}`."
-msgstr ""
+msgstr "现在服务器语言被设置为\"{0}\"。"
 
 msgid "There is no specific language set for this guild."
-msgstr ""
+msgstr "本行会没有特定的语言设定。"
 
 msgid "Tips are currently enabled for this guild."
-msgstr ""
+msgstr "目前这个公会的提示已经启用。"
 
 msgid "Tips are currently disabled for this guild."
-msgstr ""
+msgstr "目前本公会的提示已被禁用。"
 
 msgid "Enabled tips for this guild."
-msgstr ""
+msgstr "启用了本公会的提示。"
 
 msgid "Disabled tips for this guild."
-msgstr ""
+msgstr "本行会的禁用提示。"
 
 msgid ""
 "The API has been disabled for this channel. To restore your permissions, "
 "contact 0/0#0001 on the official support server."
-msgstr ""
+msgstr "该频道的API已被禁用。要恢复权限，请联系官方支持服务器0/0#0001。"
 
 msgid "DMed your API key to you."
-msgstr ""
+msgstr "把你的API密钥发给你了"
 
 msgid "Revoked/deleted API key."
-msgstr ""
+msgstr "撤销/删除的API密钥。"
 
 msgid "DMed your new API key to you."
-msgstr ""
+msgstr "把你的新API密钥发给你了"
 
 msgid "Disabled the API for {0}."
-msgstr ""
+msgstr "禁用{0}的API。"
 
 msgid ""
 "There was an error converting one of your arguments with {0}. The correct "
 "syntax would be `{1}`. The converter returned the following error: {2}"
-msgstr ""
+msgstr "你的一个参数转换为{0}时出现了错误，正确的语法是`{1}`。正确的语法应该是`{1}`。转换器返回了以下错误。{2}"
 
 msgid ""
 "This command is missing an argument. The correct syntax would be `{0}`."
-msgstr ""
+msgstr "该命令缺少一个参数。正确的语法是`{0}`。"
 
 msgid ""
 "Too many quotes were provided in your message: don't forget to escape your "
 "quotes like this `\\{0}`. The correct syntax for the command is `{1}`."
-msgstr ""
+msgstr "你的信息中提供了太多的引号：不要忘记把引号转义，像这样`/{0}`。该命令的正确语法是`{1}`。"
 
 msgid ""
 "A space was expected after a closing quote, but I found {0}. Please check "
 "that you are using the correct syntax: `{1}`."
-msgstr ""
+msgstr "在结尾引号后应该有一个空格，但我发现是{0}。请检查您使用的语法是否正确。`{1}`."
 
 msgid ""
 "A closing quote was expected, but wasn't found. Don't forget to close your "
 "quotes with `{0}` at the end of your argument. Please check that you are "
 "using the correct syntax: `{1}`."
-msgstr ""
+msgstr "本以为会有一个结束语，但没有找到。不要忘记在您的参数结尾处用`{0}`来结束您的引号。请检查您使用的语法是否正确。`{1}`."
 
 msgid ""
 "Too many arguments were passed in this command. Please check that you are "
 "using the correct syntax: `{0}`."
-msgstr ""
+msgstr "这个命令中传递了太多的参数。请检查您使用的语法是否正确。`{0}`."
 
 msgid ""
 "The way you are invoking this command is confusing me. The correct syntax "
 "would be `{0}`."
-msgstr ""
+msgstr "你调用这个命令的方式让我很困惑。正确的语法应该是`{0}`。"
 
 msgid ""
 "An argument passed was incorrect. `{0}`.Please check that you are using the "
 "correct syntax: `{command_invoke_help}`."
-msgstr ""
+msgstr "传递的参数不正确。`{0}`.请检查您使用的语法是否正确。`{command_invoke_help}`。"
 
 msgid "{0} Please check that you are using the correct syntax: `{1}`."
-msgstr ""
+msgstr "{0}请检查您使用的语法是否正确。`{1}`."
 
 msgid "This command can only be used in a private message."
-msgstr ""
+msgstr "此命令只能在私人信息中使用。"
 
 msgid "This command cannot be used in a private message."
-msgstr ""
+msgstr "此命令不能在私人信息中使用。"
 
 msgid "Multiple errors were encountered when running your command: {0}"
-msgstr ""
+msgstr "当运行您的命令时，遇到多个错误。{0}"
 
 msgid "You need to be the owner of the bot to run that."
-msgstr ""
+msgstr "你需要成为机器人的主人才能运行。"
 
 msgid "You are missing permissions to run this command. {0}"
-msgstr ""
+msgstr "你缺少运行此命令的权限。{0}"
 
 msgid "I am missing permissions to run this command. {0}"
-msgstr ""
+msgstr "我缺少运行这个命令的权限。{0}"
 
 msgid "You are missing the following role: {0}"
-msgstr ""
+msgstr "您缺少以下角色：{0}。"
 
 msgid "I am missing the following role: {0}"
-msgstr ""
+msgstr "我缺少以下角色：{0}。"
 
 msgid "You are missing one of the following roles: {0}"
-msgstr ""
+msgstr "您缺少以下角色之一。{0}"
 
 msgid "I am missing one of the following roles: {0}"
-msgstr ""
+msgstr "我缺少以下角色之一。{0}"
 
 msgid "You need to be in a NSFW channel to run that."
-msgstr ""
+msgstr "你需要在一个NSFW频道运行。"
 
 msgid "You need to be in the {0} server (`{1}`)."
-msgstr ""
+msgstr "你需要在{0}服务器中(`{1}`)。"
 
 msgid "You need to be in a server with ID {0}."
-msgstr ""
+msgstr "你需要在一个ID为{0}的服务器中。"
 
 msgid "You have the `{0}` permission."
-msgstr ""
+msgstr "你有\"{0}\"的权限。"
 
 msgid "You need the `{0}` permission."
-msgstr ""
+msgstr "你需要`{0}`权限。"
 
 msgid "You have {0} or more of the following permissions: `{1}`."
-msgstr ""
+msgstr "您有{0}或以下多个权限。`{1}`."
 
 msgid "You need {0} or more of the following permissions: `{1}`."
-msgstr ""
+msgstr "你需要{0}或更多的以下权限。`{1}`."
 
 msgid "The provided command was not found."
-msgstr ""
+msgstr "没有找到所提供的命令。"
 
 msgid "That command has been disabled."
-msgstr ""
+msgstr "该命令已被禁用。"
 
 msgid ""
 "I don't have permissions to send messages there! Try again somewhere I do "
 "have permissions to send messages!"
-msgstr ""
+msgstr "我没有权限在那里发信息!再去别的地方试试，我有发送消息的权限!"
 
 msgid "The bot's still setting up, please wait a few minutes and try again!"
-msgstr ""
+msgstr "机器人还在设置中，请稍等片刻再试!"
 
 msgid ""
 "I can't find your original message, Discord may be having issues! Try again."
-msgstr ""
+msgstr "我找不到你的原始信息，Discord可能有问题!再试一次。"
 
 msgid ""
 "There was an error running the specified command‽ This error has been logged."
 ""
-msgstr ""
+msgstr "在运行指定的命令↪Po_203D↩时出现错误，此错误已被记录。"
 
 msgid "You are being ratelimited. Please try again {0}."
-msgstr ""
+msgstr "你被限制了速度。请重试{0}。"
 
 msgid "globally"
-msgstr ""
+msgstr "全球性"
 
 msgid "per user"
-msgstr ""
+msgstr "每用户"
 
 msgid "per guild"
-msgstr ""
+msgstr "每行会"
 
 msgid "per channel"
-msgstr ""
+msgstr "每通道"
 
 msgid "per member"
-msgstr ""
+msgstr "每个会员"
 
 msgid "per category"
-msgstr ""
+msgstr "每类"
 
 msgid "per role"
-msgstr ""
+msgstr "每个角色"
 
 msgid ""
 "Too many users are using this command. Only {0} users can use it at the same "
 "time {1}."
-msgstr ""
+msgstr "使用此命令的用户太多。只有{0}用户可以同时使用{1}。"
 
 msgid ""
 "Simulations have been disabled in this guild due to a missing permission. "
 "Ask a admin to give me the Manage Messages permission."
-msgstr ""
+msgstr "由于权限缺失，本公会的模拟已经被禁用。请管理员给我管理信息的权限。"
 
 msgid ""
 "This should not have happened. A command raised an error that does not comes "
 "from CommandError. Please inform the owner."
-msgstr ""
+msgstr "这不应该发生。一个命令引发了一个不来自CommandError的错误。请通知主人。"
 
 msgid "\n"
 "For help, join the bot's support server at {invite}"
-msgstr ""
+msgstr "\n"
+"如需帮助，请加入机器人的支持服务器，地址为{邀请}。"
 
 msgid "No message was defined. This error has been logged."
-msgstr ""
+msgstr "没有定义信息。此错误已被记录。"
 
 msgid "Data for Day {0}"
-msgstr ""
+msgstr "第{0}天的数据"
 
 msgid ""
 "**WARNING**\n"
@@ -545,50 +564,54 @@ msgid ""
 "liable for anything stemming from the use of this modeling system. Type `ok` "
 "within 15 seconds to agree to these terms."
 msgstr ""
+"**警告**\n"
+"这绝不是一个科学的模型系统，这纯粹是为了娱乐而存在。对于实际的建议，请参考您的医疗专家。通过同意这些条款，您同意不追究0/"
+"0#0001因使用本建模系统而产生的任何责任。在15秒内输入\"ok\"即表示同意这些条款。"
 
 msgid "Didn't get a response. To try again, do `{0}{1}`."
-msgstr ""
+msgstr "没有得到回应。再试一次，请执行`{0}{1}`。"
 
 msgid "I'll ping you when this is done, you can go do other stuff."
-msgstr ""
+msgstr "这事办好了我会给你打招呼的，你可以去做别的事情了。"
 
 msgid "Please wait, initializing..."
-msgstr ""
+msgstr "请等待，初始化..."
 
 msgid ""
 "You haven't set up your simulation! Run `{0}simulate setup` to set your sim "
 "up!"
 msgstr ""
+"你还没有设置好你的模拟！请运行`{0}simulate setup`来设置你的模拟。运行\"{0}simulate setup\"来设置你的模拟。"
 
 msgid "Submitting your item to be processed..."
-msgstr ""
+msgstr "提交您的物品，以便处理... ..."
 
 msgid "Waiting for next run of simulation processor, which will happen {0}."
-msgstr ""
+msgstr "等待下一次模拟处理器的运行，这将发生{0}。"
 
 msgid "Simulation failed: ran out of memory: retry with smaller values."
-msgstr ""
+msgstr "模拟失败：内存耗尽：用较小的值重试。"
 
 msgid ""
 "Simulation failed: had incorrect values passed to it: try with more "
 "reasonable values."
-msgstr ""
+msgstr "模拟失败：传来的数值不正确：用更合理的数值试试。"
 
 msgid ""
 "Simulation failed: process running the simulation has failed: ask a mod in "
 "the bot's support server (find it via {0}) to run {1}."
-msgstr ""
+msgstr "模拟失败：运行模拟的进程失败了：请机器人的支持服务器中的moder（通过{0}找到它）运行{1}。"
 
 msgid ""
 "Simulation failed: had a unknown error: report ID ({0}) to 0/0#0001 to be "
 "fixed."
-msgstr ""
+msgstr "模拟失败：有一个未知的错误：报告ID({0})到0/0#0001待修复。"
 
 msgid "Processed simulation!"
-msgstr ""
+msgstr "加工模拟！"
 
 msgid "Simulation Results"
-msgstr ""
+msgstr "仿真结果"
 
 msgid ""
 "Navigate using `next` to view the next day's stats, `prev` to view the "
@@ -597,21 +620,22 @@ msgid ""
 "straight to that day. Type `exit` to exit the paginator (for example, if you "
 "want to modify sim data)."
 msgstr ""
+"使用\"next\"浏览第二天的统计数据，\"prev\"浏览前一天的统计数据，\"first\"跳到第一天（明天），\"last\"跳到模拟的最后一天。键入一个数字直接跳到当天。输入`exit`退出分页器（例如，如果你想修改模拟数据）。"
 
 msgid "Total infections by end of simulation"
-msgstr ""
+msgstr "模拟结束时的感染总数"
 
 msgid "Total recoveries by end of simulation"
-msgstr ""
+msgstr "模拟结束时的回收总额"
 
 msgid "Total deaths by end of simulation"
-msgstr ""
+msgstr "模拟结束时的死亡总数"
 
 msgid "Your simulation is ready: it will be available for 15 minutes."
-msgstr ""
+msgstr "你的模拟已经准备好了：它将在15分钟内可用。"
 
 msgid "Your simulation has timed out. Request a new one with `{0}{1}`."
-msgstr ""
+msgstr "您的模拟已经超时。请用\"{0}{1}\"申请一个新的模拟。"
 
 msgid ""
 "I now require the MANAGE MESSAGES permission. I've disabled this command "
@@ -619,249 +643,262 @@ msgid ""
 "permission, the bot will still function, just with the simulation module "
 "disabled. Thanks in advance!"
 msgstr ""
+"我现在需要MANAGE "
+"MESSAGES的权限。我已经禁用了这个命令，直到你给我这个权限。如果你不想给我这样的权限，机器人仍然会运行，只是禁用了模拟模块。先谢谢你了"
 
 msgid "Internal bot error. Try again."
-msgstr ""
+msgstr "内部机器人错误。再试一次。"
 
 msgid "Out of bounds."
-msgstr ""
+msgstr "出界。"
 
 msgid ""
 "You aren't a mod in the bot's support server! You can't run this command. If "
 "simulations are actually broken, ask a mod in the bot's support server (find "
 "it via {0}) to run this command."
-msgstr ""
+msgstr "你不是机器人支持服务器的版主!你不能运行这个命令。如果模拟真的被破坏了，请让机器人支持服务器中的mod（通过{0}找到它）运行这个命令。"
 
 msgid "This could take up to 60 seconds, please wait..."
-msgstr ""
+msgstr "可能需要60秒，请等待......"
 
 msgid "Stopping simulation runners..."
-msgstr ""
+msgstr "停止模拟运行..."
 
 msgid "Stopping broken process pools..."
-msgstr ""
+msgstr "停止破碎的流程池..."
 
 msgid "Waiting 20 seconds for the final tasks to stop..."
-msgstr ""
+msgstr "等待20秒后，最终任务停止..."
 
 msgid "Destroying pools..."
-msgstr ""
+msgstr "破坏池子..."
 
 msgid "Creating new pools..."
-msgstr ""
+msgstr "创建新的池子..."
 
 msgid "Starting up simulation runners..."
-msgstr ""
+msgstr "启动模拟运行器..."
 
 msgid "Restarted pool sucessfully!"
-msgstr ""
+msgstr "重新启动池子成功!"
 
 msgid ""
 "Simulation results are very inaccurate after 157 days. I have set the "
 "simulation length to 157 days."
-msgstr ""
+msgstr "仿真结果在157天后非常不准确。我将模拟长度设置为157天。"
 
 msgid "Set simulation length to {0} days."
-msgstr ""
+msgstr "设置模拟长度为{0}天。"
 
 msgid "Couldn't find that name. Try again, or use `{0}list` for help."
-msgstr ""
+msgstr "找不到这个名字。再试一次，或者使用`{0}list`寻求帮助。"
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 30 seconds."
-msgstr ""
+msgstr "用↪So_1F4C8↩反应一个对数图形。\n"
+"用↪So_1F4C9↩反应线性图形。\n"
+"此消息在30秒后失效。"
 
 msgid "Timed out. Request a new message with `{0}graphs`"
-msgstr ""
+msgstr "已超时。请求新的消息，并附上`{0}图`。"
 
 msgid "Please wait, this could take a few seconds..."
-msgstr ""
+msgstr "请等待，这可能需要几秒钟... ..."
 
 msgid "Graph for {0}"
-msgstr ""
+msgstr "图形为{0}"
 
 msgid "Took {0} seconds ({1}ns) to generate. • Cache Status: {2}"
-msgstr ""
+msgstr "耗时{0}秒（{1}ns）生成。- 缓存状态。{2}"
 
 msgid "Map Types"
-msgstr ""
+msgstr "地图类型"
 
 msgid "Use one of these map types when running `{0}maps show <name>`."
-msgstr ""
+msgstr "当运行`{0}maps show<name>`</name>时，使用这些地图类型之一<name>。</name>"
 
 msgid ""
 "I don't know what map you're looking for! Run `{0}maps types` to see all the "
 "maps I can show you!"
 msgstr ""
+"我不知道你要找的是什么地图！请运行`{0}maps types`查看我可以给你看的所有地图。运行\"{0}maps "
+"types\"查看我可以给你看的所有地图!"
 
 msgid "Map for {0}"
-msgstr ""
+msgstr "{0}的地图"
 
 msgid "Updating maps..."
-msgstr ""
+msgstr "更新地图..."
 
 msgid "Done!"
-msgstr ""
+msgstr "好了！"
 
 msgid "😃 You have that permission."
-msgstr ""
+msgstr "↪So_1F603↩你有这个权限。"
 
 msgid "☹️ You don't have that permission."
-msgstr ""
+msgstr "↪So_2639↩️你没有这个权限。"
 
 msgid "Details of permissions hierarchy"
-msgstr ""
+msgstr "权限等级的细节"
 
 msgid "{0} Default (from {0}{1})"
-msgstr ""
+msgstr "{0} 默认值（从{0}{1}开始）。"
 
 msgid "{0} Guild role {1} (from {0}{2})"
-msgstr ""
+msgstr "{0}公会角色 {1}(从{0}{2})"
 
 msgid "{0} Channel role {1} (from {0}{2})"
-msgstr ""
+msgstr "{0}通道作用 {1}(从{0}{2})"
 
 msgid "{0} Member (from {0}{1})"
-msgstr ""
+msgstr "{0}成员(从{0}{1}开始)"
 
 msgid "{0} Fixed (from {0}{1})"
-msgstr ""
+msgstr "{0} 固定(从{0}{1}开始)"
 
 msgid "{0} User (from {0}{1})"
-msgstr ""
+msgstr "{0}用户(从{0}{1}开始)"
 
 msgid "**{0} permissions**"
-msgstr ""
+msgstr "**{0}权限**"
 
 msgid "There are no specific permissions set in this guild."
-msgstr ""
+msgstr "本行会没有设置特定的权限。"
 
 msgid "There are no specific permissions set in this channel."
-msgstr ""
+msgstr "该频道没有设置特定的权限。"
 
 msgid "There are no specific permissions for this member."
-msgstr ""
+msgstr "该成员没有特定的权限。"
 
 msgid "👌 Permission {0} for user {1} has been set to {2} globally."
-msgstr ""
+msgstr "↪So_1F44C↩用户{1}的权限{0}已被全局设置为{2}。"
 
 msgid "👌 Permission {0} for member {1} has been set to {2} globally."
-msgstr ""
+msgstr "↪So_1F44C↩成员{1}的权限{0}已被全局设置为{2}。"
 
 msgid "❌ Can't set permissions in a channel that is not in this guild."
-msgstr ""
+msgstr "❌不能在非本公会的频道中设置权限。"
 
 msgid "❌ Can't set permissions for a role that does not exist in this guild."
-msgstr ""
+msgstr "❌不能为本公会不存在的角色设置权限。"
 
 msgid ""
 "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this channel."
-msgstr ""
+msgstr "↪So_1F44C↩ 角色{1}的权限{0}。在该通道中，[`{2}`]被设置为{3}。"
 
 msgid ""
 "👌 Permission {0} for role {1} [`{2}`] has been set to {3} in this guild."
-msgstr ""
+msgstr "↪So_1F44C↩ 角色{1}的权限{0}。在本公会中，[`{2}`]已被设置为{3}。"
 
 msgid "Failed to send suggestion due to a Discord error. Try again."
-msgstr ""
+msgstr "由于Discord错误，发送建议失败。请再试一次。"
 
 msgid "Sent suggestion successfully."
-msgstr ""
+msgstr "发送建议成功。"
 
 msgid "The bot is not yet sharded."
-msgstr ""
+msgstr "机器人还没有被碎片化。"
 
 msgid "•\t Shard ID {0}: {1}ms"
-msgstr ""
+msgstr "- 碎片ID{0}。{1}ms"
 
 msgid " (ready)"
-msgstr ""
+msgstr "(就绪)"
 
 msgid " (current shard)"
-msgstr ""
+msgstr "(当前碎片)"
 
 msgid "\n"
 "\n"
 "Avg latency: {0}ms"
-msgstr ""
+msgstr "\n"
+"\n"
+"平均延迟时间。{0}ms"
 
 msgid " (bot ready)"
-msgstr ""
+msgstr "(机器人准备好了)"
 
 msgid "{0}: {1} candidates\n"
-msgstr ""
+msgstr "{0}:{1}候选人\n"
 
 msgid "Vaccine Updates"
-msgstr ""
+msgstr "疫苗更新"
 
 msgid ""
 "(For more details, run `{0}help vaccine`)\n"
 "There are a total of **{1} vaccine candidates**.\n"
 "__**Phases**__\n"
 "{2}"
-msgstr ""
+msgstr "(详情请运行`{0}help vaccine`)\n"
+"共有**{1}种候选疫苗**。\n"
+"_**阶段**__\n"
+"{2}"
 
 msgid "Last updated at"
-msgstr ""
+msgstr "最后更新时间"
 
 msgid "Vaccine Candidates"
-msgstr ""
+msgstr "候选疫苗"
 
 msgid ""
 "To get more details on a vaccine candidate, run `{0}vaccine details <id>`\n"
 "The ID of any given candidate is under the name."
-msgstr ""
+msgstr "要想了解候选疫苗的更多详情，请运行`{0}疫苗详情<id>`</id>。<id>\n"
+"任意一个考生的ID都在名字下面。</id>"
 
 msgid "That isn't a valid vaccine ID! View all the IDs in {0}!"
-msgstr ""
+msgstr "这不是一个有效的疫苗ID!查看{0}中的所有ID!"
 
 msgid "Description is too long! Download the attachment to see it!"
-msgstr ""
+msgstr "描述太长!请下载附件查看!"
 
 msgid "Mechanism"
-msgstr ""
+msgstr "机制"
 
 msgid "Sponsors"
-msgstr ""
+msgstr "贊助商"
 
 msgid "Phase"
-msgstr ""
+msgstr "阶段"
 
 msgid "Institutions"
-msgstr ""
+msgstr "机构"
 
 msgid "You must pass a number or {0}."
-msgstr ""
+msgstr "你必须传递一个数字或{0}。"
 
 msgid ""
 "You don't have enough credits to transfer. Go vote on top.gg for more!\n"
 "{0}"
-msgstr ""
+msgstr "你的学分不够，不能转学。去top.gg上投更多的票吧!\n"
+"{0}"
 
 msgid ""
 "You are going to transfer {0} updater credits to this guild ({1}). This "
 "action is irreversible. Type {2} within 30 seconds to confirm."
-msgstr ""
+msgstr "您将把{0}更新器信用点转移到本公会（{1}）。这个操作是不可逆的。请在30秒内输入{2}进行确认。"
 
 msgid "Timed out waiting for response."
-msgstr ""
+msgstr "计时完毕，等待回复。"
 
 msgid "Transferred {0} credits to {1}."
-msgstr ""
+msgstr "将{0}学分转入{1}。"
 
 msgid "<:infected:775877435320565801> Total Cases"
-msgstr ""
+msgstr "<:infected:775877435320565801>案件总数"
 
 msgid "<:deaths:775877434687488030> Total Deaths"
-msgstr ""
+msgstr "<:deaths:775877434687488030>死亡总人数"
 
 msgid "<:recovered:775877435089748008> Total Recoveries"
-msgstr ""
+msgstr "<:recovered:775877435089748008>回收总额"
 
 msgid "Province Stats for {province} on {today}"
-msgstr ""
+msgstr "省统计局{省}在{今天}的统计。"
 
 msgid ""
 "Why such a small amount of data compared to country stats?\n"
@@ -869,65 +906,67 @@ msgid ""
 "up such a small amount of all provinces, meaning it's not worth it to try to "
 "show it for all of them."
 msgstr ""
+"与国家统计相比，为什么数据量这么少？\n"
+"有些省份可能报的数据量是一样的，但是这些省份占所有省份的数据量太少了，也就是说想把所有省份的数据都显示出来是不值得的。"
 
 msgid "{0} (could also have no data)"
-msgstr ""
+msgstr "{0}(也可能没有数据)"
 
 msgid "New Cases"
-msgstr ""
+msgstr "新案例"
 
 msgid "Cases per 1m People"
-msgstr ""
+msgstr "每1米人口中的病例数"
 
 msgid "<:active:775877437056614491> Active Cases"
-msgstr ""
+msgstr "<:active:775877437056614491>活跃的案例"
 
 msgid "Active Case Change"
-msgstr ""
+msgstr "活跃的案例变化"
 
 msgid "Active Cases per 1m People"
-msgstr ""
+msgstr "每100万人口中的活跃病例"
 
 msgid "New Deaths"
-msgstr ""
+msgstr "新死亡人数"
 
 msgid "Deaths per 1m People"
-msgstr ""
+msgstr "每100万人的死亡人数"
 
 msgid "New Recoveries"
-msgstr ""
+msgstr "新的回收量"
 
 msgid "Recovered per 1m People"
-msgstr ""
+msgstr "每100万人中回收的人数"
 
 msgid "<:tests:775877436075802676> Tests"
-msgstr ""
+msgstr "<:tests:775877436075802676>测试"
 
 msgid "Tests per 1m People"
-msgstr ""
+msgstr "每1米人的测试"
 
 msgid "Critical Cases"
-msgstr ""
+msgstr "关键案例"
 
 msgid "Population"
-msgstr ""
+msgstr "人口"
 
 msgid "COVID-19 Stats for {name}"
-msgstr ""
+msgstr "COVID-19 {name}的统计数据。"
 
 msgid "Stats last updated at (UTC)"
-msgstr ""
+msgstr "统计资料最后更新于(世界协调时)"
 
 msgid "no data"
-msgstr ""
+msgstr "无数据"
 
 msgid "Affected Countries"
-msgstr ""
+msgstr "受影响的国家"
 
 msgid "Country List"
-msgstr ""
+msgstr "国家名单"
 
 msgid ""
 "Use either the country name, or the ISO2/ISO3 code when getting stats with `/"
 "covid <name>`!"
-msgstr ""
+msgstr "当使用`/covid<name>`</name>获取统计数据时，请使用国家名称或ISO2/ISO3代码<name>!</name>"

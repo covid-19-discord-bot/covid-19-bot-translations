@@ -14,156 +14,189 @@ msgstr ""
 msgid ""
 "You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
+"Você precisa votar em um desses atualizadores especiais! Veja `/vote` para "
+"detalhes."
 
 msgid ""
 "❌ Failed to find a state with that name! `/list` will show you a list of "
 "states and their names."
 msgstr ""
+"❌ Falhou em encontrar um estado com esse nome! A `/lista` irá mostrar-lhe "
+"uma lista de estados e seus nomes."
 
 msgid "I found a {0} instead of a state! You can try `{1}` instead."
 msgstr ""
+"Eu encontrei um {0} em vez de um estado! Você pode tentar \"1\" em vez disso."
+""
 
 msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
-msgstr ""
+msgstr "✅ Lançando um gráfico {0} para {1} neste canal a cada {2}."
 
 msgid "logarithmic"
-msgstr ""
+msgstr "logarítmico"
 
 msgid "linear"
-msgstr ""
+msgstr "linear"
 
 msgid "❌ Failed to find that province name!"
-msgstr ""
+msgstr "❌ Falha em encontrar o nome da província!"
 
 msgid "I found a {0} instead of a province! You can try `{1}` instead."
 msgstr ""
+"Encontrei um {0} em vez de uma província! Podes tentar \"1\" em vez disso."
 
 msgid "❌ Failed to find that state name! See {0} for help!"
-msgstr ""
+msgstr "❌ Falha em encontrar esse nome de estado! Veja {0} para ajuda!"
 
 msgid "Didn't find any provinces with that name!"
-msgstr ""
+msgstr "Não encontrei nenhuma província com esse nome!"
 
 msgid "I found a {0} instead of a province! Use the {1} command instead."
 msgstr ""
+"Encontrei um {0} em vez de uma província! Use o comando {1}em vez disso."
 
 msgid "Invalid action. It must be one of {0}."
-msgstr ""
+msgstr "Acção inválida. Deve ser uma de {0}."
 
 msgid ""
 "No data is available at the moment. Wait a few moments. **Spamming this "
 "command will result in a temporary ban!**"
 msgstr ""
+"Não há dados disponíveis no momento. Espere alguns momentos. **Spamming este "
+"comando resultará em um banimento temporário!**"
 
 msgid ""
 "\n"
 "For help, join the bot's support server at {0}\n"
 "Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"\n"
+"Para obter ajuda, junte-se ao servidor de suporte do bot em {0}\n"
+"Confira <https://discordstatus.com/> para mais detalhes sobre as questões do "
+"Discord."
 
 msgid ""
 "Set up your simulation to default values. Edit them with the {0} commands."
 msgstr ""
+"Configure sua simulação para os valores padrão. Edite-os com os comandos {0}."
+""
 
 msgid ""
 "ISO3 codes are always 3 characters long! If you're trying to get the world, "
 "try {0}."
 msgstr ""
+"Os códigos ISO3 têm sempre 3 caracteres! Se você está tentando pegar o "
+"mundo, tente {0}."
 
 msgid "Country name for simulation set to {0}."
-msgstr ""
+msgstr "O nome do país para simulação definido como {0}."
 
 msgid "3 years is the upper limit on simulation length."
-msgstr ""
+msgstr "3 anos é o limite superior da duração da simulação."
 
 msgid "Simulation time set to {0} days."
-msgstr ""
+msgstr "Tempo de simulação definido para {0} dias."
 
 msgid "Didn't get a response. To try again, do {0}."
-msgstr ""
+msgstr "Não obtive resposta. Para tentar de novo, faça {0}."
 
 msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
 msgstr ""
+"Ainda não preparaste a tua simulação! Corre {0} para configurar a tua "
+"simulação!"
 
 msgid "Running simulation..."
-msgstr ""
+msgstr "A executar simulação..."
 
 msgid ""
 "Invalid country name! Try again, making sure the ISO3 code you passed is "
 "correct! For the world, the code is {0}."
 msgstr ""
+"Nome de país inválido! Tente novamente, certificando-se de que o código ISO3 "
+"que você passou está correto! Para o mundo, o código é {0}."
 
 msgid "Results after {0} days"
-msgstr ""
+msgstr "Resultados após {0} dias"
 
 msgid ""
 "More features will be available later: join the support server for updates "
 "when new features are released!"
 msgstr ""
+"Mais funcionalidades estarão disponíveis mais tarde: junte-se ao servidor de "
+"suporte para atualizações quando novas funcionalidades forem lançadas!"
 
 msgid "Total Cases"
-msgstr ""
+msgstr "Total de casos"
 
 msgid "Total Deaths"
-msgstr ""
+msgstr "Total de Mortes"
 
 msgid "Took {0} seconds ({1}ns) to run."
-msgstr ""
+msgstr "Levou {0} segundos ({1}ns) para ser executado."
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 10 seconds."
 msgstr ""
+"Reagir com 📈 para um gráfico logarítmico.\n"
+"Reagir com 📉 para um gráfico linear.\n"
+"Esta mensagem expira após 10 segundos."
 
 msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
 msgstr ""
+"Demorou {0} segundos ({1} nanossegundos) para gerar - Estado do Cache: {2}"
 
 msgid ""
 "That isn't a valid name! Check out {0} for a list of all names I can get "
 "data for!"
 msgstr ""
+"Esse não é um nome válido! Verifique {0} para uma lista de todos os nomes "
+"para os quais posso obter dados!"
 
 msgid "I found a {0} instead of a country!"
-msgstr ""
+msgstr "Eu encontrei um {0} em vez de um país!"
 
 msgid "I found a {0} instead of a province! Try {1} instead."
-msgstr ""
+msgstr "Encontrei um {0} em vez de uma província! Tenta antes uma."
 
 msgid "I found a {0} instead of a state! Try {1} instead."
-msgstr ""
+msgstr "Eu encontrei um {0} em vez de um estado! Tenta antes um."
 
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 msgid "No help available."
-msgstr ""
+msgstr "Não há ajuda disponível."
 
 msgid "Aliases"
-msgstr ""
+msgstr "Pseudônimos"
 
 msgid "No command called {0} found."
-msgstr ""
+msgstr "Nenhum comando chamado {0} encontrado."
 
 msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
-msgstr ""
+msgstr "O comando \"{0.qualified_name}\" não tem nenhum subcomando chamado {1}"
 
 msgid "Command \"{0.qualified_name}\" has no subcommands."
-msgstr ""
+msgstr "O comando \"{0.qualified_name}\" não tem subcomandos."
 
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 msgid "The bot's still setting up, please wait up to 10 minutes."
-msgstr ""
+msgstr "O robot ainda está a preparar-se, por favor aguarde até 10 minutos."
 
 msgid "React to this message with 📥 within 10 seconds to send your reaction."
 msgstr ""
+"Reagir a esta mensagem com 📥 em 10 segundos para enviar a sua reacção."
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {0}"
 msgstr ""
+"Estou a ter um problema em encontrar o nome do país aqui! Aqui está o que "
+"estou a mostrar: {0}"
 
 msgid ""
 "Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
@@ -171,150 +204,154 @@ msgid ""
 "prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
 "commands, run `/help`."
 msgstr ""
+"Olá! Eu sou um bot por dar estatísticas ao vivo sobre a pandemia da COVID-19."
+" Meu prefixo padrão é `/`. Isto pode ser alterado com `/' <new prefix>, "
+"substituindo <new prefix>pelo prefixo que você quer. Para uma lista dos meus "
+"comandos, execute `/help'.</new></new>"
 
 msgid "New Cases (7d avg)"
-msgstr ""
+msgstr "Novos casos (7d avg)"
 
 msgid "New Deaths (7d avg)"
-msgstr ""
+msgstr "Novas Mortes (7d avg)"
 
 msgid "Total Cases per 1m"
-msgstr ""
+msgstr "Total de casos por 1m"
 
 msgid "New Cases per 1m"
-msgstr ""
+msgstr "Novos casos por 1m"
 
 msgid "New Cases per 1m (7d avg)"
-msgstr ""
+msgstr "Novos casos por 1m (7d avg)"
 
 msgid "Total Deaths per 1m"
-msgstr ""
+msgstr "Total de Mortes por 1m"
 
 msgid "New Deaths per 1m"
-msgstr ""
+msgstr "Novas mortes por 1m"
 
 msgid "New Deaths per 1m (7d avg)"
-msgstr ""
+msgstr "Novas Mortes por 1m (7d avg)"
 
 msgid "R-Value"
-msgstr ""
+msgstr "Valor R"
 
 msgid "Stringency Index"
-msgstr ""
+msgstr "Índice de Stringency"
 
 msgid "ICU Patients"
-msgstr ""
+msgstr "Pacientes internados em UTI"
 
 msgid "ICU Patients per 1m"
-msgstr ""
+msgstr "Pacientes na UTI por 1m"
 
 msgid "Hospitalized Patients"
-msgstr ""
+msgstr "Pacientes Hospitalizados"
 
 msgid "Hospitalized Patients per 1m"
-msgstr ""
+msgstr "Pacientes Hospitalizados por 1m"
 
 msgid "Weekly ICU Admissions"
-msgstr ""
+msgstr "Admissões semanais na UTI"
 
 msgid "Weekly ICU Admissions per 1m"
-msgstr ""
+msgstr "Admissões semanais na UTI por 1m"
 
 msgid "Weekly Hospital Admissions"
-msgstr ""
+msgstr "Internações Hospitalares Semanais"
 
 msgid "Weekly Hospital Admissions per 1m"
-msgstr ""
+msgstr "Internações Hospitalares semanais por 1m"
 
 msgid "Total Tests"
-msgstr ""
+msgstr "Total de Testes"
 
 msgid "New Tests"
-msgstr ""
+msgstr "Novos Testes"
 
 msgid "New Tests (7d avg)"
-msgstr ""
+msgstr "Novos Testes (7d avg)"
 
 msgid "Total Tests per 1k"
-msgstr ""
+msgstr "Total de Testes por 1k"
 
 msgid "New Tests per 1k"
-msgstr ""
+msgstr "Novos Testes por 1k"
 
 msgid "New Tests per 1k (7d avg)"
-msgstr ""
+msgstr "Novos Testes por 1k (7d avg)"
 
 msgid "Tests Per Case"
-msgstr ""
+msgstr "Testes por caso"
 
 msgid "Test Positivity Rate"
-msgstr ""
+msgstr "Taxa de Positividade de Teste"
 
 msgid "Total Vaccinations"
-msgstr ""
+msgstr "Total de Vacinas"
 
 msgid "Total Vaccinations per 100"
-msgstr ""
+msgstr "Total de vacinações por 100"
 
 msgid "New Vaccinations"
-msgstr ""
+msgstr "Novas Vacinações"
 
 msgid "New Vaccinations per 1m"
-msgstr ""
+msgstr "Novas Vacinações por 1m"
 
 msgid "Population Density (km^2)"
-msgstr ""
+msgstr "Densidade Populacional (km^2)"
 
 msgid "Median Age"
-msgstr ""
+msgstr "Idade Média"
 
 msgid "% of population 65+"
-msgstr ""
+msgstr "% da população 65 "
 
 msgid "% of population 70+"
-msgstr ""
+msgstr "% da população 70 "
 
 msgid "GDP per person (USD$)"
-msgstr ""
+msgstr "PIB por pessoa (USD$)"
 
 msgid "% in extreme poverty"
-msgstr ""
+msgstr "% na pobreza extrema"
 
 msgid "Cardiovascular Event Death Rate"
-msgstr ""
+msgstr "Taxa de Morte em Eventos Cardiovasculares"
 
 msgid "% of population with diabetes"
-msgstr ""
+msgstr "% da população com diabetes"
 
 msgid "% of women that smoke"
-msgstr ""
+msgstr "% de mulheres que fumam"
 
 msgid "% of men that smoke"
-msgstr ""
+msgstr "% de homens que fumam"
 
 msgid "% of the population with access to handwashing facilities"
-msgstr ""
+msgstr "% da população com acesso a instalações de lavagem das mãos"
 
 msgid "Hospital beds per 1,000 people"
-msgstr ""
+msgstr "Camas hospitalares por 1.000 pessoas"
 
 msgid "Life expectancy"
-msgstr ""
+msgstr "Expectativa de vida"
 
 msgid "Human Development Index"
-msgstr ""
+msgstr "Índice de Desenvolvimento Humano"
 
 msgid "COVID-19 Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Estatísticas para {0}"
 
 msgid "COVID-19 Hospital Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Estatísticas Hospitalares para {0}"
 
 msgid "COVID-19 Test Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Estatísticas de teste para {0}"
 
 msgid "COVID-19 Vaccination Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Estatísticas de Vacinação para {0}"
 
 msgid "General Stats for {0}"
-msgstr ""
+msgstr "Estatísticas gerais para {0}"
