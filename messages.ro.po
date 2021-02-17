@@ -113,68 +113,70 @@ msgstr "✅Postând statistici pentru {0} in acest canal fiecare {1}."
 msgid ""
 "❌ Failed to get a continent name! {0} will show you a list of continents."
 msgstr ""
-"❌ Nu s-a obținut un nume de continent! {0} vă va arăta o listă de continente."
-""
+"❌ Nu am reușit să găsesc un continent cu acel nume! {0} îți va arăta o listă "
+"cu continente."
 
 msgid "❌ I found a {0} instead of a continent! You can try `{1}` instead."
 msgstr ""
-"❌ Am găsit un {0} în loc de un continent! În schimb, puteți încerca „{1}”."
+"❌Am găsit un {0} în loc de un continent. În schimb poți încerca `{1}` ."
 
 msgid "❌ Must pass either {0} or a ID as a argument."
-msgstr "❌ Trebuie să treacă fie {0}, fie un ID ca argument."
+msgstr "❌ Trebuie să treacă ca {0}, sau un ID ca argument."
 
 msgid "✅ Deleted all autoupdaters in this channel."
-msgstr "✅ Șters toți autoupdaterii din acest canal."
+msgstr "✅ Toți autoupdaterii au fost șterși din acest canal ."
 
 msgid "❌ No autoupdater with that ID found."
-msgstr "❌ Nu a fost găsit niciun autoupdater cu ID-ul respectiv."
+msgstr "❌ Niciun autoupdater cu ID-ul respectiv nu a fost găsit."
 
 msgid "✅ Deleted autoupdater with ID {0}."
-msgstr "✅ Autoupdater șters cu ID {0}."
+msgstr "✅ Autoupdater-ul cu ID-ul {0} a fost șters."
 
 msgid "List of Updaters"
-msgstr "Lista actualizatorilor"
+msgstr "Lista Updater-ilor"
 
 msgid "To disable one of these updaters, run {0}, replacing {1} with the ID."
 msgstr ""
-"Pentru a dezactiva unul dintre acești actualizatori, rulați {0}, înlocuind "
-"{1} cu ID-ul."
+"Pentru a dezactiva unul dintre acest updateri, scrieți {0}, înlocuind {1} cu "
+"ID-ul."
 
 msgid "Country: {0}\n"
 "Delay: {1} seconds"
-msgstr "Țară: {0} Întârziere: {1} secunde"
+msgstr "Țară: {0} \n"
+"Delay: {1} secunde/ă"
 
 msgid "None 😞"
-msgstr "Niciuna 😞"
+msgstr "Niciunul😞"
 
 msgid "Add one with the {0} command!"
 msgstr "Adăugați una cu comanda {0}!"
 
 msgid "❌ You don't have a autoupdater set here or the ID you sent is invalid!"
-msgstr "❌ Nu aveți setat un autoupdater aici sau ID-ul trimis este invalid!"
+msgstr "❌Ați setat un autoupdater aici sau ID-ul trimis este invalid!"
 
 msgid "✅ Forcing a update sometime in the next minute."
-msgstr "✅ Forțarea unei actualizări cândva în minutul următor."
+msgstr "✅ Forțând o actualizare în următorul minut. "
 
 msgid "✅ Next update: {0}"
-msgstr "✅ Următoarea actualizare: {0}"
+msgstr "✅ Următorul Update: {0}"
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {trying}"
-msgstr "Am probleme cu găsirea numelui țării! Iată ce arăt: {0}"
+msgstr ""
+"Am întâmpinat probleme cu găsirea numelui țării! Iată ce arăt: {trying}"
 
 msgid "Stopping task..."
-msgstr "Se oprește sarcina ..."
+msgstr "Se oprește  activitatea..."
 
 msgid "Task has been sent a stop signal. Waiting 10 seconds..."
-msgstr "Sarcina a primit un semnal de oprire. Se așteaptă 10 secunde ..."
+msgstr "Activitatea a primit un semnal de oprire. Se așteaptă 10 secunde..."
 
 msgid "Sending terminate signal..."
-msgstr "Se trimite semnalul de terminare ..."
+msgstr "Se trimite semnalul de terminare..."
 
 msgid "Task has been killed. Starting now..."
-msgstr "Sarcina a fost ucisă. Începând de acum..."
+msgstr "Activitatea a fost închisă. Începând de acum..."
 
 msgid "Task has been sent a start signal."
 msgstr "Sarcinii i s-a trimis un semnal de pornire."
