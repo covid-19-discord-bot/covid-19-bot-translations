@@ -176,25 +176,25 @@ msgid "Sending terminate signal..."
 msgstr "Se trimite semnalul de terminare..."
 
 msgid "Task has been killed. Starting now..."
-msgstr "Activitatea a fost închisă. Începând de acum..."
+msgstr "Activitatea a fost închisă. Încep acum..."
 
 msgid "Task has been sent a start signal."
-msgstr "Sarcinii i s-a trimis un semnal de pornire."
+msgstr "Activitatea a pornit un semnal."
 
 msgid "Task restarted!"
-msgstr "Sarcina a fost repornită!"
+msgstr "Activitatea a fost repornită!"
 
 msgid "Credits"
-msgstr "credite"
+msgstr "Credite"
 
 msgid "current bot version: v5.2.0"
-msgstr "versiunea curentă de bot: v5.2.0"
+msgstr "versiunea curentă a bot-ului: v5.2.0"
 
 msgid "v3+ Creator"
-msgstr "v3 Creator"
+msgstr "Creatorul v3+"
 
 msgid "Original Creator"
-msgstr "Creator original"
+msgstr "Creatorul original"
 
 msgid "Bot Framework"
 msgstr "Bot Framework"
@@ -206,26 +206,26 @@ msgid "API Providers"
 msgstr "Furnizori API"
 
 msgid "discord.py Devs"
-msgstr "discord.py Devs"
+msgstr "Dezvoltatori discord.py"
 
 msgid "Invite Links"
-msgstr "Invitați linkuri"
+msgstr "Link-uri de invitație"
 
 msgid "Bot Invite Link"
-msgstr "Link de invitație pentru bot"
+msgstr "Link-uri pentru invitarea bot-ului"
 
 msgid "Discord Server Invite Link"
-msgstr "Link de invitație a serverului Discord"
+msgstr "Link-ul de invitație pentru sever-ul de Discord"
 
 msgid ""
 "I seem to be having issues, apparently I can't find the channel you ran that "
 "command in! Please try again."
 msgstr ""
-"Se pare că am probleme, se pare că nu găsesc canalul în care ai rulat "
-"comanda! Vă rugăm să încercați din nou."
+"Se pare că am întâmpinat probleme, se pare ca nu pot găsii canalul în care "
+"ai scris comanda! Te rog încearcă din nou."
 
 msgid "Pong. — Time taken: {0}ms"
-msgstr "Pong. - Timpul necesar: {0} ms"
+msgstr "Pong. - Timpul scurs: {0} ms"
 
 msgid "Calling `self.bot.async_setup()`..."
 msgstr "Se apelează `self.bot.async_setup ()` ..."
@@ -234,20 +234,20 @@ msgid "Bot has been setup!"
 msgstr "Bot-ul a fost configurat!"
 
 msgid "Vote Sites"
-msgstr "Site-uri de votare"
+msgstr "Site-uri pentru votare"
 
 msgid ""
 "Voting for the bot gives it more visibility, which means it ends up in more "
 "servers, giving me (the dev) more incentive to add more features!\n"
 "If you want a specific feature, let me know with the `/suggest` command!"
 msgstr ""
-"Votul pentru bot îi oferă mai multă vizibilitate, ceea ce înseamnă că ajunge "
-"în mai multe servere, oferindu-mi (dezvoltatorului) mai mult stimulent "
-"pentru a adăuga mai multe caracteristici! Dacă doriți o caracteristică "
-"specifică, anunțați-mă cu comanda `/ suggest`!"
+"Votând pentru acest bot el primește mai multă vizibilitate, asta însemnând "
+"că ajunge în mai multe servere, stimulându-mă pe mine (dezvoltatorul) pentru "
+"a adăuga mai multe caracteristici! Dacă doriți o caracteristică mai "
+"specifică spuneți-mi asta cu ajutorul comenzii `/suggest`."
 
 msgid "**DO NOT disable adblockers!**"
-msgstr "** NU dezactivați blocanții publicitari! **"
+msgstr "** NU vă dezactivați ad-blocker-ul! **"
 
 msgid ""
 "A fatal error has happened! The world data seems to have gone missing. "
