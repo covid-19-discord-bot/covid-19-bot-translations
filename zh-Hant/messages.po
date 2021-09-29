@@ -14,156 +14,180 @@ msgstr ""
 msgid ""
 "You need to vote for one of these special updaters! See `/vote` for details."
 msgstr ""
+"You need to vote for one of these special updaters! See `/vote` for details."
 
 msgid ""
 "❌ Failed to find a state with that name! `/list` will show you a list of "
 "states and their names."
 msgstr ""
+"❌ Failed to find a state with that name! `/list` will show you a list of "
+"states and their names."
 
 msgid "I found a {0} instead of a state! You can try `{1}` instead."
-msgstr ""
+msgstr "I found a {0} instead of a state! You can try `{1}` instead."
 
 msgid "✅ Posting a {0} graph for {1} in this channel every {2}."
-msgstr ""
+msgstr "✅ Posting a {0} graph for {1} in this channel every {2}."
 
 msgid "logarithmic"
-msgstr ""
+msgstr "logarithmic"
 
 msgid "linear"
-msgstr ""
+msgstr "linear"
 
 msgid "❌ Failed to find that province name!"
-msgstr ""
+msgstr "❌ Failed to find that province name!"
 
 msgid "I found a {0} instead of a province! You can try `{1}` instead."
-msgstr ""
+msgstr "I found a {0} instead of a province! You can try `{1}` instead."
 
 msgid "❌ Failed to find that state name! See {0} for help!"
-msgstr ""
+msgstr "❌ Failed to find that state name! See {0} for help!"
 
 msgid "Didn't find any provinces with that name!"
-msgstr ""
+msgstr "Didn't find any provinces with that name!"
 
 msgid "I found a {0} instead of a province! Use the {1} command instead."
-msgstr ""
+msgstr "I found a {0} instead of a province! Use the {1} command instead."
 
 msgid "Invalid action. It must be one of {0}."
-msgstr ""
+msgstr "Invalid action. It must be one of {0}."
 
 msgid ""
 "No data is available at the moment. Wait a few moments. **Spamming this "
 "command will result in a temporary ban!**"
 msgstr ""
+"No data is available at the moment. Wait a few moments. **Spamming this "
+"command will result in a temporary ban!**"
 
 msgid ""
 "\n"
 "For help, join the bot's support server at {0}\n"
 "Check <https://discordstatus.com/> for more details on Discord issues."
 msgstr ""
+"\n"
+"For help, join the bot's support server at {0}\n"
+"Check <https://discordstatus.com/> for more details on Discord issues."
 
 msgid ""
 "Set up your simulation to default values. Edit them with the {0} commands."
 msgstr ""
+"Set up your simulation to default values. Edit them with the {0} commands."
 
 msgid ""
 "ISO3 codes are always 3 characters long! If you're trying to get the world, "
 "try {0}."
 msgstr ""
+"ISO3 codes are always 3 characters long! If you're trying to get the world, "
+"try {0}."
 
 msgid "Country name for simulation set to {0}."
-msgstr ""
+msgstr "Country name for simulation set to {0}."
 
 msgid "3 years is the upper limit on simulation length."
-msgstr ""
+msgstr "3 years is the upper limit on simulation length."
 
 msgid "Simulation time set to {0} days."
-msgstr ""
+msgstr "Simulation time set to {0} days."
 
 msgid "Didn't get a response. To try again, do {0}."
-msgstr ""
+msgstr "Didn't get a response. To try again, do {0}."
 
 msgid "You haven't set up your simulation! Run {0} to set your simulation up!"
 msgstr ""
+"You haven't set up your simulation! Run {0} to set your simulation up!"
 
 msgid "Running simulation..."
-msgstr ""
+msgstr "Running simulation..."
 
 msgid ""
 "Invalid country name! Try again, making sure the ISO3 code you passed is "
 "correct! For the world, the code is {0}."
 msgstr ""
+"Invalid country name! Try again, making sure the ISO3 code you passed is "
+"correct! For the world, the code is {0}."
 
 msgid "Results after {0} days"
-msgstr ""
+msgstr "Results after {0} days"
 
 msgid ""
 "More features will be available later: join the support server for updates "
 "when new features are released!"
 msgstr ""
+"More features will be available later: join the support server for updates "
+"when new features are released!"
 
 msgid "Total Cases"
-msgstr ""
+msgstr "Total Cases"
 
 msgid "Total Deaths"
-msgstr ""
+msgstr "Total Deaths"
 
 msgid "Took {0} seconds ({1}ns) to run."
-msgstr ""
+msgstr "Took {0} seconds ({1}ns) to run."
 
 msgid ""
 "React with 📈 for a logarithmic graph.\n"
 "React with 📉 for a linear graph.\n"
 "This message expires after 10 seconds."
 msgstr ""
+"React with 📈 for a logarithmic graph.\n"
+"React with 📉 for a linear graph.\n"
+"This message expires after 10 seconds."
 
 msgid "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
-msgstr ""
+msgstr "Took {0} seconds ({1} nanoseconds) to generate • Cache Status: {2}"
 
 msgid ""
 "That isn't a valid name! Check out {0} for a list of all names I can get "
 "data for!"
 msgstr ""
+"That isn't a valid name! Check out {0} for a list of all names I can get "
+"data for!"
 
 msgid "I found a {0} instead of a country!"
-msgstr ""
+msgstr "I found a {0} instead of a country!"
 
 msgid "I found a {0} instead of a province! Try {1} instead."
-msgstr ""
+msgstr "I found a {0} instead of a province! Try {1} instead."
 
 msgid "I found a {0} instead of a state! Try {1} instead."
-msgstr ""
+msgstr "I found a {0} instead of a state! Try {1} instead."
 
 msgid "Help"
 msgstr "救命"
 
 msgid "No help available."
-msgstr ""
+msgstr "No help available."
 
 msgid "Aliases"
-msgstr ""
+msgstr "Aliases"
 
 msgid "No command called {0} found."
-msgstr ""
+msgstr "No command called {0} found."
 
 msgid "Command \"{0.qualified_name}\" has no subcommand named {1}"
-msgstr ""
+msgstr "Command \"{0.qualified_name}\" has no subcommand named {1}"
 
 msgid "Command \"{0.qualified_name}\" has no subcommands."
-msgstr ""
+msgstr "Command \"{0.qualified_name}\" has no subcommands."
 
 msgid "Error"
 msgstr "錯誤"
 
 msgid "The bot's still setting up, please wait up to 10 minutes."
-msgstr ""
+msgstr "The bot's still setting up, please wait up to 10 minutes."
 
 msgid "React to this message with 📥 within 10 seconds to send your reaction."
 msgstr ""
+"React to this message with 📥 within 10 seconds to send your reaction."
 
 msgid ""
 "I'm having a issue with finding the country name here! Here's what I'm "
 "showing: {0}"
 msgstr ""
+"I'm having a issue with finding the country name here! Here's what I'm "
+"showing: {0}"
 
 msgid ""
 "Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
@@ -171,150 +195,154 @@ msgid ""
 "prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
 "commands, run `/help`."
 msgstr ""
+"Hi there! I'm a bot for giving live stats on the COVID-19 pandemic. My "
+"default prefix is `/`. This can be changed with `/settings prefix <new "
+"prefix>`, replacing <new prefix> with the prefix you want. For a list of my "
+"commands, run `/help`."
 
 msgid "New Cases (7d avg)"
-msgstr ""
+msgstr "New Cases (7d avg)"
 
 msgid "New Deaths (7d avg)"
-msgstr ""
+msgstr "New Deaths (7d avg)"
 
 msgid "Total Cases per 1m"
-msgstr ""
+msgstr "Total Cases per 1m"
 
 msgid "New Cases per 1m"
-msgstr ""
+msgstr "New Cases per 1m"
 
 msgid "New Cases per 1m (7d avg)"
-msgstr ""
+msgstr "New Cases per 1m (7d avg)"
 
 msgid "Total Deaths per 1m"
-msgstr ""
+msgstr "Total Deaths per 1m"
 
 msgid "New Deaths per 1m"
-msgstr ""
+msgstr "New Deaths per 1m"
 
 msgid "New Deaths per 1m (7d avg)"
-msgstr ""
+msgstr "New Deaths per 1m (7d avg)"
 
 msgid "R-Value"
-msgstr ""
+msgstr "R-Value"
 
 msgid "Stringency Index"
-msgstr ""
+msgstr "Stringency Index"
 
 msgid "ICU Patients"
-msgstr ""
+msgstr "ICU Patients"
 
 msgid "ICU Patients per 1m"
-msgstr ""
+msgstr "ICU Patients per 1m"
 
 msgid "Hospitalized Patients"
-msgstr ""
+msgstr "Hospitalized Patients"
 
 msgid "Hospitalized Patients per 1m"
-msgstr ""
+msgstr "Hospitalized Patients per 1m"
 
 msgid "Weekly ICU Admissions"
-msgstr ""
+msgstr "Weekly ICU Admissions"
 
 msgid "Weekly ICU Admissions per 1m"
-msgstr ""
+msgstr "Weekly ICU Admissions per 1m"
 
 msgid "Weekly Hospital Admissions"
-msgstr ""
+msgstr "Weekly Hospital Admissions"
 
 msgid "Weekly Hospital Admissions per 1m"
-msgstr ""
+msgstr "Weekly Hospital Admissions per 1m"
 
 msgid "Total Tests"
-msgstr ""
+msgstr "Total Tests"
 
 msgid "New Tests"
-msgstr ""
+msgstr "New Tests"
 
 msgid "New Tests (7d avg)"
-msgstr ""
+msgstr "New Tests (7d avg)"
 
 msgid "Total Tests per 1k"
-msgstr ""
+msgstr "Total Tests per 1k"
 
 msgid "New Tests per 1k"
-msgstr ""
+msgstr "New Tests per 1k"
 
 msgid "New Tests per 1k (7d avg)"
-msgstr ""
+msgstr "New Tests per 1k (7d avg)"
 
 msgid "Tests Per Case"
-msgstr ""
+msgstr "Tests Per Case"
 
 msgid "Test Positivity Rate"
-msgstr ""
+msgstr "Test Positivity Rate"
 
 msgid "Total Vaccinations"
-msgstr ""
+msgstr "Total Vaccinations"
 
 msgid "Total Vaccinations per 100"
-msgstr ""
+msgstr "Total Vaccinations per 100"
 
 msgid "New Vaccinations"
-msgstr ""
+msgstr "New Vaccinations"
 
 msgid "New Vaccinations per 1m"
-msgstr ""
+msgstr "New Vaccinations per 1m"
 
 msgid "Population Density (km^2)"
-msgstr ""
+msgstr "Population Density (km^2)"
 
 msgid "Median Age"
-msgstr ""
+msgstr "Median Age"
 
 msgid "% of population 65+"
-msgstr ""
+msgstr "% of population 65+"
 
 msgid "% of population 70+"
-msgstr ""
+msgstr "% of population 70+"
 
 msgid "GDP per person (USD$)"
-msgstr ""
+msgstr "GDP per person (USD$)"
 
 msgid "% in extreme poverty"
-msgstr ""
+msgstr "% in extreme poverty"
 
 msgid "Cardiovascular Event Death Rate"
-msgstr ""
+msgstr "Cardiovascular Event Death Rate"
 
 msgid "% of population with diabetes"
-msgstr ""
+msgstr "% of population with diabetes"
 
 msgid "% of women that smoke"
-msgstr ""
+msgstr "% of women that smoke"
 
 msgid "% of men that smoke"
-msgstr ""
+msgstr "% of men that smoke"
 
 msgid "% of the population with access to handwashing facilities"
-msgstr ""
+msgstr "% of the population with access to handwashing facilities"
 
 msgid "Hospital beds per 1,000 people"
-msgstr ""
+msgstr "Hospital beds per 1,000 people"
 
 msgid "Life expectancy"
-msgstr ""
+msgstr "Life expectancy"
 
 msgid "Human Development Index"
-msgstr ""
+msgstr "Human Development Index"
 
 msgid "COVID-19 Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Stats for {0}"
 
 msgid "COVID-19 Hospital Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Hospital Stats for {0}"
 
 msgid "COVID-19 Test Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Test Stats for {0}"
 
 msgid "COVID-19 Vaccination Stats for {0}"
-msgstr ""
+msgstr "COVID-19 Vaccination Stats for {0}"
 
 msgid "General Stats for {0}"
-msgstr ""
+msgstr "General Stats for {0}"
