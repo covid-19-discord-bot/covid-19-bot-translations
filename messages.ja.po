@@ -818,7 +818,7 @@ msgid " (ready)"
 msgstr "宜しい"
 
 msgid " (current shard)"
-msgstr " (current shard)"
+msgstr ""
 
 msgid "\n"
 "\n"
